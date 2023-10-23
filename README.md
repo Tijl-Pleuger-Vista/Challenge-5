@@ -1,4 +1,4 @@
-https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
+SD | Challenge Pokedex voor UrbanEats & Spirits
 
 https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
 

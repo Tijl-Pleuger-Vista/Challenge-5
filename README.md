@@ -13,6 +13,7 @@ Database protected by password so the user can access their own pokemon online
 
 See other users near your location
 
+A simple game where you can earn pokemon and fight other users
 
 
 The init idea

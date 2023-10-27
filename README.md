@@ -30,7 +30,7 @@ Loot boxes give a random pokemon after opening
 Loot boxes look like pokeballs
 Use crud to interact with mysql (create new pokemons. Give lootboxes to accounts)
 
-> Current roles because people didn't show up
+> roles
 - Jerom
 - Tijl
 - Jerom

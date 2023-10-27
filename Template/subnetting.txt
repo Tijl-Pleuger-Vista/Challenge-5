@@ -1,0 +1,66 @@
+
+martijn, 3 dingen:
+
+	je hebt een dhcp range gereserveerd op segment-10-45-1-1:
+
+	deze overlapt met het overlay bgp peering netwerk gedefinieerd op de tier0 :
+	10.45.1.240/28 i.e. 10.45.1.241-10.45.1.254
+	(14 omdat 
+		- er nog niet bekend is bij mij hoe het uiteindelijke design hiervoor gaat uitzien 
+		- ik uit ben gegaan van van 2 peers/kubit-cluster)
+		- en er nu nog slechts 1 tier0 beschikbaar is)
+
+	dus de dchp reservering in segment-10-45-1-1 van tier1 kubit-management-netwerk zou 10 omlaag moeten 
+	van "10.45.1.240-10.45.1.250" naar "10.45.1.230-10.45.1.240" 
+
+betreffende je vraag op slack mbt dynnamic bgp peering:
+
+	- nsx(-t) ondersteunen dit vooralsnog niet (bij mijn weten)
+	- zover ik weet heeft het dynamic woordje betrekking op de adres reservering aan de 'server' kant - de tier0 in dit geval
+	- bij dynamic bgp peering moet vooraf een specifieke range hiervoor gereserveerd worden (aan de 'server' kant - de tier0 in dit geval)
+		- je zou de afzonderlijke adressen vervolgens in de tier0 vooraf configureren
+		- heeft niet echt mijn voorkeur (een niet gebruikte peer in de tier0 zal toch op de edges resources gebruiken)
+	- zal het aantal peers vanuit kubit zo dramatisch hoog zijn?
+	- als je voor de cilium routers toch dhcp wil gebruiken, kun je in de flow natuurlijk hiermee rekening houden
+		- mijn inschatting hierbij is dat dit de stabliliteit niet bevordert (goed testen dus)
+		
+is het mogelijk om segment-10-45-1-1/cluster sec voor peering te reserveren?
+	- dit voorkomt fouten
+	- is wel zo duidelijk
+	- handig bij automation
+	
+voorbeeld optie netwerk scheiding sandbox/nonprod/prod:
+
+Address:   10.45.0.0             00001010.01100000.0000 0000.00000000
+Netmask:   255.255.240.0 = 20    11111111.11111111.1111 0000.00000000
+Wildcard:  0.0.15.255            00000000.00000000.0000 1111.11111111
+=> 16 /24 - 8 /23 (16 blocks)
+Network:   10.45.0.0/20          00001010.01100000.0000 0000.00000000 (Class A)
+Broadcast: 10.45.15.255          00001010.01100000.0000 1111.11111111
+HostMin:   10.45.0.1             00001010.01100000.0000 0000.00000001
+HostMax:   10.45.15.254          00001010.01100000.0000 1111.11111110
+Hosts/Net: 4094                  (Private Internet)
+
+
+Address:   10.45.0.0             00001010.01100000.000 00000.00000000
+Netmask:   255.255.224.0 = 19    11111111.11111111.111 00000.00000000
+Wildcard:  0.0.31.255            00000000.00000000.000 11111.11111111
+=> 32 /24 - 16 /23 (8 blocks)
+Network:   10.45.0.0/19          00001010.01100000.000 00000.00000000 (Class A)
+Broadcast: 10.45.31.255          00001010.01100000.000 11111.11111111
+HostMin:   10.45.0.1             00001010.01100000.000 00000.00000001
+HostMax:   10.45.31.254          00001010.01100000.000 11111.11111110
+Hosts/Net: 8190                  (Private Internet) 
+
+
+Address:   10.45.0.0             00001010.01100000.00 000000.00000000
+Netmask:   255.255.192.0 = 18    11111111.11111111.11 000000.00000000
+Wildcard:  0.0.63.255            00000000.00000000.00 111111.11111111
+=> 64 / 24 - /32 /23 (4 blocks)
+Network:   10.45.0.0/18          00001010.01100000.00 000000.00000000 (Class A)
+Broadcast: 10.45.63.255          00001010.01100000.00 111111.11111111
+HostMin:   10.45.0.1             00001010.01100000.00 000000.00000001
+HostMax:   10.45.63.254          00001010.01100000.00 111111.11111110
+Hosts/Net: 16382                 (Private Internet)
+
+

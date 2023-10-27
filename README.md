@@ -45,3 +45,6 @@ A user can use items to level up pokemon or give them buffs during battle
 - Tijl
 - Jerom
 - Jaleel
+
+> drawsql
+https://drawsql.app/teams/vista-14/diagrams/pokedex

@@ -29,7 +29,7 @@ When a customer has ordered something they can give their card to gain loot boxe
 Loot boxes give a random pokemon after opening
 Loot boxes look like pokeballs
 Use crud to interact with mysql (create new pokemons. Give lootboxes to accounts)
-Can use the pokeApi to gain info so we don't have to update our database : https://pokeapi.co/api/v2/pokemon/dipplin
+Can use the pokeApi to gain info so we don't have to update our database : https://pokeapi.co/api/v2/pokemon/dipplin / https://pokeapi.co/
 
 User-database name + password + UUID + Key
 Key is used to edit database information (For example your Display name, pokemon nicknames or such)

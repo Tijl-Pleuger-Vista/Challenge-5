@@ -30,6 +30,15 @@ The game -> old school pokemon turn based fighting
 
 > Current roles because people didn't show up
 
-Jerom HTML
-Tijl The game
-Jerom Security of transmition of data
+Jerom
+Tijl
+Jerom
+
+
+NOTES:
+Customer gets card linked to an account
+When a customer has ordered something they can give their card to gain loot boxes sent to their account
+Loot boxes give a random pokemon after opening
+Loot boxes look like pokeballs
+Use crud to interact with mysql (create new pokemons. Give lootboxes to accounts)
+

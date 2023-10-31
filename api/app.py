@@ -13,5 +13,14 @@ def login():
     combo = usr + ':' + pas
     return combo
 
+@app.route('/signup', methods=['POST'])
+def create():
+    params = request.form
+    usr = params.get('username')
+    pas = params.get('password')
+    pas = hashlib.md5(pas.encode()).hexdigest()
+    combo = usr + ':' + pas
+    return combo
+
 if __name__ == '__main__':
     app.run()

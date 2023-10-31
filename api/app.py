@@ -6,11 +6,12 @@ app = Flask(__name__)
 
 @app.route('/auth', methods=['POST'])
 def login():
-    params = request.args
+    params = request.form
     usr = params.get('username')
     pas = params.get('password')
     pas = hashlib.md5(pas.encode()).hexdigest()
-    return usr + ':' + pas
+    combo = usr + ':' + pas
+    return combo
 
 if __name__ == '__main__':
     app.run()

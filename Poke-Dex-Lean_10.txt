@@ -1,0 +1,73 @@
+Orientatie:
+
+Gebruik maken van
+    'draw.io' om de layout van de aplicatie te maken
+    'draw sql' om de connecties van de 'website' + 'api' + 'sqlite' + 'php' te visualizeren
+    'flask' voor de api localhost
+    'xampp + live server'
+
+Resultaten:
+
+Teamafspraken:
+    Laptop van Jerom word gebruikt als middel punt
+    Dit houdt in dat alle bestanden bij hem gehost worden
+
+    Aan het eind van de dag alles op de github sturen [https://github.com/Tijl-Pleuger-Vista/project-5]
+
+    Communicatie is via Discord
+
+    Zorgen dat iedereen op de zelfde pagina is met behulp van dagelijkse stand-ups aan het begin van de dag en optioneel aan het eide van de dag
+
+
+Challenge Doelen:
+    Login pagina met html + php
+    User kan een account aanmaken via de web pagina
+    User kan inloggen met een bestaand account
+
+    User kan pokemons zien in een lijst
+
+    Admin kan pokemons aanmaken, veranderen en verwijderen (api)
+
+    Rank systeem top 10 users gobaal
+
+    Kan locaal andere users op je netwerk of omgeving zien
+
+Taken:
+    API => database - Tyfun
+    Front end - Jerom + Tijl
+    Database - Tyfun
+    Documentatie - Tijl
+    php - Jaleel
+    API => PokeAPI - Tijl Jaleel
+    Lean - Jerom
+    Planning - Jaleel [Chart.png]
+    Mockup - Jaleel
+    Storyboard - Tijl
+    draw.io - Tijl
+    Draw.sql - Tyfun
+
+Planning:
+    Chart.PNG
+
+Evaluatie:
+    N/A
+
+Resultatencontrole:
+    Kan een user worden aangemaakt [y/n] = 
+    Kan een user alle pokemons zien [y/n] = 
+    Kan een user alle pokemons zien die hij heeft [y/n] = 
+    Kan een user zijn pokemons verwijderen [y/n] = 
+    Kan een user nieuwe pokemons krijgen [y/n] = 
+    Kan een user zijn account verwijderen [y/n] = 
+    Kan een user uitloggen [y/n] = 
+    Kan een user andere users zien op hun netwerk [y/n] = 
+    Kan een user andere users hun pokemon zien [y/n] = 
+
+    Kan een admin nieuwe pokemons toevoegen aan de pokedex [y/n] = 
+    Kan een admin nieuwe pokemons verwijderen aan de pokedex [y/n] = 
+    Kan een admin nieuwe pokemons veranderen in de pokedex [y/n] = 
+    Kan een admin users verwijderen in de database [y/n] = 
+    Kan een admin users pokemon geven in de pokedex [y/n] = 
+
+    Kan een non-user een van de bovenstaande dingen doen [y/n] = 
+

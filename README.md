@@ -40,11 +40,15 @@ When a user clicks on a pokemon they get taken to an "extra info" screen where i
 A user can set up a team they can use to battle other users or story mode
 A user can use items to level up pokemon or give them buffs during battle
 
-> roles
+> Users
 - Jerom
 - Tijl
 - Jerom
 - Jaleel
 
-> drawsql
-https://drawsql.app/teams/vista-14/diagrams/pokedex
+
+
+Link tree:
+drawsql = https://drawsql.app/teams/vista-14/diagrams/pokedex
+Challenge = https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
+Pokemon API = https://pokeapi.co/api/v2/pokemon/dipplin / https://pokeapi.co/

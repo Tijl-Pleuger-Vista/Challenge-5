@@ -1,0 +1,30 @@
+
+Aantekeningen
+
+-phpMyAdmin + Databases
+
+
+phpAdmin is not a database, it's a database manager
+
+Use database to save user data (example: "Username" + "Password" + "(UU)ID")
+
+Use prefix to reference to database (example "DB_") DB_pokeDex
+Use prefix to reference to Tabel (example "TB_") TB_pokeDex
+
+Start Tabel with (UU)ID
+
+AI = automatic increment = automatically add a number system (x = n + 1)
+x = new number
+n = old number
+
+Add for each var add row of tabel
+
+New user:
+User_pokeDex
+Localhost
+qwerty
+
+(optional) name.inc.php = include in a file
+A script in the padlet for ?php
+
+Your own new user cred

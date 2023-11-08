@@ -8,21 +8,16 @@
     <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/assets/img/logo/favicon-32x32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/assets/img/logo/favicon-16x16.png" type="image/png" sizes="16x16">
     <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/assets/img/logo/site.webmanifest">
+    <script src="../assets/js/signup.js"></script>
     <title>Sign Up</title>
 </head>
 <body>
     <div class="login-container">
         <h2>Make New Account </h2>
-        <form action="http://localhost:5000/signup" method="post">
-            <div class="form-group">
-                <label for="username">New Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">New Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-                    
+        <form name="myform" method="post" action="http://localhost:5000/signup" onsubmit="return validateform()" >  
+           New Username: <input type="text" name="name"><br/>  
+           New Password: <input type="password" name="password"><br/> 
+           
                 <div class="form-group">
                     <button type="submit">Sign Up</button></div>
               </div>

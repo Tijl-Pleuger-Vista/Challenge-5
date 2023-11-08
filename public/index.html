@@ -22,15 +22,19 @@
         }
         </style>
 
-    <form action="http://localhost:5000/auth" method="post">
-
         <p style="background-image: url('../assets/img/coast.jpg');"></p>
 
     <div class="login-container">
         <h2>Account Portal</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="username">Username:</label>
+        <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
+            Username: <input type="text" name="name"><br/>  
+            Password: <input type="password" name="password"><br/>  
+            <input type="submit" value="Login">  
+            <button type="submit"><a href="../public/signup.html">Sign Up</a></button></div>
+            
+        
+            <!-- <div class="form-group">
+                <label name="username" for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
@@ -44,7 +48,7 @@
                     
                 <div class="form-group">
                     <button type="submit"><a href="../public/signup.html">Sign Up</a></button></div>
-              </div>
+              </div> -->
 
         </form>
         <div class="feedback">

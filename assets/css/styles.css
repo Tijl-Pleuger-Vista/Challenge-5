@@ -21,6 +21,7 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 h2 {
@@ -110,8 +111,10 @@ a {
 border-color: #e7d214;
 border-width: 10px;
 background-color: transparent;
+
 }
 .textbox{
     background-color: #565656;
     color: #fefefe;
 }
+

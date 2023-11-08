@@ -51,15 +51,16 @@ input[type="password"] {
 
 button {
     padding: 10px 20px;
-    background-color: #16a533;
-    color: #fff;
+    background-color: #545454;
+    color: #ffffff;
     border: none;
-    border-radius: 3px;
+    border-radius: 2px;
     cursor: pointer;
+   
 }
 
 button:hover {
-    background-color: #2a64c9;
+    background-color: #0a27e8;
 }
 
 .feedback {
@@ -91,3 +92,26 @@ a {
 }
 
 
+.validlogin{
+    padding: 10px 20px;
+    background-color: #565656;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.validlogin:hover {
+    background-color: #e7d214;
+}
+
+.login-container
+{
+border-color: #e7d214;
+border-width: 10px;
+background-color: transparent;
+}
+.textbox{
+    background-color: #565656;
+    color: #fefefe;
+}

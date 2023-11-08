@@ -27,10 +27,14 @@
     <div class="login-container">
         <h2>Account Portal</h2>
         <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
-            Username: <input type="text" name="name"><br/>  
-            Password: <input type="password" name="password"><br/>  
-            <input type="submit" value="Login">  
-            <button type="submit"><a href="../public/signup.html">Sign Up</a></button></div>
+            Username: <input class="textbox" type="text" name="name"><br/>  
+            Password: <input class="textbox" type="password" name="password"><br/>  
+            <!-- <div class="flex-container"> -->
+                <div><input class="validlogin" type="submit" value="Login">  </div>
+                <div><button type="submit"><a href="../public/signup.html">Don't have an account? sign up here.</a></button></div>
+              </div>
+            
+            
             
         
             <!-- <div class="form-group">

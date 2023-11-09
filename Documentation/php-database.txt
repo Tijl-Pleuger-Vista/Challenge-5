@@ -1,0 +1,7 @@
+XAMMP
+Apache = php
+MySQL = Database
+
+HTDocs = root
+
+Localhost/phpmyadmin 

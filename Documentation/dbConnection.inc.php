@@ -17,8 +17,8 @@
         // We start with declaration and initialise some variables
         $dbhost		= "localhost";
         $dbname		= "db_pokemon";
-        $dbuser		= "root";
-        $dbpass		= "";
+        $dbuser		= "usr_pokedex";
+        $dbpass		= "pokedex";
         $charset    = 'utf8mb4';
 
         // Building connectionstring

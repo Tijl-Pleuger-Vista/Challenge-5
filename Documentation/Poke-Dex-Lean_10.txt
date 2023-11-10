@@ -6,7 +6,7 @@ Gebruik maken van
     'flask' voor de api localhost
     'xampp + live server'
 
-Resultaten:
+Resultaten:ß
 
 Teamafspraken:
     Laptop van Jerom word gebruikt als middel punt

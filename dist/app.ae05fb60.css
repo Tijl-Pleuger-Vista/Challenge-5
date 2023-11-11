@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: ourfont;
-  src: url(Dosis-Regular.ttf);
+  src: url(/Dosis-Regular.e6e51ebf.ttf);
 }
 
 :root {
@@ -111,3 +111,5 @@ li{
   font-size: x-large;
   margin-right: 10px;
 }
+
+/*# sourceMappingURL=/app.ae05fb60.css.map */

@@ -52,3 +52,10 @@ Link tree:
 drawsql = https://drawsql.app/teams/vista-14/diagrams/pokedex
 Challenge = https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
 Pokemon API = https://pokeapi.co/api/v2/pokemon/dipplin / https://pokeapi.co/
+
+TEMP
+index = first page the user will see where they can see what the app is about, a signup-login button and pictures about the pokedex+desc
+
+home = when the user is loged in [session] + key
+
+sign-in = the log-in + sign-up page

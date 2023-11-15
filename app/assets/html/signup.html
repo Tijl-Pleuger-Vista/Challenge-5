@@ -1,8 +1,8 @@
-
 <div class="login-container">
     <h2>Make New Account </h2>
-        <form name="myform" method="post" action="http://localhost:5000/signup" onsubmit="return validateform()" >  
-        New Username: <input class="textbox" type="text" name="name"><br/>
-        New Password: <input class="textbox" type="password" name="password"><br/> 
+    <form name="myform" method="post" action="http://localhost:5000/signup" onsubmit="return validateform()" >  
+    Username: <input class="textbox" type="text" name="name"><br/>  
+    Password: <input class="textbox" type="password" name="password"><br/> 
     <div class="form-group"><button type="submit">Sign Up</button></div>
+    <div><button onclick="signup()">Do have an account? Login here</button></div>
 </div>

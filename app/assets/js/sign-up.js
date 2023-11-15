@@ -14,6 +14,8 @@
 //     document.body.appendChild(newParagraph); // created paragraph and text along with output is appended to the document body
 //     }
 
+(async()=>{let t=await (await fetch("https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/html/login.html")).text();loginDiv.innerHTML=t})();
+
 function signup(){  
     const element = document.getElementById("loginPage");
     element.remove(); // Removes the div with the 'div-02' id

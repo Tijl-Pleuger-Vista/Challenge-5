@@ -27,40 +27,16 @@ background-size: cover;
     <div id="loginPage" class="login-container">
         <h2>Account Portal</h2>
         <form name="myform" method="post" action="http://localhost:5000/signup" onsubmit="return validateform()">
-        <!--  http://www.javatpoint.com/javascriptpages/valid.jsp -->
         Username: <input class="textbox" type="text" name="name"><br>
         Password: <input class="textbox" type="password" name="password"><br>
         <div><input class="validlogin" type="submit" value="Login"></div>
-
-        <!-- <div>
-            <button type="submit"><a href="app/signup.html">Don't have an account? sign up here.</a></button>
-        </div> -->
         <div>
             <button onclick="signup()">Don't have an account? sign up here</button>
         </div>
     </div>
 </div>
 
-
 <script src="assets/js/sign-up.js"></script>
-<!-- <button onclick="signup()">Click me</button>
-<button onclick="login()">Click me</button> -->
-
-<!-- <div class="form-group">
-<label name="username" for="username">Username:</label>
-<input type="text" id="username" name="username" required>
-</div>
-<div class="form-group">
-<label for="password">Password:</label>
-<input type="password" id="password" name="password" required>
-</div>
-<div class="flex-container">
-<div class="form-group">
-<button type="submit">Login</button></div>
-<div class="form-group">
-<button type="submit"><a href="../public/signup.html">Sign Up</a></button></div>
-</div>
-</form> -->
 
     <div class="feedback">
         <p id="feedback-message"></p>

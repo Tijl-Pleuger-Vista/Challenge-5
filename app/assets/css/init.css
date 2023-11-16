@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    margin: 10px 0;
+}
+.button-center {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }

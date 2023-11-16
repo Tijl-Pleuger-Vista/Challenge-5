@@ -1,113 +1,149 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-
-@font-face {
-  font-family: ourfont;
-  src: url(assets/fonts/Dosis-Regular.ttf);
+@font-face {font-family: ourfont; src: url(assets/fonts/Dosis-Regular.ttf);}
+:root{
+  --main: #f6f8fc;
+  --main-inner: #ffffff;
+  --text: rgb(0, 0, 0);
+  --sub-text: #dddddd;
+  --click-text: #58a6ff;
+  --oreo: #5c509f;
+  --shadow: rgb(124, 124, 124);
+  --main-red: white;
 }
-
-:root {
-    --main: #f6f8fc;
-    --main-inner: #ffffff;
-    --text: rgb(0, 0, 0);
-    --sub-text: #dddddd;
-    --click-text: #58a6ff;
-    --button: #1f6feb;
-    --oreo: #5c509f;
-    --shadow: rgb(124, 124, 124);
-  }
-body {
-  font-family: ourfont;
-    background-color: var(--main);
-    top: 0;
-    margin: 0;
-    min-height: 100%;
-    min-width: 100%;
-    overflow-x: hidden;
-    color: var(--text);
-}
-header {
-  z-index: 10;
-  bottom: 0;
-  height: 14vh;
-  overflow-y: auto;
-  position: fixed;
+body{
+  /* font-family: ourfont; */
+  background-color: var(--main);
   top: 0;
-  width: calc(100% - 20rem);;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  min-height: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+  color: var(--text);
 }
-.card{
-  background-color: var(--main-inner);
-  border-radius: 20px;
-  box-shadow: 0px 5px var(--shadow);
-}
-.header-card{
-    height: 10vh;
-    /* margin-right: 15vh;
-    margin-left: 15vh; */
-    margin-top: 2vh;
-}
-.search-card{
-  width: 100%;
+.header{
   height: 10vh;
-  /* margin-right: 15vh;
-  margin-left: 13vh; */
-  margin-top: 2vh;
+  width: 100%;
 }
-.search-box-card{
-  width: 60vh;
-  height: 80vh;
-  margin-top: 2vh;
-  margin-left: 10px;
-}
-.poke-card{
-  width: 33.33%;
-  height: 20vh;
-  margin-top: 2vh;
-  margin-left: 10px;
-}
-section {
-    margin-top: 12vh;
-    min-height: calc(100vh - 12vh - 2rem);
-    padding: 1rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
-
-ul {
-    z-index: 1;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .links {
-    position: relative;
-    top: 65px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: row;
-    top: 3.5vh;
-  }
-  .grayscale {
-    filter: grayscale(100%);
-}
-
-.row  {
+.row {
   display: flex;
   flex-direction: row;
 }
 .column{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
-img{
-  width: 32px;
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
 }
-li{
-  font-size: x-large;
-  margin-right: 10px;
+::placeholder {
+  color: white;
+}
+.login-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 80%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.login-box .user-box {
+  position: relative;
+}
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px 
+}
+.bg-login{
+  background-image: url('../../assets/content/loginbackground.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.bg-main{
+  background-image: url('../../assets/content/main.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.main{
+  margin: 0 15vh 0 15vh;
+  height: 100vh;
+}
+.card{
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+button, input[type="submit"], input[type="reset"]{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: none;
+  color: white;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px 
+}
+.button:hover{
+  background: var(--main-red);
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
+}
+.visible{
+  visibility: visible;
+  display: block;
+}
+section{
+  visibility: hidden;
+  display: none;
+  height: inherit;
 }

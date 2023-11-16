@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/login.css">
         <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/apple-touch-icon.png" sizes="180x180">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-32x32.png" type="image/png" sizes="32x32">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
         <script src="assets/js/login.js"></script>
-        <title>Welcome Back User!</title>
+        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/init.css">
+        <title>Your Pokédex!</title>
     </head>
-    <body class="login">
+    <body class="bg-login">
         <section id="loginDiv" class="visible">
             <div class="login-box">
                 <h2>Login</h2>
@@ -24,11 +24,9 @@
                         <input type="password" name="" required="" placeholder="Password">
                     </div>
                     <input class="button" type="submit" value="Submit">
-                    <br><br>
                     <div class="line"></div>
-                    <br><br><br>
                 </form>
-                <button class="button center" onclick="pageLogin()">Create an account</button>
+                <button class="button button-center" onclick="pageLogin()">Create an account</button>
             </div>
         </section>
         <section id="signInDiv">
@@ -45,11 +43,9 @@
                         <input type="password" name="" required="" minlength="8" maxlength="32" autocomplete="current-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password">
                     </div>
                     <input class="button" type="submit" value="Submit">
-                    <br><br>
                     <div class="line"></div>
-                    <br><br><br>
                 </form>
-                <button class="button center" onclick="pageSignup()">Login with an existing account</button>
+                <button class="button button-center" onclick="pageSignup()">Login with an existing account</button>
             </div> 
         </section>
     <script src="assets/js/main.js"></script>

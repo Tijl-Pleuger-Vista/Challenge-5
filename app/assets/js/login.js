@@ -1,12 +1,60 @@
-function validateform(){  
-    var name=document.myform.name.value;  
-    var password=document.myform.password.value;  
+function validateLoginForm(){  
+    var email=document.loginForm.name.value;  
+    var password=document.loginForm.password.value;  
+      
+    if (email==null || email==""){  
+      alert("Please enter a valid email");  
+      return false; 
+
+
+
+
+
+
+
+
+
+
+    }else if(password.length<8){  
+      alert("Please enter your password.");  
+      return false;  
+      }
+    }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function validateSignupForm(){  
+    var name=document.signupForm.name.value;  
+    var password=document.signupForm.password.value;  
       
     if (name==null || name==""){  
-      alert("Please enter you're Username");  
+      alert("Name can't be blank");  
       return false;  
     }else if(password.length<8){  
-      alert("Please enter you're password.");  
+      alert("Password must be at least 8 characters long, with 2 special characters and a capital letter.");  
       return false;  
       }  
     }  

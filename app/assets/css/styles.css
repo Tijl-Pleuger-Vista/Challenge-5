@@ -127,6 +127,7 @@ background-color: transparent;
 section{
     visibility: hidden;
     display: none;
+    height: inherit;
 
 }
 .visible{

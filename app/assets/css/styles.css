@@ -118,3 +118,12 @@ background-color: transparent;
     color: #fefefe;
 }
 
+section{
+    visibility: hidden;
+    display: none;
+
+}
+.visible{
+    visibility: visible;
+    display: block;
+}

@@ -15,37 +15,68 @@
     </head>
 <body class="bg-main">
     <div class="main">
-        <header class="card header"></header>
+        <header class="card header">
+            <ul class="row" style="padding-left: 0;">
+                <!-- <li><a href=""><div class="row"><img src="assets/content/icon1.png" alt=""><h1>Home</h1></div></a></li>
+                <li><a href=""><div class="row"><img src="assets/content/icon2.png" alt=""><h1>Pokedex</h1></div></a></li>
+                <li><a href=""><div class="row"><img src="assets/content/icon3.png" alt=""><h1>Videogames</h1></div></a></li> -->
+                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img src="assets/content/icon1.png" alt=""><h1>Home</h1></div></button></li>
+                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img src="assets/content/icon2.png" alt=""><h1>Pokedex</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img src="assets/content/icon3.png" alt=""><h1>Videogames</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img src="assets/content/icon4.png" alt=""><h1>Marketplace</h1></div></button></li>
+            </ul>
+        </header>
         <section class="visible">
             <div class="row">
-                <div class="card poke-card"></div>
-                <div class="card poke-card"></div>
+                <div class="flex-box">
+                    <div class="card search-box-card row">
+                        <button class="button button-center" onclick="searchPokedex()"><div class="row"><img src="assets/content/icon9.png" alt="" style="width: 30px; height: 30px;"></div></button>
+                        <form action="">
+                            <div class="user-box" style="margin-top: 16px; width: 100%;">
+                            <input type="test" name="" required="" placeholder="Search a Pokemon">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- <div class="card search-box-card"></div> -->
+                    <!-- For filters and such -->
+                        <div id="Form" class="row row-3 scrollbar">
+                        </div>
+                </div>
+                <div class="card search-card"></div>
             </div>
         </section>
     </div>
+    <script>
+    let pokedex = () => {
     
-    <!-- <header>
-        <div class="header-card card">
-            <ul class="links">
-                <li><img src="icon1.png" alt=""><a class="text" href="Home">Home</a></li>
-                <Li><img src="icon4.png" alt="">Pokedex</Li>
-                <li><img src="icon2.png" alt=""></i>Your Pokemon</li>
-                <li><img src="icon5.png" alt=""></i>Games</li>
-                <li><img src="icon6.png" alt=""></i>Logout</li>
-            </ul>
-        </div>
-    </header>
-    <section class="main-section visible">
-        <div class="row">
-            <div class="column">
-                <div class="search-card card">
-                    <input type="text" name="" id="">
-                </div>
-            </div>
-            <div class="search-box-card card">
-                <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-            </div>
-        </div>
-    </section> -->
+        localStorage.setItem('i', '0');
+        
+        fetch(`https://pokeapi.co/api/v2/pokemon?limit=10&offset=0`)
+        .then(pokemonList => pokemonList.json())
+        .then(pokemonList => {
+            console.log(pokemonList)
+
+            function placeDiv() {
+            console.log("hello")
+
+            var _i = localStorage.getItem('i');
+            var name = pokemonList.results[_i].name
+            console.log(name)
+            
+            _i++;
+            localStorage.setItem('i', _i);
+            Form.innerHTML +=
+            `
+            <div class="card poke-card">${name}</div>
+            `
+            }
+        
+    let result = 0;
+    for (let i = 0; i < pokemonList.results.length; i++) {
+    result += placeDiv();
+        }
+})};
+    pokedex();
+    </script>
 </body>
 </html>

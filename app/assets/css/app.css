@@ -21,10 +21,7 @@ body{
   min-width: 100%;
   overflow-x: hidden;
   color: var(--text);
-}
-.header{
-  height: 10vh;
-  width: 100%;
+  overflow: hidden;
 }
 .row {
   display: flex;
@@ -105,7 +102,7 @@ body{
   width: 100vw;
 }
 .main{
-  margin: 0 15vh 0 15vh;
+  margin: 5vh 15vh 0 15vh;
   height: 100vh;
 }
 .card{
@@ -113,6 +110,15 @@ body{
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+}
+.visible{
+  visibility: visible;
+  display: block;
+}
+section{
+  visibility: hidden;
+  display: none;
+  height: inherit;
 }
 button, input[type="submit"], input[type="reset"]{
   position: relative;
@@ -124,26 +130,14 @@ button, input[type="submit"], input[type="reset"]{
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
-  margin-top: 40px;
-  letter-spacing: 4px 
 }
 .button:hover{
   background: var(--main-red);
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
-}
-.visible{
-  visibility: visible;
-  display: block;
-}
-section{
-  visibility: hidden;
-  display: none;
-  height: inherit;
 }

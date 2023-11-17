@@ -11,6 +11,10 @@
 
         <link rel="stylesheet" href="assets/css/app.css">
         <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="assets/js/poke.js"></script> -->
+
         <script src="assets/js/main.js" type="text/javascript"></script>
     </head>
 <body class="bg-main">
@@ -20,17 +24,17 @@
                 <!-- <li><a href=""><div class="row"><img src="assets/content/icon1.png" alt=""><h1>Home</h1></div></a></li>
                 <li><a href=""><div class="row"><img src="assets/content/icon2.png" alt=""><h1>Pokedex</h1></div></a></li>
                 <li><a href=""><div class="row"><img src="assets/content/icon3.png" alt=""><h1>Videogames</h1></div></a></li> -->
-                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img src="assets/content/icon1.png" alt=""><h1>Home</h1></div></button></li>
-                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img src="assets/content/icon2.png" alt=""><h1>Pokedex</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img src="assets/content/icon3.png" alt=""><h1>Videogames</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img src="assets/content/icon4.png" alt=""><h1>Marketplace</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img src="assets/content/pikachu.png" alt=""><h1>Home</h1></div></button></li>
+                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_960_720.png" alt=""><h1>Pokedex</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img src="https://static-00.iconduck.com/assets.00/game-boy-icon-347x512-9ouovj3f.png" alt=""><h1>Videogames</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_Shopping_Bag-512.png" alt=""><h1>Marketplace</h1></div></button></li>
             </ul>
         </header>
-        <section class="visible">
+        <section id="pokeHome" class="visible">
             <div class="row">
                 <div class="flex-box">
                     <div class="card search-box-card row">
-                        <button class="button button-center" onclick="searchPokedex()"><div class="row"><img src="assets/content/icon9.png" alt="" style="width: 30px; height: 30px;"></div></button>
+                        <button class="button button-center" onclick="searchPokedex()"><div class="row"><img src="https://cdn-icons-png.flaticon.com/512/251/251116.png" alt="" style="width: 30px; height: 30px;"></div></button>
                         <form action="">
                             <div class="user-box" style="margin-top: 16px; width: 100%;">
                             <input type="test" name="" required="" placeholder="Search a Pokemon">
@@ -45,38 +49,9 @@
                 <div class="card search-card"></div>
             </div>
         </section>
+        <section id="pokeVideogames" class="">
+            <!-- <canvas id="canvas" width="460" height="460"></canvas> -->
+        </section>
     </div>
-    <script>
-    let pokedex = () => {
-    
-        localStorage.setItem('i', '0');
-        
-        fetch(`https://pokeapi.co/api/v2/pokemon?limit=10&offset=0`)
-        .then(pokemonList => pokemonList.json())
-        .then(pokemonList => {
-            console.log(pokemonList)
-
-            function placeDiv() {
-            console.log("hello")
-
-            var _i = localStorage.getItem('i');
-            var name = pokemonList.results[_i].name
-            console.log(name)
-            
-            _i++;
-            localStorage.setItem('i', _i);
-            Form.innerHTML +=
-            `
-            <div class="card poke-card">${name}</div>
-            `
-            }
-        
-    let result = 0;
-    for (let i = 0; i < pokemonList.results.length; i++) {
-    result += placeDiv();
-        }
-})};
-    pokedex();
-    </script>
 </body>
 </html>

@@ -38,24 +38,56 @@ function pageSignup(){
     
         localStorage.setItem('i', '0');
         
-        fetch(`https://pokeapi.co/api/v2/pokemon?limit=10&offset=0`)
+        fetch(`https://pokeapi.co/api/v2/pokemon?limit=9&offset=0`)
         .then(pokemonList => pokemonList.json())
         .then(pokemonList => {
             console.log(pokemonList)
 
             function placeDiv() {
-            // console.log("hello")
-
             var _i = localStorage.getItem('i');
             var name = pokemonList.results[_i].name
-            // console.log(name)
             
             _i++;
             localStorage.setItem('i', _i);
-            Form.innerHTML +=
-            `
-            <div class="card poke-card">${name}</div>
-            `
+
+            fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+            .then(pokemonNameRequest => pokemonNameRequest.json())
+            .then(pokemonNameRequest => {
+                console.log(pokemonNameRequest)
+                var sprite = pokemonNameRequest.sprites.front_default;
+
+                var type1 = ''
+                if (pokemonNameRequest.types[1]) {
+                    var type1 = pokemonNameRequest.types[1].type.name;
+                  }
+                var type0 = pokemonNameRequest.types[0].type.name ?? 100;
+                // var type1 = pokemonNameRequest.types[1].type.name ;; 100;
+                // console.log(type1)
+      
+                Form.innerHTML +=
+                `
+                <div class="card poke-card">${name}
+                <img src="${sprite}" alt="" style="width: 64px; height: 64px;">
+                <div>${type0} ${type1}</div>
+                </div>
+                `
+
+                // pokemonNameRequest.types.forEach((owo, awa) => awa = owo.type.name);
+                
+
+
+                // for (var i = 0; i < pokemonNameRequest.types.length; i++) {
+                //     (function(index) {
+                //       setTimeout(function() {
+                //         console.log(pokemonNameRequest.types[index]);
+                //         var owo = pokemonNameRequest.types[index].type.name
+                //       }, 100)})(i);
+                //   }
+
+                
+
+            })
+
             }
         
     let result = 0;

@@ -11,20 +11,15 @@
   --main-red: white;
 }
 body{
-  /* font-family: ourfont; */
-  background-color: var(--main);
-  top: 0;
-  margin:0;
-  padding:0;
   font-family: sans-serif;
-  min-height: 100%;
-  min-width: 100%;
-  overflow-x: hidden;
   color: var(--text);
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .column{
@@ -98,12 +93,15 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: absolute;
+  margin: 0;
+  top: 0;
   height: 100vh;
   width: 100vw;
 }
 .main{
-  margin: 5vh 15vh 0 15vh;
-  height: 100vh;
+  margin: 50px 100px 0 100px;
+  height: 100%;
 }
 .card{
   background: rgba(0,0,0,.5);
@@ -118,7 +116,7 @@ body{
 section{
   visibility: hidden;
   display: none;
-  height: inherit;
+  height: calc(100% - 200px);
 }
 button, input[type="submit"], input[type="reset"]{
   position: relative;
@@ -140,4 +138,8 @@ button, input[type="submit"], input[type="reset"]{
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
+}
+
+.home-max{
+  height: calc(96%);
 }

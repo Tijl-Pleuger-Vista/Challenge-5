@@ -29,7 +29,7 @@ button, input[type="submit"], input[type="reset"]{
     transition: .5s;
     margin-top: 40px;
     letter-spacing: 4px 
- }
+}
 .button:hover{
     background: var(--main-red);
     color: black;

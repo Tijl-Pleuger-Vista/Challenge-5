@@ -1,35 +1,34 @@
 .search-card{
     width: 25%;
-    height: 75vh;
+    min-height: 100px;
 }
 .search-box-card{
     width: 95%;
-    height: 5vh;
+    height: min-content;
     margin-bottom: 2vh;
 }
 .poke-card{
-    min-width: 30%;
-    max-width: 30%;
+    width: calc(33.33% - 50px);
     height: 20vh;
     margin-top: 40px;
     margin-bottom: 2vh;
-    margin-right: 2.5%;
+    margin:  50px 25px 0 25px;
 }
 .header{
-    height: 10vh;
+    height: min-content;
     width: 100%;
-    margin-bottom: 4vh;
+    margin-bottom: 40px;
 }
 .flex-box{
     width: 75%;
-
 }
 .row-3{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     overflow-y :scroll  ; 
-    height:75vh;
+    height: calc(100vh - 265px);
+    width: 95%;
 }
 
 .row img{
@@ -39,24 +38,24 @@
     height: 50px;
 }
 body::-webkit-scrollbar {
-    width: 6px;
+    width: 0;
 }
 body::-webkit-scrollbar-track {
     background: none;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 20px;
+    background-color: transparent;
+    border-radius: 0;
 }
 .scrollbar::-webkit-scrollbar {
-    width: 6px;
+    width: 0;
 }
 .scrollbar::-webkit-scrollbar-track {
     background: none;
 }
 .scrollbar::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 20px;
+    background-color: transparent;
+    border-radius: 0;
 }
 
 ul{
@@ -168,3 +167,20 @@ a {
     background-color: darkviolet;
     color: white;
 }
+
+.p-img{
+    position: relative;
+    left: 35%;
+    top: -20%;
+}
+.p-name{
+    position: relative;
+    top: -60px;
+    font-size: xx-large;
+    color: azure;
+    text-align: center;
+}
+
+[title~="green"] {
+    border: 5px solid yellow;
+  }

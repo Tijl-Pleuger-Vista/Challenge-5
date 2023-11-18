@@ -8,49 +8,43 @@
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
         <title>Your Pokédex!</title>
-
         <link rel="stylesheet" href="assets/css/app.css">
         <link rel="stylesheet" href="assets/css/main.css">
-
-        <!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="assets/js/poke.js"></script> -->
-
         <script src="assets/js/main.js" type="text/javascript"></script>
     </head>
 <body class="bg-main">
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <!-- <li><a href=""><div class="row"><img src="assets/content/icon1.png" alt=""><h1>Home</h1></div></a></li>
-                <li><a href=""><div class="row"><img src="assets/content/icon2.png" alt=""><h1>Pokedex</h1></div></a></li>
-                <li><a href=""><div class="row"><img src="assets/content/icon3.png" alt=""><h1>Videogames</h1></div></a></li> -->
-                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img src="assets/content/pikachu.png" alt=""><h1>Home</h1></div></button></li>
-                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_960_720.png" alt=""><h1>Pokedex</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img src="https://static-00.iconduck.com/assets.00/game-boy-icon-347x512-9ouovj3f.png" alt=""><h1>Videogames</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_Shopping_Bag-512.png" alt=""><h1>Marketplace</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img src="assets/content/pikachu.webp" alt=""><h1>Home</h1></div></button></li>
+                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img src="assets/content/pokedex.webp" alt=""><h1>Pokedex</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img src="assets/content/videogames.webp" alt=""><h1>Videogames</h1></div></button></li>
+                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img src="assets/content/marketplace.webp" alt=""><h1>Marketplace</h1></div></button></li>
             </ul>
         </header>
         <section id="pokeHome" class="visible">
             <div class="row home-max">
                 <div class="flex-box">
                     <div class="card search-box-card row">
-                        <button class="button button-center" onclick="searchPokedex()"><div class="row"><img src="https://cdn-icons-png.flaticon.com/512/251/251116.png" alt="" style="width: 30px; height: 30px;"></div></button>
+                        <button class="button button-center" onclick="searchPokedex()"><div class="row"><img src="assets/content/search.webp" alt="" style="width: 30px; height: 30px;"></div></button>
                         <form action="">
                             <div class="user-box" style="margin-top: 16px; width: 100%;">
                             <input type="test" name="" required="" placeholder="Search a Pokemon">
                             </div>
                         </form>
                     </div>
-                    <!-- <div class="card search-box-card"></div> -->
-                    <!-- For filters and such -->
                         <div id="Form" class="row row-3 scrollbar">
                         </div>
                 </div>
-                <div class="card search-card"></div>
+                <div class="card search-card" id="infoCard">
+                </div>
             </div>
         </section>
+        <section id="pokeDex" class="">
+        </section>
         <section id="pokeVideogames" class="">
-            <!-- <canvas id="canvas" width="460" height="460"></canvas> -->
+        </section>
+        <section id="pokeMarketplace" class="">
         </section>
     </div>
 </body>

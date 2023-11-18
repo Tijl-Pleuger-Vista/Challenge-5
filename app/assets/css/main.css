@@ -78,6 +78,29 @@ a {
 }
 
 
+.normal,
+.fire,
+.grass,
+.water,
+.ice,
+.electric,
+.fighting,
+.flying,
+.bug,
+.ghost,
+.rock,
+.ground,
+.steel,
+.dark,
+.psychic,
+.fairy,
+.dragon,
+.poison {
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 10px 20px;
+}
 .normal {
     background-color: beige;
     color: black;
@@ -181,6 +204,9 @@ a {
     text-align: center;
 }
 
-[title~="green"] {
-    border: 5px solid yellow;
-  }
+.type{
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+}

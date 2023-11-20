@@ -10,7 +10,6 @@ var load = `https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0`
         fetch(`${load}`)
         .then(pokemonList => pokemonList.json())
         .then(pokemonList => {
-            console.log(pokemonList)
             
             localStorage.setItem("load", pokemonList.next);
 

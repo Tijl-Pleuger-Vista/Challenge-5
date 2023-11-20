@@ -3,63 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- links for icons hosted on the github -->
         <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/apple-touch-icon.png" sizes="180x180">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-32x32.png" type="image/png" sizes="32x32">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
-        <!-- button-main.js file is used on every page -->
+        <title>Your Pokédex!</title>
+        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         <script src="assets/js/button-main.js" type="text/javascript"></script>
-        <!-- poke-home.js file is used to load all pokemons into the .html -->
         <script src="assets/js/poke-home.js" type="text/javascript"></script>
-        <!-- poke-marketplace.js used to add a shop where you can buy items -->
         <script src="assets/js/poke-marketplace.js" type="text/javascript"></script>
         <script src="assets/js/updatGIF.js" type="text/javascript"></script>
-        <!-- app.css file is used on every page -->
-        <link rel="stylesheet" href="assets/css/app.css">
-        <!-- main.css file is used only on this page -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <title>Your Pokédex!</title>
+
     </head>
 <body class="bg-main">
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <!-- buttons to change tabs -->
                 <li><button class="button button-center"  id="navBtn" onclick="pageHome()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1>Home</h1></div></button></li>
                 <li><button class="button button-center"  id="navBtn" onclick="pagePokedex()"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1>Pokedex</h1></div></button></li>
                 <li><button class="button button-center"  id="navBtn" onclick="pageVideogames()"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1>Videogames</h1></div></button></li>
                 <li><button class="button button-center"  id="navBtn" onclick="pageMarketplace()"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1>Marketplace</h1></div></button></li>
             </ul>
         </header>
-        <!-- a tab to see all pokemon you (the logged in user) own -->
         <section id="pokeHome" class="visible">
             <div class="row home-max">
                 <div class="flex-box">
                     <div class="card search-box-card row">
                         <button class="button button-center" id="searchbtn" onclick="pokedex()"><div class="row"><img class="icon" src="assets/content/search.webp" alt="" style="width: 30px; height: 30px;"></div></button>
-                        <!-- a search pokemon based on ID -->
                         <form action="">
                             <div class="user-box" style="margin-top: 16px; width: 100%;">
                             <input id="search" type="test" name="" required="" placeholder="Search a Pokemon">
                             </div>
                         </form>
                     </div>
-                    <div id="Form" class="row row-3 scrollbar">
-                        <!-- all pokemon cards will be placed here in a flex box -->
-                    </div>
+                        <div id="Form" class="row row-3 scrollbar">
+                            
+                        </div>
                 </div>
                 <div class="card search-card" id="infoCard">
                 </div>
             </div>
         </section>
-        <!-- a tab to see all pokemon that exist in the pokedex -->
         <section id="pokeDex" class="">
         </section>
-        <!-- a tab to play the built in video game -->
         <section id="pokeVideogames" class="">
         </section>
-        <!-- a tab to buy pokemons and items that you can own and use in the video game -->
         <section id="pokeMarketplace" class="">
             <div id="marketplace" class="row row-3 scrollbar">
             </div>

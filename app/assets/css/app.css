@@ -17,35 +17,6 @@ body{
   height: 100vh;
   overflow: hidden;
 }
-section{
-  visibility: hidden;
-  display: none;
-  height: calc(100% - 200px);
-}
-button, input[type="submit"], input[type="reset"]{
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  background: none;
-  color: white;
-  border: none;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: .5s;
-}
-::placeholder {
-  color: white;
-}
-.button:hover{
-  background: var(--main-red);
-  color: black;
-  border-radius: 5px;
-  box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
-}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +25,9 @@ button, input[type="submit"], input[type="reset"]{
 .column{
   display: flex;
   flex-direction: column;
+}
+::placeholder {
+  color: white;
 }
 .bg-main{
   background-image: url('../../assets/content/main.webp');
@@ -79,6 +53,11 @@ button, input[type="submit"], input[type="reset"]{
 .visible{
   visibility: visible;
   display: block;
+}
+section{
+  visibility: hidden;
+  display: none;
+  height: calc(100% - 200px);
 }
 #navBtn, input[type="submit"], input[type="reset"]{
   position: relative;

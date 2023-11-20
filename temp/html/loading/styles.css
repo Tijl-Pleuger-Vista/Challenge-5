@@ -1,242 +1,3 @@
-/* styling for pokemon types */
-.normal,
-.fire,
-.grass,
-.water,
-.ice,
-.electric,
-.fighting,
-.flying,
-.bug,
-.ghost,
-.rock,
-.ground,
-.steel,
-.dark,
-.psychic,
-.fairy,
-.dragon,
-.poison{
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 15px;
-    margin: 0 10px 0 10px;
-    padding: 10px 20px 10px 20px;
-}
-.normal{
-    background-color: beige;
-    color: black;
-}
-.fire{
-    background-color: orange;
-    color: white;
-}
-.grass{
-    background-color: green;
-    color: white;
-}
-.water{
-    background-color: blue;
-    color: white;
-}
-.ice{
-    background-color: lightblue;
-    color: black;
-}
-.electric{
-    background-color: gold;
-    color: black;
-}
-.fighting{
-    background-color: darkred;
-    color: white;
-}
-.flying{
-    background-color: skyblue;
-    color: black;
-}
-.bug {
-    background-color: yellowgreen;
-    color: white;
-}
-.ghost{
-    background-color: purple;
-    color: white;
-}
-.rock{
-    background-color: sienna;
-    color: white;
-}
-.ground{
-    background-color: burlywood;
-    color: black;
-}
-.steel{
-    background-color: silver;
-    color: black;
-}
-.dark{
-    background-color: darkgray;
-    color: white;
-}
-.psychic{
-    background-color: palevioletred;
-    color: white;
-}
-.fairy{
-    background-color: pink;
-    color: black;
-}
-.dragon{
-    background-color: teal;
-    color: white;
-}
-.poison{
-    background-color: darkviolet;
-    color: white;
-}
-/* end pokemon types*/
-/* scroll bar */
-.scrollbar::-webkit-scrollbar {
-    width: 0;
-}
-.scrollbar::-webkit-scrollbar-track {
-    background: none;
-}
-.scrollbar::-webkit-scrollbar-thumb {
-    background-color: transparent;
-    border-radius: 0;
-}
-body::-webkit-scrollbar{
-    width: 0;
-}
-body::-webkit-scrollbar-track{
-    background: none;
-}
-body::-webkit-scrollbar-thumb{
-    background-color: transparent;
-    border-radius: 0;
-}
-/* end scrollbar */
-h3{
-    color: #fff;
-    margin: 0;
-    margin-left: 15%;
-    width: fit-content;
-}
-h2{
-    margin: 50px;
-}
-ul{
-    list-style-type:none;
-}
-li{
-    margin-right: 7px;
-}
-a{
-    all: unset;
-}
-.search-card{
-    width: 25%;
-    min-height: 100px;
-}
-.search-box-card{
-    width: 95%;
-    height: min-content;
-    margin-bottom: 2vh;
-}
-.poke-card{
-    width: calc(33.33% - 50px);
-    height: 20vh;
-    margin-top: 40px;
-    margin-bottom: 2vh;
-    margin:  50px 25px 0 25px;
-}
-.poke-card-plus{
-    width: calc(33.33% - 50px);
-    height: 230px;
-    margin-top: 40px;
-    margin-bottom: 2vh;
-    margin:  50px 25px 0 25px;
-}
-.header{
-    height: min-content;
-    width: 100%;
-    margin-bottom: 40px;
-}
-.flex-box{
-    width: 75%;
-}
-.row-3{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    overflow-y :scroll  ; 
-    height: calc(100vh - 265px);
-    width: 95%;
-}
-.row .icon{
-    margin: auto;
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
-}
-.user-box input{
-    width: 100%;
-    font-size: 16px;
-    color: #fff;
-    border: none;
-    outline: none;
-    background: transparent;
-}
-.p-img{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    top: -45px;
-}
-.p-img-info{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.p-name{
-    position: relative;
-    top: -60px;
-    font-size: xx-large;
-    color: azure;
-    text-align: center;
-}
-.type{
-    position: relative;
-    top: -50px;
-    display: flex;
-    justify-content: center;
-}
-.type-info{
-    position: relative;
-    top: 20px;
-    display: flex;
-    justify-content: center;
-}
-.button-buy{
-    position: relative;
-    top: -65px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-.stat{
-    margin-left: 10px;
-    color:aquamarine;
-}
-.home-max{
-    height: calc(96%);
-}
-
-/* loading */
 html, body {
     height: 100%;
   }
@@ -249,8 +10,9 @@ html, body {
     background-color: rgb(48, 47, 47);
   }
   
-  .pokemon {
-    position: relative;
+  .pokeball {
+    margin: auto;
+    margin-bottom: 100px;
     height: 300px;
     width: 300px;
     background: linear-gradient(to bottom, rgb(254, 0, 1) 50%, white 50% );
@@ -259,7 +21,7 @@ html, body {
     animation: spin 1.3s linear infinite;
   }
   
-  .pokemon::before {
+  .pokeball::before {
     content: '';
     position: absolute;
     height: 20px;
@@ -269,7 +31,7 @@ html, body {
     transform: translatey(-50%);
   }
   
-  .pokemon::after {
+  .pokeball::after {
     content: '';
     position: absolute;
     height: 75px;
@@ -281,6 +43,13 @@ html, body {
     transform: translate(-50%, -50%);
     box-shadow: inset 0 0 0 8px black, inset 0 0 0 10px white, inset 0 0 0 15px black;
   
+  }
+
+  #tap{
+   position: absolute;
+   right: -400px;
+   top: 500px;
+
   }
   
   /* Spin Animation */
@@ -316,7 +85,7 @@ html, body {
 
 body {
   display: grid;
-  place-items: center;
+  place-items: relative;
   color: rgb(255, 255, 255);
   min-height: 100vh;
   background: hsl(0, 1%, 19%);

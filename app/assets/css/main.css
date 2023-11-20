@@ -1,3 +1,140 @@
+/* styling for pokemon types */
+.normal,
+.fire,
+.grass,
+.water,
+.ice,
+.electric,
+.fighting,
+.flying,
+.bug,
+.ghost,
+.rock,
+.ground,
+.steel,
+.dark,
+.psychic,
+.fairy,
+.dragon,
+.poison{
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 10px 20px;
+}
+.normal{
+    background-color: beige;
+    color: black;
+}
+.fire{
+    background-color: orange;
+    color: white;
+}
+.grass{
+    background-color: green;
+    color: white;
+}
+.water{
+    background-color: blue;
+    color: white;
+}
+.ice{
+    background-color: lightblue;
+    color: black;
+}
+.electric{
+    background-color: gold;
+    color: black;
+}
+.fighting{
+    background-color: darkred;
+    color: white;
+}
+.flying{
+    background-color: skyblue;
+    color: black;
+}
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+.ghost{
+    background-color: purple;
+    color: white;
+}
+.rock{
+    background-color: sienna;
+    color: white;
+}
+.ground{
+    background-color: burlywood;
+    color: black;
+}
+.steel{
+    background-color: silver;
+    color: black;
+}
+.dark{
+    background-color: darkgray;
+    color: white;
+}
+.psychic{
+    background-color: palevioletred;
+    color: white;
+}
+.fairy{
+    background-color: pink;
+    color: black;
+}
+.dragon{
+    background-color: teal;
+    color: white;
+}
+.poison{
+    background-color: darkviolet;
+    color: white;
+}
+/* end pokemon types*/
+/* scroll bar */
+.scrollbar::-webkit-scrollbar {
+    width: 0;
+}
+.scrollbar::-webkit-scrollbar-track {
+    background: none;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 0;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+body::-webkit-scrollbar-track{
+    background: none;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius: 0;
+}
+/* end scrollbar */
+h3{
+    color: #fff;
+    margin: 0;
+    margin-left: 15%;
+    width: fit-content;
+}
+h2{
+    margin: 50px;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    margin-right: 7px;
+}
+a{
+    all: unset;
+}
 .search-card{
     width: 25%;
     min-height: 100px;
@@ -37,45 +174,13 @@
     height: calc(100vh - 265px);
     width: 95%;
 }
-
 .row .icon{
     margin: auto;
     margin-right: 10px;
     width: 50px;
     height: 50px;
 }
-body::-webkit-scrollbar {
-    width: 0;
-}
-body::-webkit-scrollbar-track {
-    background: none;
-}
-body::-webkit-scrollbar-thumb {
-    background-color: transparent;
-    border-radius: 0;
-}
-.scrollbar::-webkit-scrollbar {
-    width: 0;
-}
-.scrollbar::-webkit-scrollbar-track {
-    background: none;
-}
-.scrollbar::-webkit-scrollbar-thumb {
-    background-color: transparent;
-    border-radius: 0;
-}
-
-ul{
-    list-style-type:none;
-}
-li{
-    margin-right: 7px;
-}
-a {
-    all: unset;
-}
-
-.user-box input {
+.user-box input{
     width: 100%;
     font-size: 16px;
     color: #fff;
@@ -83,121 +188,6 @@ a {
     outline: none;
     background: transparent;
 }
-
-
-.normal,
-.fire,
-.grass,
-.water,
-.ice,
-.electric,
-.fighting,
-.flying,
-.bug,
-.ghost,
-.rock,
-.ground,
-.steel,
-.dark,
-.psychic,
-.fairy,
-.dragon,
-.poison {
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 15px;
-    margin: 0 10px 0 10px;
-    padding: 10px 20px 10px 20px;
-}
-.normal {
-    background-color: beige;
-    color: black;
-}
-
-.fire {
-    background-color: orange;
-    color: white;
-}
-
-.grass {
-    background-color: green;
-    color: white;
-}
-
-.water {
-    background-color: blue;
-    color: white;
-}
-
-.ice {
-    background-color: lightblue;
-    color: black;
-}
-
-.electric {
-    background-color: gold;
-    color: black;
-}
-
-.fighting {
-    background-color: darkred;
-    color: white;
-}
-
-.flying {
-    background-color: skyblue;
-    color: black;
-}
-
-.bug {
-    background-color: yellowgreen;
-    color: white;
-}
-
-.ghost {
-    background-color: purple;
-    color: white;
-}
-
-.rock {
-    background-color: sienna;
-    color: white;
-}
-
-.ground {
-    background-color: burlywood;
-    color: black;
-}
-
-.steel {
-    background-color: silver;
-    color: black;
-}
-
-.dark {
-    background-color: darkgray;
-    color: white;
-}
-
-.psychic {
-    background-color: palevioletred;
-    color: white;
-}
-
-.fairy {
-    background-color: pink;
-    color: black;
-}
-
-.dragon {
-    background-color: teal;
-    color: white;
-}
-
-.poison {
-    background-color: darkviolet;
-    color: white;
-}
-
 .p-img{
     position: relative;
     display: block;
@@ -220,7 +210,6 @@ a {
     color: azure;
     text-align: center;
 }
-
 .type{
     position: relative;
     top: -50px;
@@ -233,22 +222,16 @@ a {
     display: flex;
     justify-content: center;
 }
-.button-buy {
+.button-buy{
     position: relative;
     top: -65px;
     left: 50%;
     transform: translate(-50%, 0);
 }
-h3{
-    color: #fff;
-    margin: 0;
-    margin-left: 15%;
-    width: fit-content;
-}
-h2{
-    margin: 50px;
-}
 .stat{
     margin-left: 10px;
     color:aquamarine;
+}
+.home-max{
+    height: calc(96%);
 }

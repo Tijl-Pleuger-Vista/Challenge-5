@@ -1,8 +1,4 @@
-
-Aantekeningen
-
 -phpMyAdmin + Databases
-
 
 phpAdmin is not a database, it's a database manager
 
@@ -27,4 +23,4 @@ qwerty
 (optional) name.inc.php = include in a file
 A script in the padlet for ?php
 
-Your own new user cred
+Your own new user credentials

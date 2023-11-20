@@ -3,16 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- links for icons hosted on the github -->
         <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/apple-touch-icon.png" sizes="180x180">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-32x32.png" type="image/png" sizes="32x32">
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
+        <!-- main.js js file used on every page -->
         <script src="assets/js/button-main.js"></script>
+        <!-- validation.js file is used only on this page  to validate the contents before sent to the API -->
+        <script src="assets/js/validation.js"></script>
+        <!-- app.css file is used on every page -->
         <link rel="stylesheet" href="assets/css/app.css">
-        <link rel="stylesheet" href="assets/css/init.css">
+        <!-- init.css file is used only on this page -->
+        <link rel="stylesheet" href="assets/css/login.css">
         <title>Your Pokédex!</title>
     </head>
     <body class="bg-login">
+        <!-- section to devide the login card with the signin card -->
         <section id="loginDiv" class="visible">
             <div class="login-box">
                 <h2>Login</h2>
@@ -21,20 +28,22 @@
                         <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required="" placeholder="Email addess">
                     </div>
                     <div class="user-box">
-                        <input type="password" name="" required="" placeholder="Password">
+                        <input type="password" name="password" required="" placeholder="Password">
                     </div>
                     <input class="button" type="submit" value="Submit">
                     <div class="line"></div>
                 </form>
+                <!-- button to switch from login to signin -->
                 <button class="button button-center" onclick="pageLogin()">Create an account</button>
             </div>
         </section>
+        <!-- section to devide the login card with the signin card -->
         <section id="signInDiv">
             <div class="login-box">
                 <h2>Sign-up</h2>
-                <form name="myform" method="post" action="http://localhost:5000/signup" onsubmit="return validateSignupForm()">
+                <form name="signinForm" method="post" action="http://localhost:5000/signup" onsubmit="return validateSignupForm()">
                     <div class="user-box">
-                        <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required="" placeholder="Email addess">
+                        <input type="email" name="email"  required="" placeholder="Email addess">
                     </div>
                     <div class="user-box">
                         <input type="test" name="" required="" placeholder="Username">
@@ -45,9 +54,9 @@
                     <input class="button" type="submit" value="Submit">
                     <div class="line"></div>
                 </form>
+                <!-- button to switch from signin to login -->
                 <button class="button button-center" onclick="pageSignup()">Login with an existing account</button>
             </div> 
         </section>
-    <script src="assets/js/main.js"></script>
     </body>
 </html>

@@ -12,6 +12,35 @@ week 5:
 
 Maandag:
     Tijl work on login validation, save "poke-index" to cookies on first load, load from cookies if api request 'count' = same
+        Result: added documentation to all files
     Tyfun Work on api -> database
+        Result:
     Jerom create a shop, learn about () make a transition from loading -> loaded
+        Result: created a loading template
     Jaleel work on login validation, pokedex button to show extra detail of pokemon on class: search-bar
+        Result:
+
+Dinsdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+
+Woensdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    
+Donderdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    
+Vrijdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    

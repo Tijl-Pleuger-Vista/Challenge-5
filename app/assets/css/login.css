@@ -1,32 +1,50 @@
-:root {
+:root{
     --main-red: white;
 }
-html {
+html{
     height: 100%;
-    }
-    body {
+}
+body{
     margin:0;
     padding:0;
     font-family: sans-serif;
-    }
-
-    .line{
-        height: 1px;
-        width: 100%;
-        background-color: #fff;
-    }
-    .line::before{
-        position: absolute;
-        color: white;
-    }
-    ::placeholder {
-        color: white;
-    }
-
-
-
-
-    .login-box {
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button, input[type="submit"], input[type="reset"]{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px 
+}
+::placeholder{
+    color: white;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+.line::before{
+    position: absolute;
+    color: white;
+}
+.login-box{
     position: relative;
     top: 50%;
     left: 50%;
@@ -37,20 +55,17 @@ html {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
-    }
-
-    .login-box h2 {
+}
+.login-box h2{
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: center;
-    }
-
-    .login-box .user-box {
+}
+.login-box .user-box{
     position: relative;
-    }
-
-    .login-box .user-box input {
+}
+.login-box .user-box input{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -60,9 +75,8 @@ html {
     border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
-    }
-
-    .login-box form a {
+}
+.login-box form a{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -74,9 +88,8 @@ html {
     transition: .5s;
     margin-top: 40px;
     letter-spacing: 4px
-    }
-
-    .login-box a:hover {
+}
+.login-box a:hover{
     background: var(--main-red);
     color: black;
     border-radius: 5px;
@@ -84,46 +97,71 @@ html {
                 0 0 25px var(--main-red),
                 0 0 50px var(--main-red),
                 0 0 100px var(--main-red);
-    }
-
-    .login-box a span {
+}
+.login-box a span{
     position: absolute;
     display: block;
-    }
-
-    button, input[type="submit"], input[type="reset"] {
-        position: relative;
-        display: inline-block;
-        padding: 10px 20px;
-        background: none;
-        color: white;
-        border: none;
-        font: inherit;
-        cursor: pointer;
-        outline: inherit;
-        font-size: 16px;
-        text-decoration: none;
-        text-transform: uppercase;
-        overflow: hidden;
-        transition: .5s;
-        margin-top: 40px;
-        letter-spacing: 4px
-    }
-
-    
-        .button:hover {
-        background: var(--main-red);
-        color: black;
-        border-radius: 5px;
-        box-shadow: 0 0 5px var(--main-red),
-                    0 0 25px var(--main-red),
-                    0 0 50px var(--main-red),
-                    0 0 100px var(--main-red);
-        }
-
+}
+.button:hover{
+    background: var(--main-red);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--main-red),
+                0 0 25px var(--main-red),
+                0 0 50px var(--main-red),
+                0 0 100px var(--main-red);
+}
 .center {
 position: absolute;
 top: 78%;
 left: 50%;
 transform: translate(-50%, 0);
 }
+.form-group{
+    margin: 10px 0;
+}
+.button-center{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.button:hover{
+    background: var(--main-red);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
+}
+.login-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 80%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.bg-login{
+    background-image: url('../../assets/content/loginbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.login-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  

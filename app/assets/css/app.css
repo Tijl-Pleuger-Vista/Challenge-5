@@ -59,13 +59,10 @@ section{
   display: none;
   height: calc(100% - 200px);
 }
-#navBtn, input[type="submit"], input[type="reset"]{
+button, input[type="submit"], input[type="reset"]{
   position: relative;
   display: inline-block;
-  /* padding: 20px 20px; */
-  padding-left: 350px;
-  padding-right: 200px;
-  padding-top: 10px;
+  padding: 10px 20px;
   background: none;
   color: white;
   border: none;
@@ -76,38 +73,10 @@ section{
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
-  justify-content: center;
 }
-
-#navBtn h1{
-  text-align: left;
-  font-size: 30px;
-  padding-right: 50px;
-}
-#navBtn:hover{
+.button:hover{
   background: var(--main-red);
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px var(--main-red), 0 0 25px var(--main-red), 0 0 50px var(--main-red), 0 0 100px var(--main-red);
-}
-
-#searchbtn {
-  display: inline-block;
-  padding-bottom: 10px;
-  background: none;
-  color: white;
-  border: none;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: .5s;
-
-}
-
-#searchbtn img {
-  margin-top: 10px;
-
 }

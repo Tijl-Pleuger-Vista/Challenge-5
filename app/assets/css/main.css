@@ -407,14 +407,6 @@ h1 {
 	animation-iteration-count: infinite;
 }
 
-#infoCard{
-  /* pointer-events: none; */
-}
-
-.p-img-info{
-  margin-top: 30px;
-}
-
 @keyframes reveal {
 	from {
 		transform: scaleX(0);
@@ -447,7 +439,6 @@ h1 {
 .bar__segment--back {
 	--rotation: 90deg;
 }
-
 
 /* Perhaps it makes more sense for each segment to have its own keyframe */
 /* We know how each keyframes work... */

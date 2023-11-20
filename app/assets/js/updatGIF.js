@@ -12,7 +12,7 @@ function updatGIF(){
     //   If div has id
     //   if (divId !== '')  {
         if (divclass == "card poke-card"){
-          console.log(divclass)
+
           var icon = "https://projectpokemon.org/images/normal-sprite/" + divId + ".gif"
           infoCard.innerHTML =
           `

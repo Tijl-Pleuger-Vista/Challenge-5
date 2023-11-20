@@ -60,6 +60,8 @@ home = when the user is loged in [session] + key
 
 sign-in = the log-in + sign-up page
 
+in the store -> buy a random pokemon
+
 
 dump:
 <div class="login-container">

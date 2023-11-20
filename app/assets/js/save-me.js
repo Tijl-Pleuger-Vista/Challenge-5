@@ -2,19 +2,24 @@
 var numb = 0
 var limit = 10000;
 var pokemonList
+localStorage.setItem("load", 'https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0');
+var load = `https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0`
 
     let pokedex = () => {
-
-        fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`)
+        var load = localStorage.getItem("load");
+        fetch(`${load}`)
         .then(pokemonList => pokemonList.json())
         .then(pokemonList => {
             console.log(pokemonList)
+            
+            localStorage.setItem("load", pokemonList.next);
 
             var interval = 75;
             pokemonList.results.forEach(function (el, index) {
 
                 setTimeout(function () {
                     var name = pokemonList.results[numb].name
+
             numb++;
             fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
             .then(pokemonNameRequest => pokemonNameRequest.json())

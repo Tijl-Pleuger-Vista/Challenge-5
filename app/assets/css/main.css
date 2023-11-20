@@ -204,7 +204,14 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    top: -20%;
+    top: -45px;
+}
+.p-img-info{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .p-name{
     position: relative;
@@ -220,9 +227,28 @@ a {
     display: flex;
     justify-content: center;
 }
+.type-info{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+}
 .button-buy {
     position: relative;
     top: -65px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+h3{
+    color: #fff;
+    margin: 0;
+    margin-left: 15%;
+    width: fit-content;
+}
+h2{
+    margin: 50px;
+}
+.stat{
+    margin-left: 10px;
+    color:aquamarine;
 }

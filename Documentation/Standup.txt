@@ -7,3 +7,11 @@ Ti - Documentatie bijwerken
 Ty - 
 Je - Login page bijwerken
 Ja - Je helpen
+
+week 5:
+
+Maandag:
+    Tijl work on login validation, save "poke-index" to cookies on first load, load from cookies if api request 'count' = same
+    Tyfun Work on api -> database
+    Jerom create a shop, learn about () make a transition from loading -> loaded
+    Jaleel work on login validation, pokedex button to show extra detail of pokemon on class: search-bar

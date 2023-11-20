@@ -13,23 +13,24 @@
         <script src="assets/js/button-main.js" type="text/javascript"></script>
         <script src="assets/js/poke-home.js" type="text/javascript"></script>
         <script src="assets/js/poke-marketplace.js" type="text/javascript"></script>
+        <script src="assets/js/updatGIF.js" type="text/javascript"></script>
 
     </head>
 <body class="bg-main">
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1>Home</h1></div></button></li>
-                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1>Pokedex</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1>Videogames</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1>Marketplace</h1></div></button></li>
+                <li><button class="button button-center"  id="navBtn" onclick="pageHome()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1>Home</h1></div></button></li>
+                <li><button class="button button-center"  id="navBtn" onclick="pagePokedex()"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1>Pokedex</h1></div></button></li>
+                <li><button class="button button-center"  id="navBtn" onclick="pageVideogames()"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1>Videogames</h1></div></button></li>
+                <li><button class="button button-center"  id="navBtn" onclick="pageMarketplace()"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1>Marketplace</h1></div></button></li>
             </ul>
         </header>
         <section id="pokeHome" class="visible">
             <div class="row home-max">
                 <div class="flex-box">
                     <div class="card search-box-card row">
-                        <button class="button button-center" onclick="pokedex()"><div class="row"><img class="icon" src="assets/content/search.webp" alt="" style="width: 30px; height: 30px;"></div></button>
+                        <button class="button button-center" id="searchbtn" onclick="pokedex()"><div class="row"><img class="icon" src="assets/content/search.webp" alt="" style="width: 30px; height: 30px;"></div></button>
                         <form action="">
                             <div class="user-box" style="margin-top: 16px; width: 100%;">
                             <input id="search" type="test" name="" required="" placeholder="Search a Pokemon">

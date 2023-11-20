@@ -15,3 +15,28 @@ Maandag:
     Tyfun Work on api -> database
     Jerom create a shop, learn about () make a transition from loading -> loaded
     Jaleel work on login validation, pokedex button to show extra detail of pokemon on class: search-bar
+
+Dinsdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+
+Woensdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    
+Donderdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    
+Vrijdag:
+    Tijl
+    Tyfun
+    Jerom
+    Jaleel
+    

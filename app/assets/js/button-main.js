@@ -1,3 +1,4 @@
+// button function, remove class .visible from all classes and add class .visible to the div with ID that is given
 function pageLogin(){
     document.querySelectorAll("*").forEach(s => {
     s.classList.remove("visible")

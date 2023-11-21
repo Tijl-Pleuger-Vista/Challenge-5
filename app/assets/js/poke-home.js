@@ -1,8 +1,8 @@
 var pokemonList, numb = 0,
-  limit = 12;
+  limit = 10000;
 let pokedex = () => {  
   fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`).then(i => i.json()).then(i => {
-    var v = 75;
+    var v = 200;
     i.results.forEach(function(s, a) {
       setTimeout(function() {
         var v = i.results[numb].name;

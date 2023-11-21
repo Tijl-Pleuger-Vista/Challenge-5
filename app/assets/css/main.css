@@ -1,96 +1,96 @@
 /* styling for pokemon types */
-.normal,
-.fire,
-.grass,
-.water,
-.ice,
-.electric,
-.fighting,
-.flying,
-.bug,
-.ghost,
-.rock,
-.ground,
-.steel,
-.dark,
-.psychic,
-.fairy,
-.dragon,
-.poison{
+.type .normal,
+.type .fire,
+.type .grass,
+.type .water,
+.type .ice,
+.type .electric,
+.type .fighting,
+.type .flying,
+.type .bug,
+.type .ghost,
+.type .rock,
+.type .ground,
+.type .steel,
+.type .dark,
+.type .psychic,
+.type .fairy,
+.type .dragon,
+.type .poison{
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 15px;
     margin: 0 10px 0 10px;
     padding: 10px 20px 10px 20px;
 }
-.normal{
+.type .normal{
     background-color: beige;
     color: black;
 }
-.fire{
+.type .fire{
     background-color: orange;
     color: white;
 }
-.grass{
+.type .grass{
     background-color: green;
     color: white;
 }
-.water{
+.type .water{
     background-color: blue;
     color: white;
 }
-.ice{
+.type .ice{
     background-color: lightblue;
     color: black;
 }
-.electric{
+.type .electric{
     background-color: gold;
     color: black;
 }
-.fighting{
+.type .fighting{
     background-color: darkred;
     color: white;
 }
-.flying{
+.type .flying{
     background-color: skyblue;
     color: black;
 }
-.bug {
+.type .bug {
     background-color: yellowgreen;
     color: white;
 }
-.ghost{
+.type .ghost{
     background-color: purple;
     color: white;
 }
-.rock{
+.type .rock{
     background-color: sienna;
     color: white;
 }
-.ground{
+.type .ground{
     background-color: burlywood;
     color: black;
 }
-.steel{
+.type .steel{
     background-color: silver;
     color: black;
 }
-.dark{
+.type .dark{
     background-color: darkgray;
     color: white;
 }
-.psychic{
+.type .psychic{
     background-color: palevioletred;
     color: white;
 }
-.fairy{
+.type .fairy{
     background-color: pink;
     color: black;
 }
-.dragon{
+.type .dragon{
     background-color: teal;
     color: white;
 }
-.poison{
+.type .poison{
     background-color: darkviolet;
     color: white;
 }
@@ -150,6 +150,8 @@ a{
     margin-top: 40px;
     margin-bottom: 2vh;
     margin:  50px 25px 0 25px;
+    visibility: hidden;
+    display: none;
 }
 .poke-card-plus{
     width: calc(33.33% - 50px);
@@ -234,327 +236,52 @@ a{
 }
 .home-max{
     height: calc(96%);
-}
-
-/* loading */
-html, body {
-    height: 100%;
-  }
-  
-  body {
-    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(48, 47, 47);
-  }
-  
-  .pokemon {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    background: linear-gradient(to bottom, rgb(254, 0, 1) 50%, white 50% );
-    border-radius: 50%;
-    border:20px solid black;
-    animation: spin 1.3s linear infinite;
-  }
-  
-  .pokemon::before {
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 270px;
-    background: black;
-    top: 130px;
-    transform: translatey(-50%);
-  }
-  
-  .pokemon::after {
-    content: '';
-    position: absolute;
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    background: white;
-    top: 130px;
-    left: 130px;
-    transform: translate(-50%, -50%);
-    box-shadow: inset 0 0 0 8px black, inset 0 0 0 10px white, inset 0 0 0 15px black;
-  
-  }
-  
-  /* Spin Animation */
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.visible{
+  visibility: visible;
+  display: block;
+}
+/* media */
+@media (max-width: 1900px) {
+    .poke-card{
+        width: calc(25% - 50px);
     }
   }
-
-
-
-  *,
-*:after,
-*:before {
-  box-sizing: border-box;
-  transform-style: preserve-3d;
-  touch-action: none;
+@media (max-width: 1500px) {
+.poke-card{
+    width: calc(33.33% - 50px);
+}
+}
+@media (max-width: 1200px) {
+.poke-card{
+width: calc(50% - 50px);
+}
+}
+@media (max-width: 1200px) {
+.home-max{
+height: calc(96%);
+flex-wrap:nowrap;
+display: flex;
+flex-direction: column;
+}
+.flex-box{
+    width: 105%;
+}
 }
 
-:root {
-  --rotation-y: 0;
-  --rotation-x: 0;
-	--size: 80vmin;
-	--segment: calc(var(--size) / 100);
-	--loading-speed: 10s;
-	--color: hsl(0, 100%, 50%);
-  --total-length: 400;
-	--segments-per-second: calc(var(--loading-speed) / var(--total-length));
+@media (max-width: 600px) {
+    .icon-text{
+        visibility: hidden;
+        display: none;
+    }
+    li{
+        margin-right: 0px;
+    }
+    .row .icon{
+        margin-right: 0px;
+    }
 }
-
-body {
-  display: grid;
-  place-items: center;
-  color: rgb(255, 255, 255);
-  min-height: 100vh;
-  background: hsl(0, 1%, 19%);
-  font-family:  'Google Sans', sans-serif, system-ui;
-}
-
-#flip:checked ~ .container {
-	--rotation-y: -24;
-	--rotation-x: -24;
-}
-
-[for] {
-	transform: translateZ(200vmin);
-	position: fixed;
-	inset: 0;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.loading-label {
-	position: absolute;
-	left: 0;
-	bottom: 110%;
-	font-weight: bold;
-	font-size: clamp(1rem, var(--size) * 0.025, 6rem);
-}
-
-
-.container {
-	width: var(--size);
-	aspect-ratio: 16 / 1.25;
-	position: relative;
-}
-
-.scene {
-	height: 100%;
-  width: 100%;
-  transform: translate3d(0, 0, 100vmin) rotateX(calc(var(--rotation-y, 0) * 1deg)) rotateY(calc(var(--rotation-x, 0) * 1deg));
-  transition: transform 0.25s;
-}
-
-h1 {
-  opacity: 0.5;
-  color: var(--color);
-  font-size: calc(var(--depth, 20vmin) * 0.25);
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  margin: 0;
-}
-
-.bar {
-	width: 100%;
-	height: 100%;
-	display: grid;
-	grid-template-columns: var(--columns);
-}
-
-.bar__segment {
-	background: hsl(0 0% 100%);
-	transform: translateZ(calc(var(--depth) * var(--segment)));
-	border: calc(var(--segment) * 0.5) solid black;
-}
-
-.bar__segment:after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	background: var(--color);
-	transform-origin: 0 50%;
-/* 	animation: reveal both linear; */
-	animation-name: var(--name);
-  animation-duration: var(--loading-speed);
-/*   animation-duration: calc(var(--length) * var(--segments-per-second)); */
-/*   animation-delay: calc(var(--delay) * var(--segments-per-second)); */
-	animation-fill-mode: both;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-}
-
-@keyframes reveal {
-	from {
-		transform: scaleX(0);
-	}
-}
-
-.bar__segment:not(:first-of-type, :last-of-type) {
-	border-left: transparent;
-	border-right: transparent;
-}
-
-.bar__segment:first-of-type {
-	border-right: transparent;
-}
-.bar__segment:last-of-type {
-	border-left: transparent;
-}
-
-.bar__segment:not(.bar__segment--aligned) {
-	width: calc(var(--segment) * var(--length));
-	transform-origin: 0 50%;
-	filter: brightness(0.78);
-	transform: translateZ(calc(var(--depth) * var(--segment))) rotateY(var(--rotation, 0deg));
-}
-
-.bar__segment--front {
-	--rotation: -90deg;
-}
-
-.bar__segment--back {
-	--rotation: 90deg;
-}
-
-/* Perhaps it makes more sense for each segment to have its own keyframe */
-/* We know how each keyframes work... */
-/**
-* 1. Start at 0% plus delay% with scaleX(0). We can normalize the keyframes by dividing 100 / 400 to get a keyframe step.
-* 2. Then by the length%, 100% scaleX(1). 
-* 3. That's it. Then we don't need delays. Set the animation-name and forget.
-* */
-/* Keyframes Step = 100 / 400 = 0.25 */
-/**
-* Step: 100 / 400 = 0.25% ;
-* Start: --delay * step || previous ending frame;
-* End: (--delay + --length) * step || The next --delay * step;
-* */
-@keyframes segment-1 {
-  0% {
-    transform: scaleX(0);
-  }
-  5%, 100% {
-    transform: scaleX(1);
-  }
-
-}
-@keyframes segment-2 {
-  0%, 5% {
-    transform: scaleX(0);
-  }
-  12.5%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-3 {
-  0%, 12.5% {
-    transform: scaleX(0);
-  }
-  15%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-4 {
-  0%, 15% {
-    transform: scaleX(0);
-  }
-  27.5%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-5 {
-  0%, 27.5% {
-    transform: scaleX(0);
-  }
-  30%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-6 {
-  0%, 30% {
-    transform: scaleX(0);
-  }
-  45%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-7 {
-  0%, 45% {
-    transform: scaleX(0);
-  }
-  47.5%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-8 {
-  0%, 47.5% {
-    transform: scaleX(0);
-  }
-  65%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-9 {
-  0%, 65% {
-    transform: scaleX(0);
-  }
-  70%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-10 {
-  0%, 70% {
-    transform: scaleX(0);
-  }
-  82.5%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-11 {
-  0%, 82.5% {
-    transform: scaleX(0);
-  }
-  90%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-12 {
-  0%, 90% {
-    transform: scaleX(0);
-  }
-  95%, 100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes segment-13 {
-  0%, 95% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
+/* loading */

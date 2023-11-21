@@ -19,24 +19,36 @@
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1>Home</h1></div></button></li>
-                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1>Pokedex</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1>Videogames</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1>Marketplace</h1></div></button></li>
+                <li><button class="button button-center" id="Home" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text">Home</h1></div></button></li>
+                <li><button class="button button-center" id="Dex" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text">Pokedex</h1></div></button></li>
+                <li><button class="button button-center" id="Videogames" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1 class="icon-text">Videogames</h1></div></button></li>
+                <li><button class="button button-center" id="Marketplace" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1 class="icon-text">Marketplace</h1></div></button></li>
             </ul>
         </header>
         <section id="pokeHome" class="visible">
-            <div class="row home-max">
+            <div class="home-max">
                 <div class="flex-box">
                     <div class="card search-box-card row">
-                        <button class="button button-center" onclick="pokedex()"><div class="row"><img class="icon" src="assets/content/search.webp" alt="" style="width: 30px; height: 30px;"></div></button>
-                        <form action="">
-                            <div class="user-box" style="margin-top: 16px; width: 100%;">
-                            <input id="search" type="test" name="" required="" placeholder="Search a Pokemon">
-                            </div>
-                        </form>
+                        <button class="button button-center" id="poke-card" onclick="btnClickedSearch(this.id)"><div class="row"><div class="Full visible">Pokédex</div></div></button>
+                        <button class="button button-center" id="normal" onclick="btnClickedSearch(this.id)"><div class="row"><div class="fire visible">Normal</div></div></button>
+                        <button class="button button-center" id="grass" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Grass</div></div></button>
+                        <button class="button button-center" id="water" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Water</div></div></button>
+                        <button class="button button-center" id="ice" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ice</div></div></button>
+                        <button class="button button-center" id="electric" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Electric</div></div></button>
+                        <button class="button button-center" id="fighting" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Fighting</div></div></button>
+                        <button class="button button-center" id="flying" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Flying</div></div></button>
+                        <button class="button button-center" id="bug" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Bug</div></div></button>
+                        <button class="button button-center" id="ghost" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ghost</div></div></button>
+                        <button class="button button-center" id="rock" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Rock</div></div></button>
+                        <button class="button button-center" id="ground" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ground</div></div></button>
+                        <button class="button button-center" id="steel" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Steel</div></div></button>
+                        <button class="button button-center" id="dark" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Dark</div></div></button>
+                        <button class="button button-center" id="psychic" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Psychic</div></div></button>
+                        <button class="button button-center" id="fairy" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Fairy</div></div></button>
+                        <button class="button button-center" id="dragon" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Dragon</div></div></button>
+                        <button class="button button-center" id="poison" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Poison</div></div></button>
                     </div>
-                        <div id="Form" class="row row-3 scrollbar">
+                        <div id="Form" class="row row-3 scrollbar mew">
                             
                         </div>
                 </div>

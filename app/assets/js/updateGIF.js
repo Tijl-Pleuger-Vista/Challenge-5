@@ -23,8 +23,6 @@ function updatGIF() {
         .then(pokeInfo => pokeInfo.json())
         .then(pokeInfo => {
 
-          var ability0 = pokeInfo.abilities[0].ability.name;
-          var ability1 = pokeInfo.abilities[1].ability.name;
           var id = pokeInfo.id;
           var stat0 = pokeInfo.stats[0].stat.name;
           var stat1 = pokeInfo.stats[1].stat.name;
@@ -40,6 +38,11 @@ function updatGIF() {
           var _stat4 = pokeInfo.stats[4].base_stat;
           var _stat5 = pokeInfo.stats[5].base_stat;
 
+          var ability1 = ''
+          var ability0 = pokeInfo.abilities[0].ability.name;
+          if (pokeInfo.abilities[1]) {
+            var ability1 = pokeInfo.abilities[1].ability.name;
+          }
 
           var type1 = ''
           var type0 = pokeInfo.types[0].type.name;
@@ -60,7 +63,7 @@ function updatGIF() {
             `
     <img class="p-img-info" src="${icon}" alt="" style="width: 192px; height: 192px;">
     
-    <div class="row type-info">
+    <div class="row type-info type">
     ${_type0}${_type1}
     </div>
     <h2></h2>

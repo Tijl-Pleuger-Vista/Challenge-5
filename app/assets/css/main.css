@@ -262,13 +262,19 @@ width: calc(50% - 50px);
 }
 @media (max-width: 1200px) {
 .home-max{
+    margin-top: 400px;
 height: calc(96%);
 flex-wrap:nowrap;
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 }
 .flex-box{
+    margin-top: 100px;
     width: 105%;
+}
+.search-card{
+    width: 100%;
+    min-height: 200px;
 }
 }
 

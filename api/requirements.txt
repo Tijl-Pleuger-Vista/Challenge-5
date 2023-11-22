@@ -5,7 +5,3 @@ pip install flask # install flask
 pip install uuid # install uuid
 pip install python-dotenv #.env for python
 pip install pyinstaller # pyinstaller app.py --onefile (builds package from source)
-
-#!!! HOW TO START
-open a new terminal (venv)
-type flask run

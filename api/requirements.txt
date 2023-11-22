@@ -1,4 +1,7 @@
-# doThis before starting app.py
+# doThis before starting flask in the api dir
 python3 -m venv venv # create virtual environment
 .\venv\Scripts\activate.bat # $ source venv/bin/activate (for linux) #activate virtual environment
 pip install flask # install flask
+pip install uuid # install uuid
+pip install python-dotenv #.env for python
+pip install pyinstaller # pyinstaller app.py --onefile (builds package from source)

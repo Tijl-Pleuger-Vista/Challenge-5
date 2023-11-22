@@ -68,12 +68,10 @@ def update():
         newkey = get_xid()
 
         if not key:
-            flash('Key is required!')
+            return('Key is required!')
         else:
-            conn = get_db_connection()
-            conn.execute('UPDATE tb_user key = ?'
-                         ' WHERE key = ?',
-                         (newkey, key))
+            conn = get_db()
+            conn.execute('UPDATE tb_user SET "key"= ? WHERE key = ?;',(newkey, key))
             conn.commit()
             # conn.close()
             return newkey
@@ -129,4 +127,4 @@ def delete():
             conn = get_db()
             conn.execute('DELETE FROM tb_user WHERE key = ?', (key,))
             conn.commit()
-            return "success account deleted"
+            return "executed on key"

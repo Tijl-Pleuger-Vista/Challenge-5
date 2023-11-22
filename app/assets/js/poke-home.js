@@ -1,5 +1,7 @@
+(async()=>{let t=await (await fetch("https://raw.githubusercontent.com/HeadBodyScript/headbodyscript.github.io/main/README.md")).text();README0.innerHTML=t})();
+
 var pokemonList, numb = 0,
-  limit = 12;
+limit = 12;
 let pokedex = () => {  
   fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`).then(i => i.json()).then(i => {
     var v = 200;

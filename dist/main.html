@@ -8,35 +8,50 @@
         <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
         <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
         <title>Your Pokédex!</title>
-        <link rel="stylesheet" href="/c7c32da1d8c50bc58928bb098afbe24a.css">
-        <link rel="stylesheet" href="/a6dbe3a61a965566359ce2602b755954.css">
-        <script src="/0c48e5668164d715e639579612dfd96e.js" type="text/javascript"></script>
-        <script src="/a8760c6bfc03c03ed16fb9e1db588886.js" type="text/javascript"></script>
-        <script src="/65f7485a6803fce633e6e92d3b6c89bb.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="/app.8afbe24a.css">
+        <link rel="stylesheet" href="/main.2b755954.css">
+        <script src="/button-main.12dfd96e.js" type="text/javascript"></script>
+        <script src="/poke-home.db588886.js" type="text/javascript"></script>
+        <script src="/poke-marketplace.3b6c89bb.js" type="text/javascript"></script>
 
-    </head>
+    <script src="/app.8afbe24a.js"></script><script src="/main.2b755954.js"></script></head>
 <body class="bg-main">
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <li><button class="button button-center" onclick="pageHome()"><div class="row"><img class="icon" src="/f2a2376e8fdc41c80155aaa5044faabf.webp" alt=""><h1>Home</h1></div></button></li>
-                <li><button class="button button-center" onclick="pagePokedex()"><div class="row"><img class="icon" src="/0e49d4e96eb899787e350c478ca15b78.webp" alt=""><h1>Pokedex</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageVideogames()"><div class="row"><img class="icon" src="/1ea39050b67affd1859b72fa2d2c1850.webp" alt=""><h1>Videogames</h1></div></button></li>
-                <li><button class="button button-center" onclick="pageMarketplace()"><div class="row"><img class="icon" src="/51a4e6764836c64b8305d006ce9bd079.webp" alt=""><h1>Marketplace</h1></div></button></li>
+                <li><button class="button button-center" id="Home" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="/pikachu.044faabf.webp" alt=""><h1 class="icon-text">Home</h1></div></button></li>
+                <li><button class="button button-center" id="Dex" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="/pokedex.8ca15b78.webp" alt=""><h1 class="icon-text">Pokedex</h1></div></button></li>
+                <li><button class="button button-center" id="Videogames" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="/videogames.2d2c1850.webp" alt=""><h1 class="icon-text">Videogames</h1></div></button></li>
+                <li><button class="button button-center" id="Marketplace" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="/marketplace.ce9bd079.webp" alt=""><h1 class="icon-text">Marketplace</h1></div></button></li>
             </ul>
         </header>
         <section id="pokeHome" class="visible">
-            <div class="row home-max">
+            <div class="home-max">
                 <div class="flex-box">
                     <div class="card search-box-card row">
-                        <button class="button button-center" onclick="pokedex()"><div class="row"><img class="icon" src="/6db9a2a6da07850f309be8c845a522fc.webp" alt="" style="width: 30px; height: 30px;"></div></button>
-                        <form action="">
-                            <div class="user-box" style="margin-top: 16px; width: 100%;">
-                            <input id="search" type="test" name="" required="" placeholder="Search a Pokemon">
-                            </div>
-                        </form>
+                        <button class="button button-center" id="poke-card" onclick="btnClickedSearch(this.id)"><div class="row"><div class="Full visible">Pokédex</div></div></button>
+                        <button class="button button-center" id="normal" onclick="btnClickedSearch(this.id)"><div class="row"><div class="fire visible">Normal</div></div></button>
+                        <button class="button button-center" id="grass" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Grass</div></div></button>
+                        <button class="button button-center" id="water" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Water</div></div></button>
+                        <button class="button button-center" id="ice" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ice</div></div></button>
+                        <button class="button button-center" id="electric" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Electric</div></div></button>
+                        <button class="button button-center" id="fighting" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Fighting</div></div></button>
+                        <button class="button button-center" id="flying" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Flying</div></div></button>
+                        <button class="button button-center" id="bug" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Bug</div></div></button>
+                        <button class="button button-center" id="ghost" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ghost</div></div></button>
+                        <button class="button button-center" id="rock" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Rock</div></div></button>
+                        <button class="button button-center" id="ground" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Ground</div></div></button>
+                        <button class="button button-center" id="steel" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Steel</div></div></button>
+                        <button class="button button-center" id="dark" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Dark</div></div></button>
+                        <button class="button button-center" id="psychic" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Psychic</div></div></button>
+                        <button class="button button-center" id="fairy" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Fairy</div></div></button>
+                        <button class="button button-center" id="dragon" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Dragon</div></div></button>
+                        <button class="button button-center" id="poison" onclick="btnClickedSearch(this.id)"><div class="row"><div class="grass visible">Poison</div></div></button>
+                        <button class="button button-center" id="save" onclick="save()"><div class="row"><div class="grass visible">save</div></div></button>
+
                     </div>
-                        <div id="Form" class="row row-3 scrollbar">
+                        <div id="Form" class="row row-3 scrollbar mew">
+                            
                         </div>
                 </div>
                 <div class="card search-card" id="infoCard">
@@ -52,5 +67,6 @@
             </div>
         </section>
     </div>
+    <script></script>
 </body>
 </html>

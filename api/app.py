@@ -1,53 +1,132 @@
-#imports
-from flask import Flask, redirect, url_for, request, render_template
-from urllib.parse import urlparse, parse_qs
 import hashlib
+import uuid
 import sqlite3
-# conn = sqlite3.connect('sql.db', check_same_thread=False)
-# cursor = conn.cursor()
-# from functions_db import select_all_records_by_username
-
-def get_cursor():
-    conn = sqlite3.connect("sql.db", check_same_thread=False)
-    return conn.cursor()
-
-cursor = get_cursor()
-
-# def select_all_records_by_username(cursor, usr):
-#     sql = "SELECT * FROM tb_user WHERE username=?"
-#     cursor.execute(sql, [usr])
-#     print(cursor.fetchall())  # or use fetchone()
-#     print("\nHere is a listing of the rows in the table\n")
-#     for row in cursor.execute("SELECT rowid, * FROM tb_user ORDER BY username"):
-#         return row
-#     sql = select_all_records_by_username(cursor, username=usr)
-#     return pas + "\n" + sql
-
-salt = "37le" #appending salt too md5 hash
-pas = ''
+from flask import Flask, request
 
 app = Flask(__name__)
-# account login route
-@app.route('/auth', methods=['POST'])
-def login():
-    params = request.form
-    usr = str(params.get('username'))
-    pas = str(params.get('password')) + salt
-    pas = hashlib.md5(pas.encode()).hexdigest()
-    combo = usr + ':' + pas
-    print("Login attempt: "+combo)
-    return render_template('response.htm')
+database = 'database.db'
+salt = "37le" #appending salt for md5 hash
 
-# account signup route
-@app.route('/signup', methods=['POST'])
+def get_db(): #intialize connection with db
+    db = getattr(app, '_database', None)
+    if db is None:
+        db = app._database = sqlite3.connect(database)
+        db.row_factory = sqlite3.Row
+    return db
+
+# def user_exist(username, password, one=False): #check if row exists
+#     cur = get_db().execute('SELECT id FROM tb_user WHERE username = ? AND password = ?', (username, password))
+#     rv = cur.fetchall()
+#     cur.close()
+#     if rv == None:
+#         return False
+#     else:
+#         return True
+#     #return (rv[0] if rv else None) if one else rv
+
+def get_xid():
+    xid = uuid.uuid4() #random uuid for user key
+    xid = str(xid)
+    return xid
+
+#close db connection after every request
+# @app.teardown_appcontext
+# def close_connection(exception):
+#     db = getattr(app, '_database', None)
+#     if db is not None:
+#         db.close()
+
+#send sql query & fetch result
+def query_db(query, args=(), one=False):
+    cur = get_db().execute(query, args)
+    rv = cur.fetchall()
+    cur.close()
+    return (rv[0] if rv else None) if one else rv
+
+@app.route('/') #home route
+def index():
+    return 'success'
+
+# check key ^ for user
+@app.route('/check/', methods=('POST',))
+def check():
+    if request.method == 'POST':
+        key = request.form['key']
+        
+        if not key:
+            return('Key is required!')
+        else:
+            for user in query_db('SELECT username FROM tb_user WHERE key = ?', (key,)):
+                result = (user['username'])
+            return result
+
+# update user key route
+@app.route('/update/', methods=('POST',))
+def update():
+    if request.method == 'POST':
+        key = request.form['key']
+        newkey = get_xid()
+
+        if not key:
+            flash('Key is required!')
+        else:
+            conn = get_db_connection()
+            conn.execute('UPDATE tb_user key = ?'
+                         ' WHERE key = ?',
+                         (newkey, key))
+            conn.commit()
+            # conn.close()
+            return newkey
+
+# account login route & return key
+@app.route('/auth/', methods=('POST',))
+def auth():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password'] + salt
+        password = hashlib.md5(password.encode()).hexdigest()
+        
+        if not username:
+            return('Username is required!')
+        elif not password:
+            return('Password is required!')
+        else:
+            for user in query_db('SELECT key FROM tb_user WHERE username = ? AND password = ?', (username, password)):
+                result = (user['key'])
+            return result
+
+# create user route ^ returns key
+@app.route('/create/', methods=('POST',))
 def create():
-    params = request.form
-    usr = str(params.get('username'))
-    pas = str(params.get('password') + salt)
-    pas = hashlib.md5(pas.encode()).hexdigest()
-    combo = usr + ':' + pas
-    print("Signup attempt: "+combo)
-    return render_template('response.htm')
+    if request.method == 'POST':
+        email = request.form['email']
+        username = request.form['username']
+        password = request.form['password'] + salt
+        password = hashlib.md5(password.encode()).hexdigest()
+        key = get_xid()
 
-if __name__ == '__main__':
-    app.run()
+        if not username:
+            return('Username is required!')
+        elif not password:
+            return('Password is required!')
+        else:
+            conn = get_db()
+            conn.execute('INSERT INTO tb_user (email, username, password, key) VALUES (?, ?, ?, ?)',
+                         (email, username, password, key))
+            conn.commit()
+            # conn.close()
+            return key
+
+# delete user route ^ delete user from key
+@app.route('/delete/', methods=('POST',))
+def delete():
+    if request.method == 'POST':
+        key = request.form['key']
+        
+        if not key:
+            return('Key is required!')
+        else:
+            conn = get_db()
+            conn.execute('DELETE FROM tb_user WHERE key = ?', (key,))
+            conn.commit()
+            return "success account deleted"

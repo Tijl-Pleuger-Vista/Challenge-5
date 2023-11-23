@@ -1,0 +1,59 @@
+
+.row-type {
+        float: left;
+}
+
+.row li {
+    float: left;
+}
+.menu ul {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul li {
+    position: relative;
+}
+.menu ul li a {
+    display: block;
+    padding: 10px;
+}
+.menu ul li ul li a {
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 1px;
+    z-index: -20000;
+}
+/* Style the submenus */
+.menu ul li ul {
+    position: absolute;
+    display: none;
+    flex-direction: row;
+}
+
+.menu ul ul li {
+    width: max-content;
+    min-width: 100%;
+    max-width: 200px;
+}
+
+.menu ul a {
+    all: unset;
+    color: #fff;
+    cursor: pointer;
+}
+.menu ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu ul li:hover > ul {
+    display: flex; /* Show submenus on hover */
+}
+
+/* Style the third-level submenu */
+.menu ul ul ul {
+    top: 0;
+    left: 100%;
+}

@@ -10,10 +10,14 @@
         <title>Your Pokédex!</title>
         <link rel="stylesheet" href="assets/css/app.css">
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/test.css">
         <script src="assets/js/button-main.js" type="text/javascript"></script>
         <script src="assets/js/poke-home.js" type="text/javascript"></script>
         <script src="assets/js/poke-marketplace.js" type="text/javascript"></script>
         <script src="assets/js/updateGIF.js" type="text/javascript"></script>
+        <script src="assets/js/search.js" type="text/javascript"></script>
+
+
     </head>
 <body class="bg-main">
     <div class="main">
@@ -48,6 +52,53 @@
                         <button class="button button-center" id="dragon" onclick="btnClickedSearch(this.id)"><div class="row"><div class="visible">Dragon</div></div></button>
                         <button class="button button-center" id="poison" onclick="btnClickedSearch(this.id)"><div class="row"><div class="visible">Poison</div></div></button>
                         <button class="button button-center" id="fire" onclick="btnClickedSearch(this.id)"><div class="row"><div class="visible">fire</div></div></button>
+                        <!-- <nav class="menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Type ▾</a>
+                                    <ul class="row">
+                                        <li><a id="normal" onclick="btnClickedSearch(this.id)" href="#"><img src="assets/content/fire.png" style="height: 18px; margin-right: 2px; position: relative; top: 3px;" alt="">Normal</a></li>
+                                        <li><a id="grass" onclick="btnClickedSearch(this.id)" href="#">Grass</a></li>
+                                        <li><a id="water" onclick="btnClickedSearch(this.id)" href="#">Water</a></li>
+                                        <li><a id="ice" onclick="btnClickedSearch(this.id)" href="#">Ice</a></li>
+                                        <li><a id="electric" onclick="btnClickedSearch(this.id)" href="#">Electric</a></li>
+                                        <li><a id="fighting" onclick="btnClickedSearch(this.id)" href="#">Fighting</a></li>
+                                        <li><a id="flying" onclick="btnClickedSearch(this.id)" href="#">Flying</a></li>
+                                        <li><a id="bug" onclick="btnClickedSearch(this.id)" href="#">Bug</a></li>
+                                        <li><a id="ghost" onclick="btnClickedSearch(this.id)" href="#">Ghost</a></li>
+                                        <li><a id="rock" onclick="btnClickedSearch(this.id)" href="#">Rock</a></li>
+                                        <li><a id="ground" onclick="btnClickedSearch(this.id)" href="#">Ground</a></li>
+                                        <li><a id="steel" onclick="btnClickedSearch(this.id)" href="#">Steel</a></li>
+                                        <li><a id="dark" onclick="btnClickedSearch(this.id)" href="#">Dark</a></li>
+                                        <li><a id="psychic" onclick="btnClickedSearch(this.id)" href="#">Psychic</a></li>
+                                        <li><a id="fairy" onclick="btnClickedSearch(this.id)" href="#">Fairy</a></li>
+                                        <li><a id="dragon" onclick="btnClickedSearch(this.id)" href="#">Dragon</a></li>
+                                        <li><a id="poison" onclick="btnClickedSearch(this.id)" href="#">Poison</a></li>
+                                        <li><a id="fire" onclick="btnClickedSearch(this.id)" href="#">Fire</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Generation ▾</a>
+                                    <ul class="row">
+                                        <li><a id="gen-1" onclick="btnClickedSearch(this.id)" href="#">Normal</a></li>
+                                        <li><a id="gen-2" onclick="btnClickedSearch(this.id)" href="#">Grass</a></li>
+                                        <li><a id="gen-3" onclick="btnClickedSearch(this.id)" href="#">Water</a></li>
+                                        <li><a id="gen-4" onclick="btnClickedSearch(this.id)" href="#">Ice</a></li>
+                                        <li><a id="gen-5" onclick="btnClickedSearch(this.id)" href="#">Electric</a></li>
+                                        <li><a id="gen-6" onclick="btnClickedSearch(this.id)" href="#">Fighting</a></li>
+                                        <li><a id="gen-7" onclick="btnClickedSearch(this.id)" href="#">Fighting</a></li>
+                                        <li><a id="gen-8" onclick="btnClickedSearch(this.id)" href="#">Fighting</a></li>
+                                        <li><a id="gen-9" onclick="btnClickedSearch(this.id)" href="#">Fighting</a></li>
+                                    </ul> 
+                                </li>                           
+                        </nav> -->
+                        <button class="button button-center" id="abc" onclick="search()"><div class="row"><div class="Full visible">Search</div></div></button>
+
+                        <form action="">
+                            <div class="user-box" style="margin-top: 10px; width: 100%;">
+                            <input id="search" type="test" name="" required="" placeholder="Search a Pokemon">
+                            </div>
+                        </form>
                     </div>
                         <div id="Form" class="row row-3 scrollbar mew">
                         </div>

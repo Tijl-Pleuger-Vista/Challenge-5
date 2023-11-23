@@ -1,76 +1,76 @@
-(async()=>{let t=await (await fetch("https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/js/data.txt")).text();Form.innerHTML=t})();
+// (async()=>{let t=await (await fetch("https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/js/data.txt")).text();Form.innerHTML=t})();
 var ID
 var pokemonList, numb = 0,
-limit = 10000;
-// let pokedex = () => {  
-//   fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`).then(i => i.json()).then(i => {
-//     // console.log(i)
-//     var v = 100;
-//     i.results.forEach(function(s, a) {
-//       setTimeout(function() {
-//         var v = i.results[numb].name;
-//         numb++, fetch(`https://pokeapi.co/api/v2/pokemon/${v}`).then(i => i.json()).then(i => {
-//         var ID = i.id;
+limit = 12;
+let pokedex = () => {  
+  fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`).then(i => i.json()).then(i => {
+    // console.log(i)
+    var v = 100;
+    i.results.forEach(function(s, a) {
+      setTimeout(function() {
+        var v = i.results[numb].name;
+        numb++, fetch(`https://pokeapi.co/api/v2/pokemon/${v}`).then(i => i.json()).then(i => {
+        var ID = i.id;
 
-//             console.log(i)
-//           var s = i.sprites.front_default,
-//             a = "";
-//           if (i.types[0]) {
-//             var d = i.types[0].type.name;
-//             if ("normal" == d) var a = "<div class='normal'>" + d + "</div>";
-//             if ("fire" == d) var a = "<div class='fire'>" + d + "</div>";
-//             if ("grass" == d) var a = "<div class='grass'>" + d + "</div>";
-//             if ("water" == d) var a = "<div class='water'>" + d + "</div>";
-//             if ("ice" == d) var a = "<div class='ice'>" + d + "</div>";
-//             if ("electric" == d) var a = "<div class='electric'>" + d + "</div>";
-//             if ("fighting" == d) var a = "<div class='fighting'>" + d + "</div>";
-//             if ("flying" == d) var a = "<div class='flying'>" + d + "</div>";
-//             if ("bug" == d) var a = "<div class='bug'>" + d + "</div>";
-//             if ("ghost" == d) var a = "<div class='ghost'>" + d + "</div>";
-//             if ("rock" == d) var a = "<div class='rock'>" + d + "</div>";
-//             if ("ground" == d) var a = "<div class='ground'>" + d + "</div>";
-//             if ("steel" == d) var a = "<div class='steel'>" + d + "</div>";
-//             if ("dark" == d) var a = "<div class='dark'>" + d + "</div>";
-//             if ("psychic" == d) var a = "<div class='psychic'>" + d + "</div>";
-//             if ("fairy" == d) var a = "<div class='fairy'>" + d + "</div>";
-//             if ("dragon" == d) var a = "<div class='dragon'>" + d + "</div>";
-//             if ("poison" == d) var a = "<div class='poison'>" + d + "</div>"
-//           }
-//           var r = "";
-//           if (i.types[1]) {
-//             var c = i.types[1].type.name;
-//             if ("normal" == c) var r = "<div class='normal'>" + c + "</div>";
-//             if ("fire" == c) var r = "<div class='fire'>" + c + "</div>";
-//             if ("grass" == c) var r = "<div class='grass'>" + c + "</div>";
-//             if ("water" == c) var r = "<div class='water'>" + c + "</div>";
-//             if ("ice" == c) var r = "<div class='ice'>" + c + "</div>";
-//             if ("electric" == c) var r = "<div class='electric'>" + c + "</div>";
-//             if ("fighting" == c) var r = "<div class='fighting'>" + c + "</div>";
-//             if ("flying" == c) var r = "<div class='flying'>" + c + "</div>";
-//             if ("bug" == c) var r = "<div class='bug'>" + c + "</div>";
-//             if ("ghost" == c) var r = "<div class='ghost'>" + c + "</div>";
-//             if ("rock" == c) var r = "<div class='rock'>" + c + "</div>";
-//             if ("ground" == c) var r = "<div class='ground'>" + c + "</div>";
-//             if ("steel" == c) var r = "<div class='steel'>" + c + "</div>";
-//             if ("dark" == c) var r = "<div class='dark'>" + c + "</div>";
-//             if ("psychic" == c) var r = "<div class='psychic'>" + c + "</div>";
-//             if ("fairy" == c) var r = "<div class='fairy'>" + c + "</div>";
-//             if ("dragon" == c) var r = "<div class='dragon'>" + c + "</div>";
-//             if ("poison" == c) var r = "<div class='poison'>" + c + "</div>";
-//             if ("" == c) var r = "<div></div>"
-//           }
-//           Form.innerHTML += 
-//           `
-//           <div id="${v} ${ID}" class="card poke-card ${d} ${c} visible" onclick="updatGIF()">
-//           <img id="${v}" class="p-img" src="${s}" alt="" style="width: 128px; height: 128px;"><div class="p-name">${v}</div><div class="row type">${a}${r}</div>
-//           </div>
-//           `
-//         })
-//       }, a * v)
-//     })
-//   })
-// };
-// pokedex();
+            // console.log(i)
+          var s = i.sprites.front_default,
+            a = "";
+          if (i.types[0]) {
+            var d = i.types[0].type.name;
+            if ("normal" == d) var a = "<div class='normal'>" + d + "</div>";
+            if ("fire" == d) var a = "<div class='fire'>" + d + "</div>";
+            if ("grass" == d) var a = "<div class='grass'>" + d + "</div>";
+            if ("water" == d) var a = "<div class='water'>" + d + "</div>";
+            if ("ice" == d) var a = "<div class='ice'>" + d + "</div>";
+            if ("electric" == d) var a = "<div class='electric'>" + d + "</div>";
+            if ("fighting" == d) var a = "<div class='fighting'>" + d + "</div>";
+            if ("flying" == d) var a = "<div class='flying'>" + d + "</div>";
+            if ("bug" == d) var a = "<div class='bug'>" + d + "</div>";
+            if ("ghost" == d) var a = "<div class='ghost'>" + d + "</div>";
+            if ("rock" == d) var a = "<div class='rock'>" + d + "</div>";
+            if ("ground" == d) var a = "<div class='ground'>" + d + "</div>";
+            if ("steel" == d) var a = "<div class='steel'>" + d + "</div>";
+            if ("dark" == d) var a = "<div class='dark'>" + d + "</div>";
+            if ("psychic" == d) var a = "<div class='psychic'>" + d + "</div>";
+            if ("fairy" == d) var a = "<div class='fairy'>" + d + "</div>";
+            if ("dragon" == d) var a = "<div class='dragon'>" + d + "</div>";
+            if ("poison" == d) var a = "<div class='poison'>" + d + "</div>"
+          }
+          var r = "";
+          if (i.types[1]) {
+            var c = i.types[1].type.name;
+            if ("normal" == c) var r = "<div class='normal'>" + c + "</div>";
+            if ("fire" == c) var r = "<div class='fire'>" + c + "</div>";
+            if ("grass" == c) var r = "<div class='grass'>" + c + "</div>";
+            if ("water" == c) var r = "<div class='water'>" + c + "</div>";
+            if ("ice" == c) var r = "<div class='ice'>" + c + "</div>";
+            if ("electric" == c) var r = "<div class='electric'>" + c + "</div>";
+            if ("fighting" == c) var r = "<div class='fighting'>" + c + "</div>";
+            if ("flying" == c) var r = "<div class='flying'>" + c + "</div>";
+            if ("bug" == c) var r = "<div class='bug'>" + c + "</div>";
+            if ("ghost" == c) var r = "<div class='ghost'>" + c + "</div>";
+            if ("rock" == c) var r = "<div class='rock'>" + c + "</div>";
+            if ("ground" == c) var r = "<div class='ground'>" + c + "</div>";
+            if ("steel" == c) var r = "<div class='steel'>" + c + "</div>";
+            if ("dark" == c) var r = "<div class='dark'>" + c + "</div>";
+            if ("psychic" == c) var r = "<div class='psychic'>" + c + "</div>";
+            if ("fairy" == c) var r = "<div class='fairy'>" + c + "</div>";
+            if ("dragon" == c) var r = "<div class='dragon'>" + c + "</div>";
+            if ("poison" == c) var r = "<div class='poison'>" + c + "</div>";
+            if ("" == c) var r = "<div></div>"
+          }
+          Form.innerHTML += 
+          `
+          <div id="${v}" class="card poke-card ${d} ${c} visible" onclick="updatGIF()">
+          <img id="${v}" class="p-img" src="${s}" alt="" style="width: 128px; height: 128px;"><div class="p-name">${v}</div><div class="row type">${a}${r}</div>
+          </div>
+          `
+        })
+      }, a * v)
+    })
+  })
+};
+pokedex();
 
 
 

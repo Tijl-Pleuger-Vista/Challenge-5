@@ -136,17 +136,17 @@ a{
     all: unset;
 }
 .search-card{
-    width: 25%;
-    min-height: 100px;
+    width: 400px;
+    height: calc(100vh - 190px);
 }
 .search-box-card{
-    width: 95%;
+    width: calc(100% - 20px);
     height: min-content;
     margin-bottom: 2vh;
 }
 .poke-card{
-    width: calc(33.33% - 50px);
-    height: 20vh;
+    /* width: calc(33.33% - 50px); */
+    height: 185px;
     margin-top: 40px;
     margin-bottom: 2vh;
     margin:  50px 25px 0 25px;
@@ -163,18 +163,20 @@ a{
 .header{
     height: min-content;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .flex-box{
-    width: 75%;
+    width: calc(100% - 400px);
 }
 .row-3{
+    position: relative;
+    right: 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     overflow-y :scroll  ; 
     height: calc(100vh - 265px);
-    width: 95%;
+    width: calc(100% + 30px);
 }
 .row .icon{
     margin: auto;
@@ -240,7 +242,7 @@ a{
     color:aquamarine;
 }
 .home-max{
-    height: calc(96%);
+    height: max-content;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -250,6 +252,11 @@ a{
     display: block;
 }
 /* media */
+@media (max-width: 2560px) {
+    .poke-card{
+        width: calc(20% - 50px);
+    }
+}
 @media (max-width: 1900px) {
     .poke-card{
         width: calc(25% - 50px);
@@ -265,7 +272,7 @@ a{
 width: calc(50% - 50px);
 }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 .home-max{
     margin-top: 400px;
 height: calc(96%);
@@ -281,12 +288,17 @@ flex-direction: column-reverse;
     width: 100%;
     min-height: 200px;
 }
+.icon-text{
+font-size: medium;
 }
-@media (max-width: 600px) {
+}
+@media (max-width: 900px) {
     .icon-text{
         visibility: hidden;
-        display: none;
+        display: none;    }
     }
+@media (max-width: 600px) {
+
     li{
         margin-right: 0px;
     }

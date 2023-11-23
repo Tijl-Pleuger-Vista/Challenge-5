@@ -10,7 +10,7 @@ salt = "37le" #appending salt for md5 hash
 def get_db(): #intialize connection with db
     db = getattr(app, '_database', None)
     if db is None:
-        db = app._database = sqlite3.connect(database)
+        db = app._database = sqlite3.connect(database, check_same_thread=False)
         db.row_factory = sqlite3.Row
     return db
 
@@ -71,9 +71,7 @@ def update():
             return('Key is required!')
         else:
             conn = get_db()
-            conn.execute('UPDATE tb_user key = ?'
-                         ' WHERE key = ?',
-                         (newkey, key))
+            conn.execute('UPDATE tb_user SET "key"= ? WHERE key= ?;',(newkey, key))
             conn.commit()
             # conn.close()
             return newkey

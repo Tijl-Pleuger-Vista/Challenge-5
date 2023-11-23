@@ -167,6 +167,7 @@ a{
 }
 .flex-box{
     width: calc(100% - 400px);
+    height: calc(100% + 10px);
 }
 .row-3{
     position: relative;
@@ -208,8 +209,9 @@ a{
 .p-img-info{
     position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 30px auto 0 auto;
     width: 50%;
 }
 .p-name{
@@ -263,14 +265,14 @@ a{
     }
 }
 @media (max-width: 1500px) {
-.poke-card{
-    width: calc(33.33% - 50px);
-}
+    .poke-card{
+        width: calc(33.33% - 50px);
+    }
 }
 @media (max-width: 1200px) {
-.poke-card{
-width: calc(50% - 50px);
-}
+    .poke-card{
+    width: calc(50% - 50px);
+    }
 }
 @media (max-width: 1250px) {
 .home-max{

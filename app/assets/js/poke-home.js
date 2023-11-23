@@ -80,6 +80,7 @@ var v = 100;
     .then(pokeInfo => pokeInfo.json())
     .then(pokeInfo => {
         var icon = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif"
+        var shadow = ""
         var ability0 = pokeInfo.abilities[0].ability.name;
         var ability1 = pokeInfo.abilities[1].ability.name;
         var id = pokeInfo.id;

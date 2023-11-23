@@ -1,0 +1,20 @@
+i ran into a problemm afwer creating the api fetch requst js that loads every pokemon into the html doc using innerHTML +=
+my first aprouch was to save the full result as a cookie, after learning how to do that I also learned that a cookie can not be bigger than 4028b
+so this solution wll not work, another way to do iit would be to save the result of the api as a json and load that instead, which worked
+this way we could still use the ldsorting system and dsplay script
+
+another problem I had was in js, where a value would be undifined when called outside a function
+I learned how to make a global nvariable
+
+related to that is creating a better loop for each element in an array
+Which was easier then I thaught it was 
+My oold way was slower and just made less sense
+
+Met het plannen van het html+css had ik weer moeten onder zoeken
+Ik had niet gedacht aan mobile scalability en sorting based on ID or name 
+this lead into redesigning the UI later oon
+
+I created buttons with each a seperate function that did a spcific thig, I thought this was inneficient so I looked at ways to improve this, I was hinkng for a way fr th functiion to know that you clicked a button based on ID
+This way each button uses the same function but differentt variables
+
+groep info

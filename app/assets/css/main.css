@@ -199,12 +199,10 @@ a{
     top: -45px;
     transition: transform .3s; /* Animation */
 }
- 
-  .p-img:hover {
+.p-img:hover{
     cursor: pointer;
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-
+}
 .p-img-info{
     position: relative;
     display: block;
@@ -248,15 +246,15 @@ a{
     flex-direction: row;
 }
 .visible{
-  visibility: visible;
-  display: block;
+    visibility: visible;
+    display: block;
 }
 /* media */
 @media (max-width: 1900px) {
     .poke-card{
         width: calc(25% - 50px);
     }
-  }
+}
 @media (max-width: 1500px) {
 .poke-card{
     width: calc(33.33% - 50px);
@@ -284,7 +282,6 @@ flex-direction: column-reverse;
     min-height: 200px;
 }
 }
-
 @media (max-width: 600px) {
     .icon-text{
         visibility: hidden;

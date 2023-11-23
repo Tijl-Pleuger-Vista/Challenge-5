@@ -9,36 +9,36 @@ function btnClicked(clicked){
 }
 
 // button used to only show pokemon of clicked type
-function btnClickedSearch(clicked){
-    visible = clicked
-        document.querySelectorAll(".poke-card").forEach(s => {
-        s.classList.remove("visible")
-    }
-)
-        document.querySelectorAll("."+visible).forEach(s => {
-        s.classList.add("visible")
-    }
-)
-}
+// function btnSearchType(clicked){
+//     visible = clicked
+//         document.querySelectorAll(".poke-card").forEach(s => {
+//         s.classList.remove("visible")
+//     }
+// )
+//         document.querySelectorAll("."+visible).forEach(s => {
+//         s.classList.add("visible")
+//     }
+// )
+// }
 
 // button that takes the text from the input and uses it to search the pokemon mentioned
 // old show div of pokemon (broken)
-// function search(){
-//     var input = document.getElementById("wizards").value;
-//     console.log(input)
-//             document.querySelectorAll(".poke-card").forEach(s => {
-//             s.classList.remove("visible")
-//         }   
-//     );
-//     var fuck = document.getElementById(input)
-//     console.log(fuck)
-//     fuck.classList.add("visible")
-// }
+function btnSearchType(){
+    var input = document.getElementById("Type").value;
+            document.querySelectorAll(".poke-card").forEach(s => {
+            s.classList.remove("visible")
+        }   
+    );
+    const _input = input.toLowerCase();
+        document.querySelectorAll("."+_input).forEach(s => {
+        s.classList.add("visible")
+    })
+    document.getElementById('Type').value = ''
+}
 
 function search(){
-    var input = document.getElementById("wizards").value;
+    var input = document.getElementById("Search").value;
     console.log(input)
-
     var icon = "https://projectpokemon.org/images/normal-sprite/" + input + ".gif"
     fetch(`https://pokeapi.co/api/v2/pokemon/${input}`)
     .then(pokeInfo => pokeInfo.json())
@@ -88,4 +88,5 @@ function search(){
             <div class="row"><h3 style="margin-left: 75px;">${stat5}</h3><h3 class="stat">${_stat5}</h3></div>
         `
     })
+    document.getElementById('Search').value = ''
 }

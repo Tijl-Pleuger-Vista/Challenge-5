@@ -213,6 +213,17 @@ a{
     margin-right: auto; */
     margin: 30px auto 0 auto;
     width: 50%;
+    z-index: 2;
+}
+.p-img-shadow{
+    position: relative;
+    top: -122px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto 0 auto;
+    width: 65%;
+    z-index: 1;
 }
 .p-name{
     position: relative;
@@ -229,7 +240,7 @@ a{
 }
 .type-info{
     position: relative;
-    top: 20px;
+    top: -138px;
     display: flex;
     justify-content: center;
 }

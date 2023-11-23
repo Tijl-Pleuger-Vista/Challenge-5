@@ -80,7 +80,7 @@ var v = 100;
     .then(pokeInfo => pokeInfo.json())
     .then(pokeInfo => {
         var icon = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif"
-        var shadow = ""
+        var shadow = "https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/shadow.png"
         var ability0 = pokeInfo.abilities[0].ability.name;
         var ability1 = pokeInfo.abilities[1].ability.name;
         var id = pokeInfo.id;
@@ -106,6 +106,7 @@ var v = 100;
         infoCard.innerHTML +=
         `
         <img class="p-img-info" src="${icon}" alt="" style="width: 192px; height: 192px;">
+        <img class="p-img-shadow" src="${shadow}">
         <div class="row type type-info">${_type0}${_type1}</div>
         <div class="row"><h3>Pokémon id:</h3>  <h3 class="stat">${id}</h3></div>
         <div class="row"><h3>Abilities:</h3>

@@ -87,9 +87,10 @@ function updatGIF() {
     `
         })
 
-    } else {
-      console.log("u clicked sum stupid fool!")
-    }
+    } 
+    // else {
+    //   console.log("u clicked sum stupid fool!")
+    // }
   }
   );
 

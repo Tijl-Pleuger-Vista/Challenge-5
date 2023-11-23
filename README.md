@@ -62,6 +62,11 @@ sign-in = the log-in + sign-up page
 
 in the store -> buy a random pokemon
 
+search box
+- all types
+- search by name/id
+- by gen    
+
 
 dump:
 <div class="login-container">

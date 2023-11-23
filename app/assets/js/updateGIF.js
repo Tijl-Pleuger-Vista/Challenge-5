@@ -7,7 +7,7 @@ function updatGIF() {
     // Retrieve id from clicked element
     divId = e.target.id;
     divclass = event.target.className;
-    let checkdivclass = divclass.includes("card poke-card")
+    let checkdivclass = divclass.includes("p-img")
 
 
    if (checkdivclass === true) {

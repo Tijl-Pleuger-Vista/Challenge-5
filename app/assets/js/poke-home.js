@@ -1,14 +1,18 @@
 (async()=>{let t=await (await fetch("https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/js/data.txt")).text();Form.innerHTML=t})();
-
+var ID
 var pokemonList, numb = 0,
-limit = 12;
+limit = 10000;
 // let pokedex = () => {  
 //   fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=0`).then(i => i.json()).then(i => {
-//     var v = 200;
+//     // console.log(i)
+//     var v = 100;
 //     i.results.forEach(function(s, a) {
 //       setTimeout(function() {
 //         var v = i.results[numb].name;
 //         numb++, fetch(`https://pokeapi.co/api/v2/pokemon/${v}`).then(i => i.json()).then(i => {
+//         var ID = i.id;
+
+//             console.log(i)
 //           var s = i.sprites.front_default,
 //             a = "";
 //           if (i.types[0]) {
@@ -57,8 +61,10 @@ limit = 12;
 //           }
 //           Form.innerHTML += 
 //           `
-//           <div class="card poke-card ${d} ${c} visible" id="${v}" onclick="updatGIF()">
-//           <img  class="p-img" src="${s}" alt="" style="width: 128px; height: 128px;"><div class="p-name">${v}</div><div class="row type">${a}${r}</div></div>`
+//           <div id="${v} ${ID}" class="card poke-card ${d} ${c} visible" onclick="updatGIF()">
+//           <img id="${v}" class="p-img" src="${s}" alt="" style="width: 128px; height: 128px;"><div class="p-name">${v}</div><div class="row type">${a}${r}</div>
+//           </div>
+//           `
 //         })
 //       }, a * v)
 //     })
@@ -66,7 +72,7 @@ limit = 12;
 // };
 // pokedex();
 
-//
+
 
     fetch(`https://pokeapi.co/api/v2/pokemon/1`)
     .then(pokeInfo => pokeInfo.json())

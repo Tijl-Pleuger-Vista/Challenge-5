@@ -1,7 +1,7 @@
 import hashlib
 import uuid
 import sqlite3
-from flask import Flask, request
+from flask import Flask, request, redirect
 
 app = Flask(__name__)
 database = 'database.db'
@@ -77,7 +77,7 @@ def update():
             return newkey
 
 # account login route & return key
-@app.route('/auth/', methods=('POST',))
+@app.route('/auth/', methods=('POST','GET'))
 def auth():
     if request.method == 'POST':
         username = request.form['username']
@@ -91,7 +91,7 @@ def auth():
         else:
             for user in query_db('SELECT key FROM tb_user WHERE username = ? AND password = ?', (username, password)):
                 result = (user['key'])
-            return result
+            return redirect("localhost:5500/app/main.html")
 
 # create user route ^ returns key
 @app.route('/create/', methods=('POST',))

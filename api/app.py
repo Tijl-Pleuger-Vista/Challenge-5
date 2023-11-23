@@ -10,7 +10,7 @@ salt = "37le" #appending salt for md5 hash
 def get_db(): #intialize connection with db
     db = getattr(app, '_database', None)
     if db is None:
-        db = app._database = sqlite3.connect(database, check_same_thread=False)
+        db = app._database = sqlite3.connect(database)
         db.row_factory = sqlite3.Row
     return db
 
@@ -57,7 +57,8 @@ def check():
             return('Key is required!')
         else:
             for user in query_db('SELECT username FROM tb_user WHERE key = ?', (key,)):
-                return (user['username'])
+                result = (user['username'])
+            return result
 
 # update user key route
 @app.route('/update/', methods=('POST',))
@@ -70,7 +71,9 @@ def update():
             return('Key is required!')
         else:
             conn = get_db()
-            conn.execute('UPDATE tb_user SET "key"= ? WHERE key = ?;',(newkey, key))
+            conn.execute('UPDATE tb_user key = ?'
+                         ' WHERE key = ?',
+                         (newkey, key))
             conn.commit()
             # conn.close()
             return newkey
@@ -126,4 +129,4 @@ def delete():
             conn = get_db()
             conn.execute('DELETE FROM tb_user WHERE key = ?', (key,))
             conn.commit()
-            return "executed on key"
+            return "success account deleted"

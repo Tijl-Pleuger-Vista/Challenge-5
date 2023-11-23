@@ -1,0 +1,11 @@
+Ik heb me in het begin van de challenge bezig gehouden met het maken van de login. 
+Tyfun heeft mij daarmee geholpen waar ik vragen had.
+Het ging erg goed, maar wat de volgende keer beter kan is dat ik in plaats van de username de email toevoeg bij de sign up pagina.
+
+Ik heb eerst voor de login pagina in figma een design gemaakt en daarna uitgewerkt, hier ben ik tevreden mee.
+In figma heb ik ook een design gemaakt voor de pokedex, maar dat is om te zien hoe het er ongeveer uit komt te zien.
+
+Het laatste wat ik heb gedaan voor de login page was een validation form gemaakt en dat is erg goed gelukt.
+
+De php workshop was handig ik weet nu hoe ik een database kan maken en ik had met Jaleel gekeken hoe ik een user kan toevoegen met
+een select. 

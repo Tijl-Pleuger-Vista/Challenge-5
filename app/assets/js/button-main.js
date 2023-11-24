@@ -7,8 +7,8 @@ function btnClicked(clicked){
     )
     document.getElementById(visible).classList.add("visible")
 }
-function btnClickedIndex(clicked){
-    document.querySelectorAll("."+clicked).forEach(s => {
+function btnClickedIndex(){
+    document.querySelectorAll(".poke-card").forEach(s => {
         s.classList.add("visible")
     })
 }

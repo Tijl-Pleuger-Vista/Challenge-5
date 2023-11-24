@@ -1,9 +1,17 @@
 import hashlib
 import uuid
 import sqlite3
-from flask import Flask, request, redirect
+from flask import Flask, request, redirect, make_response, jsonify
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app, resources={ #CORS stuff
+    r"/*/": {
+        "Access-Control-Allow-Origin": "127.0.0.1:5000",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "true"
+        }
+    })
 database = 'database.db'
 salt = "37le" #appending salt for md5 hash
 
@@ -51,20 +59,22 @@ def index():
 @app.route('/check/', methods=('POST',))
 def check():
     if request.method == 'POST':
-        key = request.form['key']
+        # key = request.form['key']
+        key = request.args.get('key')
         
         if not key:
             return('Key is required!')
         else:
             for user in query_db('SELECT username FROM tb_user WHERE key = ?', (key,)):
                 result = (user['username'])
-            return result
+            return jsonify(result)
 
 # update user key route
 @app.route('/update/', methods=('POST',))
 def update():
     if request.method == 'POST':
-        key = request.form['key']
+        # key = request.form['key']
+        key = request.args.get('key')
         newkey = get_xid()
 
         if not key:
@@ -74,10 +84,10 @@ def update():
             conn.execute('UPDATE tb_user SET "key"= ? WHERE key= ?;',(newkey, key))
             conn.commit()
             # conn.close()
-            return newkey
+            return jsonify(newkey)
 
 # account login route & return key
-@app.route('/auth/', methods=('POST','GET'))
+@app.route('/auth/', methods=('POST',))
 def auth():
     if request.method == 'POST':
         username = request.form['username']
@@ -91,7 +101,9 @@ def auth():
         else:
             for user in query_db('SELECT key FROM tb_user WHERE username = ? AND password = ?', (username, password)):
                 result = (user['key'])
-            return redirect("localhost:5500/app/main.html")
+                resp = make_response('<meta http-equiv="refresh" content="0; url=http://localhost:5500/app/main.html" />')
+                resp.set_cookie('user', result, domain='localhost:5500', samesite=None, max_age=3600*24)
+            return resp
 
 # create user route ^ returns key
 @app.route('/create/', methods=('POST',))
@@ -113,13 +125,16 @@ def create():
                          (email, username, password, key))
             conn.commit()
             # conn.close()
-            return key
+            resp = make_response('<meta http-equiv="refresh" content="0; url=http://localhost:5500/app/main.html" />')
+            resp.set_cookie('user', key, domain='localhost:5500')
+            return resp
 
 # delete user route ^ delete user from key
 @app.route('/delete/', methods=('POST',))
 def delete():
     if request.method == 'POST':
-        key = request.form['key']
+        # key = request.form['key']
+        key = request.args.get('key')
         
         if not key:
             return('Key is required!')
@@ -127,4 +142,4 @@ def delete():
             conn = get_db()
             conn.execute('DELETE FROM tb_user WHERE key = ?', (key,))
             conn.commit()
-            return "success account deleted"
+            return "delete action executed on key"

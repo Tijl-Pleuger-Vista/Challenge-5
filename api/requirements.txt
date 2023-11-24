@@ -4,4 +4,5 @@ python3 -m venv venv # create virtual environment
 pip install flask # install flask
 pip install uuid # install uuid
 pip install python-dotenv #.env for python
-pip install pyinstaller # pyinstaller app.py --onefile (builds package from source)
+pip install Flask-Cors #needed too enable CORS on flask
+pip install pyinstaller # (DONT RUN!!) pyinstaller app.py --onefile (builds package from source)

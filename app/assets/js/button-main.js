@@ -7,6 +7,11 @@ function btnClicked(clicked){
     )
     document.getElementById(visible).classList.add("visible")
 }
+function btnClickedIndex(clicked){
+    document.querySelectorAll("."+clicked).forEach(s => {
+        s.classList.add("visible")
+    })
+}
 
 // button used to only show pokemon of clicked type
 // function btnSearchType(clicked){
@@ -25,18 +30,21 @@ function btnClicked(clicked){
 // old show div of pokemon (broken)
 function btnSearchType(){
     var input = document.getElementById("Type").value;
-            document.querySelectorAll(".poke-card").forEach(s => {
-            s.classList.remove("visible")
-        }   
-    );
-    const _input = input.toLowerCase();
-        document.querySelectorAll("."+_input).forEach(s => {
-        s.classList.add("visible")
-    })
-    document.getElementById('Type').value = ''
+if(input === null){
+    document.querySelectorAll(".poke-card").forEach(s => {
+        s.classList.remove("visible")
+    }   
+);
+const _input = input.toLowerCase();
+    document.querySelectorAll("."+_input).forEach(s => {
+    s.classList.add("visible")
+})
+document.getElementById('Type').value = ''
+}
 }
 
 function search(){
+    var shadow = "https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/shadow.png"
     var input = document.getElementById("Search").value;
     console.log(input)
     var icon = "https://projectpokemon.org/images/normal-sprite/" + input + ".gif"
@@ -70,22 +78,23 @@ function search(){
         if ("normal" == type1) var _type1 = "<div class='normal'>" + type1 + "</div>"; if ("fire" == type1) var _type1 = "<div class='fire'>" + type1 + "</div>"; if ("grass" == type1) var _type1 = "<div class='grass'>" + type1 + "</div>"; if ("water" == type1) var _type1 = "<div class='water'>" + type1 + "</div>"; if ("ice" == type1) var _type1 = "<div class='ice'>" + type1 + "</div>"; if ("electric" == type1) var _type1 = "<div class='electric'>" + type1 + "</div>"; if ("fighting" == type1) var _type1 = "<div class='fighting'>" + type1 + "</div>"; if ("flying" == type1) var _type1 = "<div class='flying'>" + type1 + "</div>"; if ("bug" == type1) var _type1 = "<div class='bug'>" + type1 + "</div>"; if ("ghost" == type1) var _type1 = "<div class='ghost'>" + type1 + "</div>"; if ("rock" == type1) var _type1 = "<div class='rock'>" + type1 + "</div>"; if ("ground" == type1) var _type1 = "<div class='ground'>" + type1 + "</div>"; if ("steel" == type1) var _type1 = "<div class='steel'>" + type1 + "</div>"; if ("dark" == type1) var _type1 = "<div class='dark'>" + type1 + "</div>"; if ("psychic" == type1) var _type1 = "<div class='psychic'>" + type1 + "</div>"; if ("fairy" == type1) var _type1 = "<div class='fairy'>" + type1 + "</div>"; if ("dragon" == type1) var _type1 = "<div class='dragon'>" + type1 + "</div>"; if ("poison" == type1) var _type1 = "<div class='poison'>" + type1 + "</div>"; if ("" == type1) var _type1 = "<div></div>";
         infoCard.innerHTML =
         `
-            <img class="p-img-info" src="${icon}" alt="" style="width: 192px; height: 192px;">
-            <div class="row type-info type">${_type0}${_type1}</div>
-            <div class="row"><h3>Pokémon id:</h3>  <h3 class="stat">${id}</h3></div>
-            <div class="row"><h3>Abilities:</h3>
-                <div class="column">
-                    <div><h3 class="stat">${ability0}</h3></div>
-                    <div><h3 class="stat">${ability1}</h3></div>
-                </div>
+        <img class="p-img-info" src="${icon}" alt="" style="width: 192px; height: 192px;">
+        <img class="p-img-shadow" src="${shadow}">
+        <div class="row type type-info">${_type0}${_type1}</div>
+        <div class="row"><h3>Pokémon id:</h3>  <h3 class="stat">${id}</h3></div>
+        <div class="row"><h3>Abilities:</h3>
+            <div class="column">
+                <div><h3 class="stat">${ability0}</h3></div>
+                <div><h3 class="stat">${ability1}</h3></div>
             </div>
-            <div class="row"><h3>Stats:</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat0}</h3><h3 class="stat">${_stat0}</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat1}</h3><h3 class="stat">${_stat1}</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat2}</h3><h3 class="stat">${_stat2}</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat3}</h3><h3 class="stat">${_stat3}</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat4}</h3><h3 class="stat">${_stat4}</h3></div>
-            <div class="row"><h3 style="margin-left: 75px;">${stat5}</h3><h3 class="stat">${_stat5}</h3></div>
+        </div>
+        <div class="row"><h3>Stats:</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat0}</h3><h3 class="stat">${_stat0}</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat1}</h3><h3 class="stat">${_stat1}</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat2}</h3><h3 class="stat">${_stat2}</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat3}</h3><h3 class="stat">${_stat3}</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat4}</h3><h3 class="stat">${_stat4}</h3></div>
+        <div class="row"><h3 style="margin-left: 75px;">${stat5}</h3><h3 class="stat">${_stat5}</h3></div>
         `
     })
     document.getElementById('Search').value = ''

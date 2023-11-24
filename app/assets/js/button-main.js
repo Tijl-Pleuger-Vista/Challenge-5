@@ -30,17 +30,22 @@ function btnClickedIndex(clicked){
 // old show div of pokemon (broken)
 function btnSearchType(){
     var input = document.getElementById("Type").value;
-if(input === null){
-    document.querySelectorAll(".poke-card").forEach(s => {
-        s.classList.remove("visible")
-    }   
-);
-const _input = input.toLowerCase();
-    document.querySelectorAll("."+_input).forEach(s => {
-    s.classList.add("visible")
-})
-document.getElementById('Type').value = ''
-}
+    let length = input.length;
+    console.log(length)
+
+    if(length > 0){
+        console.log("if true")
+
+        document.querySelectorAll(".poke-card").forEach(s => {
+            s.classList.remove("visible")
+        }   
+    );
+    const _input = input.toLowerCase();
+        document.querySelectorAll("."+_input).forEach(s => {
+        s.classList.add("visible")
+    })
+    document.getElementById('Type').value = ''
+    }
 }
 
 function search(){

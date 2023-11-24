@@ -125,6 +125,7 @@ let pokemarket = () => {
     fetch(`https://pokeapi.co/api/v2/item/poke-ball`)
     .then(itemList => itemList.json())
     .then(itemList => {
+        console.log(itemList)
         var name = itemList.name;
         var cost = itemList.cost;
         var sprite = itemList.sprites.default;

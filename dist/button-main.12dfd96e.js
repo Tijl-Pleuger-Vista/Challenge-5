@@ -126,14 +126,121 @@ function btnClicked(clicked) {
   });
   document.getElementById(visible).classList.add("visible");
 }
-function btnClickedSearch(clicked) {
-  visible = clicked;
-  document.querySelectorAll(".poke-card").forEach(function (s) {
-    s.classList.remove("visible");
-  });
-  document.querySelectorAll("." + visible).forEach(function (s) {
+function btnClickedIndex(clicked) {
+  document.querySelectorAll("." + clicked).forEach(function (s) {
     s.classList.add("visible");
   });
+}
+
+// button used to only show pokemon of clicked type
+// function btnSearchType(clicked){
+//     visible = clicked
+//         document.querySelectorAll(".poke-card").forEach(s => {
+//         s.classList.remove("visible")
+//     }
+// )
+//         document.querySelectorAll("."+visible).forEach(s => {
+//         s.classList.add("visible")
+//     }
+// )
+// }
+
+// button that takes the text from the input and uses it to search the pokemon mentioned
+// old show div of pokemon (broken)
+function btnSearchType() {
+  console.log("mew");
+  var input = document.getElementById("Type").value;
+  console.log(input);
+  if (input === "input") {
+    console.log('str is a string');
+  }
+
+  // if(typeof input){
+  //     console.log("if true")
+
+  //     document.querySelectorAll(".poke-card").forEach(s => {
+  //         s.classList.remove("visible")
+  //     }   
+  // );
+  // const _input = input.toLowerCase();
+  //     document.querySelectorAll("."+_input).forEach(s => {
+  //     s.classList.add("visible")
+  // })
+  // document.getElementById('Type').value = ''
+  // }
+}
+
+function search() {
+  var shadow = "https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/shadow.png";
+  var input = document.getElementById("Search").value;
+  console.log(input);
+  var icon = "https://projectpokemon.org/images/normal-sprite/" + input + ".gif";
+  fetch("https://pokeapi.co/api/v2/pokemon/".concat(input)).then(function (pokeInfo) {
+    return pokeInfo.json();
+  }).then(function (pokeInfo) {
+    var id = pokeInfo.id;
+    var stat0 = pokeInfo.stats[0].stat.name;
+    var stat1 = pokeInfo.stats[1].stat.name;
+    var stat2 = pokeInfo.stats[2].stat.name;
+    var stat3 = pokeInfo.stats[3].stat.name;
+    var stat4 = pokeInfo.stats[4].stat.name;
+    var stat5 = pokeInfo.stats[5].stat.name;
+    var _stat0 = pokeInfo.stats[0].base_stat;
+    var _stat1 = pokeInfo.stats[1].base_stat;
+    var _stat2 = pokeInfo.stats[2].base_stat;
+    var _stat3 = pokeInfo.stats[3].base_stat;
+    var _stat4 = pokeInfo.stats[4].base_stat;
+    var _stat5 = pokeInfo.stats[5].base_stat;
+    var ability1 = '';
+    var ability0 = pokeInfo.abilities[0].ability.name;
+    if (pokeInfo.abilities[1]) {
+      var ability1 = pokeInfo.abilities[1].ability.name;
+    }
+    var type1 = '';
+    var type0 = pokeInfo.types[0].type.name;
+    if (pokeInfo.types[1]) {
+      var type1 = pokeInfo.types[1].type.name;
+    }
+    if ("normal" == type0) var _type0 = "<div class='normal'>" + type0 + "</div>";
+    if ("fire" == type0) var _type0 = "<div class='fire'>" + type0 + "</div>";
+    if ("grass" == type0) var _type0 = "<div class='grass'>" + type0 + "</div>";
+    if ("water" == type0) var _type0 = "<div class='water'>" + type0 + "</div>";
+    if ("ice" == type0) var _type0 = "<div class='ice'>" + type0 + "</div>";
+    if ("electric" == type0) var _type0 = "<div class='electric'>" + type0 + "</div>";
+    if ("fighting" == type0) var _type0 = "<div class='fighting'>" + type0 + "</div>";
+    if ("flying" == type0) var _type0 = "<div class='flying'>" + type0 + "</div>";
+    if ("bug" == type0) var _type0 = "<div class='bug'>" + type0 + "</div>";
+    if ("ghost" == type0) var _type0 = "<div class='ghost'>" + type0 + "</div>";
+    if ("rock" == type0) var _type0 = "<div class='rock'>" + type0 + "</div>";
+    if ("ground" == type0) var _type0 = "<div class='ground'>" + type0 + "</div>";
+    if ("steel" == type0) var _type0 = "<div class='steel'>" + type0 + "</div>";
+    if ("dark" == type0) var _type0 = "<div class='dark'>" + type0 + "</div>";
+    if ("psychic" == type0) var _type0 = "<div class='psychic'>" + type0 + "</div>";
+    if ("fairy" == type0) var _type0 = "<div class='fairy'>" + type0 + "</div>";
+    if ("dragon" == type0) var _type0 = "<div class='dragon'>" + type0 + "</div>";
+    if ("poison" == type0) var _type0 = "<div class='poison'>" + type0 + "</div>";
+    if ("normal" == type1) var _type1 = "<div class='normal'>" + type1 + "</div>";
+    if ("fire" == type1) var _type1 = "<div class='fire'>" + type1 + "</div>";
+    if ("grass" == type1) var _type1 = "<div class='grass'>" + type1 + "</div>";
+    if ("water" == type1) var _type1 = "<div class='water'>" + type1 + "</div>";
+    if ("ice" == type1) var _type1 = "<div class='ice'>" + type1 + "</div>";
+    if ("electric" == type1) var _type1 = "<div class='electric'>" + type1 + "</div>";
+    if ("fighting" == type1) var _type1 = "<div class='fighting'>" + type1 + "</div>";
+    if ("flying" == type1) var _type1 = "<div class='flying'>" + type1 + "</div>";
+    if ("bug" == type1) var _type1 = "<div class='bug'>" + type1 + "</div>";
+    if ("ghost" == type1) var _type1 = "<div class='ghost'>" + type1 + "</div>";
+    if ("rock" == type1) var _type1 = "<div class='rock'>" + type1 + "</div>";
+    if ("ground" == type1) var _type1 = "<div class='ground'>" + type1 + "</div>";
+    if ("steel" == type1) var _type1 = "<div class='steel'>" + type1 + "</div>";
+    if ("dark" == type1) var _type1 = "<div class='dark'>" + type1 + "</div>";
+    if ("psychic" == type1) var _type1 = "<div class='psychic'>" + type1 + "</div>";
+    if ("fairy" == type1) var _type1 = "<div class='fairy'>" + type1 + "</div>";
+    if ("dragon" == type1) var _type1 = "<div class='dragon'>" + type1 + "</div>";
+    if ("poison" == type1) var _type1 = "<div class='poison'>" + type1 + "</div>";
+    if ("" == type1) var _type1 = "<div></div>";
+    infoCard.innerHTML = "\n        <img class=\"p-img-info\" src=\"".concat(icon, "\" alt=\"\" style=\"width: 192px; height: 192px;\">\n        <img class=\"p-img-shadow\" src=\"").concat(shadow, "\">\n        <div class=\"row type type-info\">").concat(_type0).concat(_type1, "</div>\n        <div class=\"row\"><h3>Pok\xE9mon id:</h3>  <h3 class=\"stat\">").concat(id, "</h3></div>\n        <div class=\"row\"><h3>Abilities:</h3>\n            <div class=\"column\">\n                <div><h3 class=\"stat\">").concat(ability0, "</h3></div>\n                <div><h3 class=\"stat\">").concat(ability1, "</h3></div>\n            </div>\n        </div>\n        <div class=\"row\"><h3>Stats:</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat0, "</h3><h3 class=\"stat\">").concat(_stat0, "</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat1, "</h3><h3 class=\"stat\">").concat(_stat1, "</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat2, "</h3><h3 class=\"stat\">").concat(_stat2, "</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat3, "</h3><h3 class=\"stat\">").concat(_stat3, "</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat4, "</h3><h3 class=\"stat\">").concat(_stat4, "</h3></div>\n        <div class=\"row\"><h3 style=\"margin-left: 75px;\">").concat(stat5, "</h3><h3 class=\"stat\">").concat(_stat5, "</h3></div>\n        ");
+  });
+  document.getElementById('Search').value = '';
 }
 },{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -160,7 +267,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51659" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63747" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -26,8 +26,7 @@ function checkUser() {
 
     if (myCookie == null) {
         // do cookie doesn't exist stuff;
-        var _ref = ref.replace('main.html','login.html');
-        window.location = _ref;
+        window.location = "http://localhost:5500/app/login.html";
     }
     else {
         // do cookie exists stuff
@@ -49,8 +48,7 @@ function checkLogedin() {
     }
     else {
         // do cookie exists stuff
-        var _ref = ref.replace('login.html','main.html');
-        window.location = _ref;
+        window.location = "http://localhost:5500/app/main.html";
 
     }
 }
@@ -58,6 +56,5 @@ function checkLogedin() {
 function userLogout() {
     var myCookie = getCookie("user");
     document.cookie = "user=" + myCookie + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    var _ref = ref.replace('login.html','main.html');
-    window.location = _ref;
+    window.location = "http://localhost:5500/app/login.html";
 }

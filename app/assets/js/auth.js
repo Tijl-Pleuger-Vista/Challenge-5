@@ -26,12 +26,12 @@ function checkUser() {
 
     if (myCookie == null) {
         // do cookie doesn't exist stuff;
-        window.location = "http://localhost:5500/app/login.html";
+        window.location = "https://tijl-pleuger-vista.github.io/website.github.io/";
     }
     else {
         // do cookie exists stuff
         console.log(myCookie)
-        fetch("http://localhost:5000/check/?key=" + myCookie, {
+        fetch("http://212.127.233.88:5000/check/?key=" + myCookie, {
         method: "POST"
         })
         .then((response) => response.json())
@@ -48,7 +48,7 @@ function checkLogedin() {
     }
     else {
         // do cookie exists stuff
-        window.location = "http://localhost:5500/app/main.html";
+        window.location = "https://tijl-pleuger-vista.github.io/website.github.io/main.html";
 
     }
 }
@@ -56,5 +56,5 @@ function checkLogedin() {
 function userLogout() {
     var myCookie = getCookie("user");
     document.cookie = "user=" + myCookie + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    window.location = "http://localhost:5500/app/login.html";
+    window.location = "https://tijl-pleuger-vista.github.io/website.github.io/";
 }

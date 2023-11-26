@@ -5,32 +5,28 @@ Gebruik maken van
     'draw sql' om de connecties van de 'website' + 'api' + 'sqlite' + 'php' te visualizeren
     'flask' voor de api localhost
     'xampp + live server'
-
-Resultaten:
+    'VScode'
+    'Github.pages' To host the website (free)
 
 Teamafspraken:
-    Laptop van Jerom word gebruikt als middel punt
-    Dit houdt in dat alle bestanden bij hem gehost worden
-
     Aan het eind van de dag alles op de github sturen [https://github.com/Tijl-Pleuger-Vista/project-5]
-
-    Communicatie is via Discord
-
+    Communicatie buiten Vista is via Discord
     Zorgen dat iedereen op de zelfde pagina is met behulp van dagelijkse stand-ups aan het begin van de dag en optioneel aan het eide van de dag
 
 
 Challenge Doelen:
-    Login pagina met html + php
+    Login pagina met html + API + TinySQL
     User kan een account aanmaken via de web pagina
     User kan inloggen met een bestaand account
 
     User kan pokemons zien in een lijst
+    User kan alle pokemons zien in een lijst
 
     Admin kan pokemons aanmaken, veranderen en verwijderen (api)
 
     Rank systeem top 10 users gobaal
 
-    Kan locaal andere users op je netwerk of omgeving zien
+    Kan locaal andere users op je netwerk of omgeving zien 
 
 Taken:
     API => database - Tyfun
@@ -50,7 +46,7 @@ Planning:
     Chart.PNG
 
 Evaluatie:
-    N/A
+    Documentation/Evaluatie/Evaluatie.txt
 
 Resultatencontrole:
     Kan een user worden aangemaakt [y/n] = 

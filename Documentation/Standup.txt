@@ -4,7 +4,7 @@ Week 3:
 Week 4:
 Dag 1:
 Ti - Documentatie bijwerken
-Ty - 
+Ty -
 Je - Login page bijwerken
 Ja - Je helpen
 
@@ -21,26 +21,25 @@ Maandag:
         Result:
 
 Dinsdag:
-    Tijl
+    Tijl Fixes for the search bar and filters w/ Jaleel
+    Tyfun Working on API on Windows fix
+    Jerom Work on evaluation documentation
+    Jaleel Fixes for the search bar and filters w/ Tijl
+
+Woensdag:
+    Tijl Finalize fixes for search bar(js-html), Poke-info card(js), button fixes(js) w/ Jaleel
+    Tyfun
+    Jerom
+    Jaleel Finalize fixes for search bar(js-html), Poke-info card(js), button fixes(js) w/ Jaleel
+
+Donderdag:
+    Tijl CSS optimization + better UI
     Tyfun
     Jerom
     Jaleel
 
-Woensdag:
-    Tijl
-    Tyfun
-    Jerom
-    Jaleel
-    
-Donderdag:
-    Tijl
-    Tyfun
-    Jerom
-    Jaleel
-    
 Vrijdag:
-    Tijl
+    Tijl Documentation and polishing
     Tyfun
     Jerom
     Jaleel
-    

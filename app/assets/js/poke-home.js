@@ -140,8 +140,8 @@ let pokemarket = () => {
         `
 })}; pokemarket();
 
-function game(){
-    placegame.innerHTML = 
-    `
-    `
-};
+// function game(){
+//     placegame.innerHTML = 
+//     `
+//     `
+// };

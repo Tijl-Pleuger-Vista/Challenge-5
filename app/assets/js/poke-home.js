@@ -139,3 +139,9 @@ let pokemarket = () => {
         </div>
         `
 })}; pokemarket();
+
+function game(){
+    placegame.innerHTML = 
+    `
+    `
+};

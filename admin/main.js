@@ -1,5 +1,6 @@
-function btnClicked(clicked){
+function BTNDelete(clicked){
     var input = document. getElementById("delete").value;
-    fetch(`http://localhost:5000/port/delete/${input}`) 
+    fetch(`http://localhost:5000/delete/${input}`)
+    console.log("tried")
 }
 

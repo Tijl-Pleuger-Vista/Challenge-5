@@ -8,6 +8,8 @@ Ty -
 Je - Login page bijwerken
 Ja - Je helpen
 
+// started to log our standups more detailed and daily
+
 week 5:
 
 Maandag:
@@ -22,24 +24,84 @@ Maandag:
 
 Dinsdag:
     Tijl Fixes for the search bar and filters w/ Jaleel
+        Result: 
     Tyfun Working on API on Windows fix
+        Result: 
     Jerom Work on evaluation documentation
+        Result: 
     Jaleel Fixes for the search bar and filters w/ Tijl
+        Result: 
 
 Woensdag:
     Tijl Finalize fixes for search bar(js-html), Poke-info card(js), button fixes(js) w/ Jaleel
-    Tyfun
-    Jerom
+        Result: 
+    Tyfun Learn why the API doesn't work on windowns
+        Result: 
+    Jerom Evaluatie document en loading page for game
+        Result: 
     Jaleel Finalize fixes for search bar(js-html), Poke-info card(js), button fixes(js) w/ Jaleel
+        Result: 
 
 Donderdag:
     Tijl CSS optimization + better UI
-    Tyfun
-    Jerom
-    Jaleel
+    Tyfun Working on API requests + connect
+    Jerom working with Tyfun
+    Jaleel Js bug fixes
 
 Vrijdag:
     Tijl Documentation and polishing
-    Tyfun
-    Jerom
-    Jaleel
+    Tyfun Working on API fix with login page + Making the API work on windowns w/ Jerom
+    Jerom Working with Tyfun 
+    Jaleel Js optimization
+
+week 6:
+
+Maandag:
+    Tijl Rekenen
+        Result: 
+    Tyfun ziek
+        Result:
+    Jerom rekenen
+        Result: 
+    Jaleel N/A
+        Result:
+
+Dinsdag:
+    Tijl Documentatie en evaluatie
+        Result: 
+    Tyfun ziek
+        Result:
+    Jerom Rekenen en evaluatie
+        Result: 
+    Jaleel 
+        Result:
+
+Woensdag:
+    Tijl 
+        Result: 
+    Tyfun ziek
+        Result:
+    Jerom 
+        Result: 
+    Jaleel 
+        Result:
+
+Donderdag:
+    Tijl 
+        Result: 
+    Tyfun 
+        Result:
+    Jerom 
+        Result: 
+    Jaleel 
+        Result:
+
+Vrijdag:
+    Tijl 
+        Result: 
+    Tyfun 
+        Result:
+    Jerom 
+        Result: 
+    Jaleel 
+        Result:

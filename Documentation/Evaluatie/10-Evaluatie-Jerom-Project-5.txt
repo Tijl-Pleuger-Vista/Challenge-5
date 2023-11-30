@@ -9,3 +9,9 @@ Het laatste wat ik heb gedaan voor de login page was een validation form gemaakt
 
 De php workshop was handig ik weet nu hoe ik een database kan maken en ik had met Jaleel gekeken hoe ik een user kan toevoegen met
 een select. 
+
+Ik heb een admin page gemaakt om users en pokemon te verwijderen en toe te voegen. Na een vragen aan Tijl wist ik
+precies wat ik moest doen en ging dus ook goed.
+
+Ik heb vaak ook kleine ideeën toegepast die volgens Tijl wel degelijk verschil maken.
+

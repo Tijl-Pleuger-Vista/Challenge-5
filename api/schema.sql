@@ -1,4 +1,5 @@
--- DROP TABLE IF EXISTS tb_user; --deletes existing table if exists
+DROP TABLE IF EXISTS tb_user; --deletes existing user table if exists
+DROP TABLE IF EXISTS tb_poke; --deletes existing poke table if exists
 
 CREATE TABLE tb_user ( --create users table with fields
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -6,21 +7,24 @@ CREATE TABLE tb_user ( --create users table with fields
     email TEXT NOT NULL,
     username TEXT NOT NULL,
     password TEXT NOT NULL,
+    score INT NOT NULL,
+    coins INT NOT NULL,
     key TEXT NOT NULL
 );
 
-CREATE TABLE tb_data ( --create user data table
+CREATE TABLE tb_poke ( --create user pokemon data table
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    key TEXT NOT NULL REFERENCES tb_user(key),
-    pokeid INT NOT NULL,
+    key TEXT NOT NULL,
+    dispname TEXT NOT NULL,
     pokename TEXT NOT NULL,
-    pokeattr TEXT NOT NULL
-);
-
-CREATE TABLE tb_asset ( --create user score table
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    key TEXT NOT NULL REFERENCES tb_user(key),
-    username TEXT NOT NULL REFERENCES tb_user(username),
-    score TEXT NOT NULL,
-    coins INT NOT NULL
+    hp INTEGER NOT NULL,
+    att INTEGER NOT NULL,
+    deff INTEGER NOT NULL,
+    speed INTEGER NOT NULL,
+    specatt INTEGER NOT NULL,
+    specdef INTEGER NOT NULL,
+    amove TEXT NOT NULL,
+    bmove TEXT NOT NULL,
+    cmove TEXT NOT NULL,
+    dmove TEXT NOT NULL
 );

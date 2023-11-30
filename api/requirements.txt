@@ -1,8 +1,24 @@
-# doThis before starting flask in the api dir
+#~! Python 3 needed
+
+# Have python installed (on windows have python installed from microsoft store or setup paths)
+# ^on linux install python from your package manager
+
+# Do this too install the project
 python3 -m venv venv # create virtual environment
 .\venv\Scripts\activate.bat # $ source venv/bin/activate (for linux) #activate virtual environment
 pip install flask # install flask
 pip install uuid # install uuid
 pip install python-dotenv #.env for python
 pip install Flask-Cors #needed too enable CORS on flask
-pip install pyinstaller # (DONT RUN!!) pyinstaller app.py --onefile (builds package from source)
+
+
+# Do this too run the api
+open a new terminal
+cd ~/api/
+# If you are on Windows
+if cmd do this= '.\venv\Scripts\Activate.bat' or
+if powershell do this= '.\venv\Scripts\Activate.ps1'
+then do 'flask run'
+# If you are on Linux
+source /venv/bin/activate
+'flask run'

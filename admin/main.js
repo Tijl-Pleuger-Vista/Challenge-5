@@ -10,4 +10,15 @@ function BTNupdate(clicked){
     console.log("tried")
 }
 
+function BTNupdate(clicked){
+    var input = document. getElementById("addpokemon").value;
+    fetch(`http://localhost:5000/update/?key=${input}`,{method: "POST"})
+    console.log("tried")
+}
+
+function BTNupdate(clicked){
+    var input = document. getElementById("deletepokemon").value;
+    fetch(`http://localhost:5000/update/?key=${input}`,{method: "POST"})
+    console.log("tried")
+}
 

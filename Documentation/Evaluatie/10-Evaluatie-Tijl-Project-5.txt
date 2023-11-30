@@ -1,20 +1,62 @@
-i ran into a problemm afwer creating the api fetch requst js that loads every pokemon into the html doc using innerHTML +=
-my first aprouch was to save the full result as a cookie, after learning how to do that I also learned that a cookie can not be bigger than 4028b
-so this solution wll not work, another way to do iit would be to save the result of the api as a json and load that instead, which worked
-this way we could still use the ldsorting system and dsplay script
+We started the first day slow,
+Talking with each other about 'what is the challenge'
+Like what do we need to deliver at the end
 
-another problem I had was in js, where a value would be undifined when called outside a function
-I learned how to make a global nvariable
+We divided the tasks
+Jaleel would do the Gantt planning
+Tayfun and Jerom would start with looking at ways we could build the challenge
+I would document
+The documenting did not go well at the start but as we came to school each day we would evolve and improve rapidly
+At the end I documented more what everyone did, the stand-up and my scripts I wrote
+
+Everyone added ideas to the table
+We googled what other people had made
+We asked around what others are planning
+
+At the end we came up with this
+We are going to build the challenge on Github
+We are going to use an API to communicate to the database that will be hosted on a Privet Server
+The website will be hosted on Github pages, a free public website host
+We will use NoIp to use as DNS
+The website will be made from HTML, CSS, Js, NO PHP
+The Api will be built will Python
+We will use an Api called PokeAPI to get each pokemon in the Pokedex
+
+
+I ran into a problem after creating the API fetch request Js that loads every Pokémon into the html doc using innerHTML +=
+my first approach was to save the full result as a cookie, after learning how to do that I also learned that a cookie can not be bigger than 4028b
+so this solution will not work, another way to do it would be to save the result of the API as a Json and load that instead, which worked
+this way we could still use the sorting system and display script
+
+another problem I had was in Js, where a value would be undefined when called outside a function
+I learned how to make a global variable
 
 related to that is creating a better loop for each element in an array
-Which was easier then I thaught it was 
-My oold way was slower and just made less sense
+Which was easier then I thought it was
+My old way was slower and just made less sense
 
-Met het plannen van het html+css had ik weer moeten onder zoeken
-Ik had niet gedacht aan mobile scalability en sorting based on ID or name 
-this lead into redesigning the UI later oon
+I created buttons with each a separate function that did a specific thig
+I thought this was inefficient so I looked at ways to improve this, I was thinking for a way for the function to know that you clicked a button based on ID
+This way each button uses the same function but different variables
 
-I created buttons with each a seperate function that did a spcific thig, I thought this was inneficient so I looked at ways to improve this, I was hinkng for a way fr th functiion to know that you clicked a button based on ID
-This way each button uses the same function but differentt variables
+Near the end we did some testing with a group in the class
+These are the problems we found
+Site doesn't work on phone
+API is unable to be hosted to the web
+Some Js bugs that things wouldn't load under certain circumstances
 
-groep info
+We ran out of time to create a game but we did have the game mock-up which can be found in the documentation
+
+Today is the final day and looking back
+I think we did a lot of things well as not so well
+The things I should improve is the start
+the documentation and the process
+I think the communication was great
+I stepped up to make sure we did stand-up meetings and if someone needed help they would come to me
+I would tell them who would be able to help since I know who knows what in the class a little bit
+This way they would learn more people and learn what they wanted
+
+I asked for imput from my team
+They said they learned a lot from me
+I was a great 'leader' not a leader but someone who made sure the group could work
+Also it has been made clear that my documentation is sometimes confusing, I will use this as something to learn from

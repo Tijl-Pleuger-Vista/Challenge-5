@@ -122,6 +122,7 @@ var v = 100;
         `
     })
 let pokemarket = () => {
+
     fetch(`https://pokeapi.co/api/v2/item/poke-ball`)
     .then(itemList => itemList.json())
     .then(itemList => {
@@ -140,6 +141,258 @@ let pokemarket = () => {
         `
 });
 fetch(`https://pokeapi.co/api/v2/item/great-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/master-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/ultra-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/safari-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/net-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/dive-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/nest-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/repeat-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/timer-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/luxury-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/premier-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/dusk-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/heal-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/quick-ball`)
+.then(itemList => itemList.json())
+.then(itemList => {
+    console.log(itemList)
+    var name = itemList.name;
+    var cost = itemList.cost;
+    var sprite = itemList.sprites.default;
+    marketplace.innerHTML +=
+    `
+    <div class="card poke-card-plus">
+        <img  class="p-img" src="${sprite}" alt="" style="width: 128px; height: 128px;">
+        <div class="p-name">${name}</div>
+        <div class="p-name">${cost} Poké-yen</div>
+        <button class="button button-buy" onclick=""><div class="row"><h1>Buy    </h1></div></button>
+    </div>
+    `
+})
+
+fetch(`https://pokeapi.co/api/v2/item/cherish-ball`)
 .then(itemList => itemList.json())
 .then(itemList => {
     console.log(itemList)

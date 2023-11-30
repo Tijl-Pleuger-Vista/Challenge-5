@@ -1,0 +1,27 @@
+¬¬¬Jee’s process
+
+I finally learned how to properly use loops, create more readable code
+I had problems figuring out .toggle() I  JS wich would toggle e peace of CSS code to display some div that would load with the page but not be displayed in the end I figured it out but it all got wiped due to me not knowing how to use GitHub properly. Me and Tijl did a lot of bug fixing to gether at school wich was quite fun and productive in my eyes , its just so interesting to me to see how other people would tackle a problem  and compare it to my solution. 
+
+I created updateGIF.js
+
+this function was created to update the gif displayed on the right of te website it basically gets the gif from a database that we found online using the pokemons name and creates a <div> with it to display it
+
+
+example of bug fixing
+
+we ha d a serach bar that when search something without entering the name of the pokemon it would throw an “undefined error”. The solution was if statement, if the value of the input is greater then “0” then run the function else throw and alert.
+
+added an event listener for when u clicked the pokemon it would get the classname of the object u clicked on, that worked fine but It also introduced a new bug, wich was that u van click anywhere on the page and it would display the class name (even if the class name did not match a gif name).The solution was to put it in a if statement that if the event listener does not return a with something that has “p-img” inside do nothing els run the code.
+
+
+
+
+
+
+
+Negative inputs form team 
+
+Tijl - I work from home to much
+Jerom – I must speak more dutch
+Rayfun - 

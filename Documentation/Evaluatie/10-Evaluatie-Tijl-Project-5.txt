@@ -60,3 +60,8 @@ I asked for imput from my team
 They said they learned a lot from me
 I was a great 'leader' not a leader but someone who made sure the group could work
 Also it has been made clear that my documentation is sometimes confusing, I will use this as something to learn from
+
+As end result I am happy but it also could have been better
+I wish we had enough time to host it fully on the internet
+And took more time making the starting documentation it would have helped a lot when it comes to understanding and actually continuing
+For example we could have used firebase, their Authentication and other features that is semi professional

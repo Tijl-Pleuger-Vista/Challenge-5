@@ -1,0 +1,20 @@
+Part 1
+  what, how, when, why
+
+Part 2
+  How did it go
+
+Part 3
+  The product
+
+  Create a new account
+  Show the pokedex, shop, game-tab, user tab
+
+
+  
+
+  Tijl Jaleel - front end
+    Talk about JS and Stuff
+
+  Tayfun Jerom - back end
+    API

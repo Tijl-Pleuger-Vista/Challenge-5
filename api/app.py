@@ -5,7 +5,8 @@ from flask import Flask, request, redirect, make_response, jsonify
 from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
-hostname = "localhost"
+hostname = "pokedexauth.ddns.net:5000"
+website = "http://pokedexauth.ddns.net:5500/"
 port = 5000
 webc = 5500
 database = 'database.db' #database file
@@ -13,7 +14,7 @@ salt = "37le" #appending salt for md5 hash
 
 cors = CORS(app, resources={ #CORS policy for all routes
     r"/*/": {
-        "Access-Control-Allow-Origin": "127.0.0.1:5000",
+        "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Credentials": "true",
         "Access-Control-Allow-Headers": "true"
         }
@@ -96,8 +97,8 @@ def auth():
                 if result is None:
                     return False
             else:
-                resp = make_response('<meta http-equiv="refresh" content="0; url=http://127.0.0.1:5500/app/main.html" />')
-                resp.set_cookie('user', result, domain=hostname, samesite=None, max_age=3600*24)
+                resp = make_response('<meta http-equiv="refresh" content="0; url=http://pokedexauth.ddns.net:5500/app/main.html" />')
+                resp.set_cookie('user', result, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
                 return resp
 
 # create user route ^ returns key
@@ -120,8 +121,8 @@ def create():
             conn.execute('INSERT INTO tb_user (email, username, password, score, coins, key) VALUES (?, ?, ?, ?, ?, ?)',
                          (email, username, password, score, coins, key))
             conn.commit()
-            resp = make_response('<meta http-equiv="refresh" content="0; url=http://127.0.0.1:5500/app/main.html" />')
-            resp.set_cookie('user', key, domain=hostname, samesite=None, max_age=3600*24)
+            resp = make_response('<meta http-equiv="refresh" content="0; url=http://pokedexauth.ddns.net:5500/app/main.html" />')
+            resp.set_cookie('user', key, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
             return resp
 
 # delete user route ^ delete user from key and tb_poke entries
@@ -164,7 +165,7 @@ def add():
             conn.execute('INSERT INTO tb_poke (key, dispname, pokename, hp, att, deff, speed, specatt, specdef, amove, bmove, cmove, dmove) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
                          (key, dispname, pokename, hp, att, deff, speed, specatt, specdef, amove, bmove, cmove, dmove))
             conn.commit()
-            return jsonify(200)
+            return jsonify("goedgedaan")
 
 # get all pokemon ^ for user return id,pokemonname,displayname for each
 @app.route('/getpokemon/', methods=('POST',))
@@ -184,4 +185,3 @@ def get():
                 return False
             else:
                 return jsonify(result)
-

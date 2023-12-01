@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+body {
+    overflow: hidden;
+}
+.pokeVideogames {
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.pin{
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 0;
+    position:absolute;
+    width: 32px;
+    height: 32px;
+    animation: 3s ease-in-out infinite hover
+}
+@keyframes hover {
+100% {
+    margin-top: 0px;
+}
+50% {
+    margin-top: 25px;
+}
+}
+
+.card{
+    min-width: 30%;
+    min-height: 30%;
+    visibility:hidden;
+    display: none;
+    background: rgba(24, 22, 22, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.visible{
+    visibility: visible;
+    display: block;
+}
+.p-trainer-name{
+    color: azure;
+    font-size: xx-large;
+    position: relative;
+    text-align: center;
+}
+.p-description{
+    color: azure;
+    font-size: x-large;
+    position: relative;
+    text-align: center;
+}

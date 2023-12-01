@@ -61,6 +61,26 @@ function updatGIF() {
           <div class="row"><h3 style="margin-left: 75px;">${stat4}</h3><h3 class="stat">${_stat4}</h3></div>
           <div class="row"><h3 style="margin-left: 75px;">${stat5}</h3><h3 class="stat">${_stat5}</h3></div>
           `
+          yourInfoCard.innerHTML =
+          `
+          <img class="p-img-info" src="${icon}" alt="" style="width: 192px; height: 192px;">
+          <img class="p-img-shadow" src="${shadow}">
+          <div class="row type type-info">${_type0}${_type1}</div>
+          <div class="row"><h3>Pokémon id:</h3>  <h3 class="stat">${id}</h3></div>
+          <div class="row"><h3>Abilities:</h3>
+              <div class="column">
+                  <div><h3 class="stat">${ability0}</h3></div>
+                  <div><h3 class="stat">${ability1}</h3></div>
+              </div>
+          </div>
+          <div class="row"><h3>Stats:</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat0}</h3><h3 class="stat">${_stat0}</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat1}</h3><h3 class="stat">${_stat1}</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat2}</h3><h3 class="stat">${_stat2}</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat3}</h3><h3 class="stat">${_stat3}</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat4}</h3><h3 class="stat">${_stat4}</h3></div>
+          <div class="row"><h3 style="margin-left: 75px;">${stat5}</h3><h3 class="stat">${_stat5}</h3></div>
+          `
         })
       } 
     }

@@ -19,8 +19,8 @@
     <div class="main">
         <header class="card header">
             <ul class="row" style="padding-left: 0;">
-                <li><button class="button button-center" id="Home" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text">Pokedex</h1></div></button></li>
-                <li><button class="button button-center" id="Dex" onclick="btnClicked(this.id);btnClickedIndex()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text">Home</h1></div></button></li>
+                <li><button class="button button-center" id="Home" onclick="btnClicked(this.id);btnClickedIndex()"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text">Pokedex</h1></div></button></li>
+                <li><button class="button button-center" id="Dex" onclick="btnClicked(this.id);btnClickedYour();mew()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text">Home</h1></div></button></li>
                 <li><button class="button button-center" id="Videogames" onclick="btnClicked(this.id);game()"><div class="row"><img class="icon" src="assets/content/videogames.webp" alt=""><h1 class="icon-text">Videogames</h1></div></button></li>
                 <li><button class="button button-center" id="Marketplace" onclick="btnClicked(this.id)"><div class="row"><img class="icon" src="assets/content/marketplace.webp" alt=""><h1 class="icon-text">Marketplace</h1></div></button></li>
                 <li><button class="button button-center" id="Logout" onclick="userLogout()"><div class="row"><img    class="icon" src="assets/content/logout.png" alt=""><h1 class="icon-text">Logout</h1></div></button></li>
@@ -1361,17 +1361,47 @@
             </div>
         </section>
         <section id="pokeDex" class="">
+          <div class="home-max">
+            <div class="flex-box">
+                <!-- <div class="card search-box-card row">
+                    <button class="button button-center" id="poke-card" onclick="btnClickedIndex(this.id)"><div class="row"><div class="Full visible">Pokédex</div></div></button>
+                    <button class="button button-center" id="abc" onclick="btnSearchType()"><div class="row"><div class="Full visible">Search</div></div></button>
+                      <div class="user-box" style="margin-top: 8px;">
+                        <label for="wizards"></label>
+                        <input type="text" id="Type" name="wizards" required="" list="type" placeholder="Search a type">
+                      </div>
+
+                      <datalist id=type>
+                          <option>Grass</option><option>Water</option><option>Ice</option><option>Electric</option><option>Fighting</option><option>Flying</option><option>Bug</option><option>Ghost</option><option>Rock</option><option>Ground</option>
+                          <option>Steel</option><option>Dark</option><option></option><option>Psychic</option><option>Fairy</option><option>Dragon</option><option>Poison</option><option>Fire</option>
+                      </datalist>
+
+                      <button class="button button-center" id="abc" onclick="temp()"><div class="row"><div class="Full visible">Search</div></div></button>
+                      <div class="user-box" style="margin-top: 8px;">
+                        <label for="wizards"></label>
+                        <input type="text" id="Gen" name="wizards" required="" list="gen" placeholder="Search a generation">
+                      </div>
+
+                      <datalist id=gen>
+                        <option>gen-1</option><option>gen-2</option><option>gen-3</option><option>gen-4</option><option>gen-5</option><option>gen-6</option><option>gen-7</option><option>gen-8</option><option>gen-9</option><option>gen-10</option>
+                      </datalist>
+
+
+                    <button class="button button-center" id="abc" onclick="search()"><div class="row"><div class="Full visible">Search</div></div></button>
+                        <div class="user-box" style="margin-top: 8px;">
+                          <label for="wizards"></label>
+                          <input type="text" id="Search" name="wizards" required="" list="search" placeholder="Search a Pokemon">
+                        </div>
+                </div> -->
+                    <div id="yourForm" class="row row-3 scrollbar">
+                    </div>
+            </div>
+            <div class="card search-card" id="yourInfoCard">
+            </div>
+        </div>
         </section>
         <section id="pokeVideogames" class="">
-          <div id="game">
-              <img class="pokeVideogames" src="assets/content/game.jpg" alt="">
-              <img class="pin" src="assets/content/pin.webp" alt="" style="top: 0;left: 0;">
-              <!-- <img class="pin" src="assets/content/pin.webp" alt="" style="top: 450px;left: 285px;">
-              <img class="pin" src="assets/content/pin.webp" alt="" style="top: 545px;left: 440px;">
-              <img class="pin" src="assets/content/pin.webp" alt="" style="top: 560px;left: 175px;">
-              <img class="pin" src="assets/content/pin.webp" alt="" style="top: 316px;left: 406px;">
-              <img class="pin" src="assets/content/pin.webp" alt="" style="top: 810px;left: 135px;"> -->
-          </div>
+            <img src="assets/content/play.png" alt="" style="max-width: 100%;" onclick="window.location.href='game.html'">
         </section>
         <section id="pokeMarketplace" class="">
             <div id="marketplace" class="row row-3 scrollbar">

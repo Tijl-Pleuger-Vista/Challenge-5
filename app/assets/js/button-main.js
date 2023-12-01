@@ -1,4 +1,5 @@
 // button function, remove class .visible from all classes and add class .visible to the div with ID that is given
+
 function btnClicked(clicked){
         visible = "poke" + clicked
             document.querySelectorAll("*").forEach(s => {
@@ -7,12 +8,42 @@ function btnClicked(clicked){
     )
     document.getElementById(visible).classList.add("visible")
 }
+// aaaaaaaaaaaaaaaaaaaaaaaaa
 function btnClickedIndex(){
     document.querySelectorAll(".poke-card").forEach(s => {
         s.classList.add("visible")
     })
 }
 
+function btnClickedYour(){
+    document.querySelectorAll(".yourcard").forEach(s => {
+        s.classList.add("visible")
+    })
+}
+
+function getPokemon(clicked){
+if (clicked = "MasterBall") {
+    var id = getRandomInt(150);
+        fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+        .then(pokeInfo => pokeInfo.json())
+        .then (pokeInfo => {console.log(pokeInfo)
+        var name = pokeInfo.name;
+        let x = document.cookie;
+        fetch(`http://pokedexauth.ddns.net:5000/addpokemon/?key=${x}&dispname=burnttoast&pokename=${name}&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw`, {
+            method: 'POST',
+            keepalive: true
+            })
+})
+    // console.log(mew)
+    // if (mew === 0) {
+    //     // console.log("You got nothing")
+        // fetch("http://pokedexauth.ddns.net:5000/addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw", {
+        //     method: 'POST',
+        //     keepalive: true
+        //     }) 
+    //     }
+    }
+}
 // button used to only show pokemon of clicked type
 // function btnSearchType(clicked){
 //     visible = clicked

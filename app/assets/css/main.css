@@ -435,29 +435,3 @@ background-color: #e9e9e9;
 background-color: DodgerBlue !important; 
 color: #ffffff; 
 }
-
-.pokeVideogames {
-    height: 600px;
-    width: 1200px;
-    /* background: rgba(0,0,0,.5); */
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
-}
-.pin{
-        box-sizing: border-box;
-        box-shadow: none;
-        border-radius: 0;
-        position:absolute;
-        width: 32px;
-        height: 32px;
-        animation: 3s ease-in-out infinite hover
-}
-  @keyframes hover {
-    100% {
-        margin-top: 0px;
-    }
-    50% {
-        margin-top: 25px;
-    }
-  }

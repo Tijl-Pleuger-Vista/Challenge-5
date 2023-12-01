@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="manifest" href="https://raw.githubusercontent.com/Tijl-Pleuger-Vista/project-5/main/app/assets/content/logo/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/game.js"></script>
+    <title>Pokegame</title>
+</head>
+<body>
+    <img class="pokeVideogames" src="assets/content/game.jpg" alt="">
+    <img id="card-1" class="pin" src="assets/content/pin.webp" alt="" style="top: 24%;left: 10.95%;" onclick="click(this.id)">
+    <img id="card-2" class="pin" src="assets/content/pin.webp" alt="" style="top: 27%;left: 18%;" onclick="click(this.id)">
+    <img id="card-3" class="pin" src="assets/content/pin.webp" alt="" style="top: 46.5%;left: 24%;" onclick="click(this.id)">
+    <img id="card-4" class="pin" src="assets/content/pin.webp" alt="" style="top: 60%;left: 12.5%;" onclick="click(this.id)">
+    <img id="card-5" class="pin" src="assets/content/pin.webp" alt="" style="top: 50%;left: 91%;" onclick="click(this.id)">
+    <img id="card-6" class="pin" src="assets/content/pin.webp" alt="" style="top: 12%;left: 59%;" onclick="click(this.id)">
+
+    <div id="card-1a" class="card poke-card">
+        <img class="p-img" src="assets/content/liko.png" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Liko</div>
+        <div class="p-description">Her Pokémon are Sprigatito and Hatenna</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="10" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>
+    </div>
+    <div id="card-2a" class="card poke-card">
+        <img class="p-img" src="assets/content/leaf.png" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Leaf</div>
+        <div class="p-description">No one loves Pokémon more than I do!</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="20" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>    </div>
+    <div id="card-3a" class="card poke-card">
+        <img class="p-img" src="assets/content/alaine.png" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Elaine</div>
+        <div class="p-description">I'll use what I learned from my Pokédex!</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="30" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>    </div>
+    <div id="card-4a" class="card poke-card">
+        <img class="p-img" src="assets/content/acerola.png" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Acerola </div>
+        <div class="p-description">Are you getting tired?</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="40" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>    </div>
+    <div id="card-5a" class="card poke-card">
+        <img class="p-img" src="assets/content/guzma.webp" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Guzma</div>
+        <div class="p-description">Wanna see what destruction looks like?</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="50" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>    </div>
+    <div id="card-6a" class="card poke-card">
+        <img class="p-img" src="assets/content/misty.webp" alt="" style="width: 228px; height: 228px;">
+        <div class="p-trainer-name">Misty</div>
+        <div class="p-description">Hi, you're a new face!</div>
+        <ul class="row" style="padding-left: 0;">
+            <li><button class="button button-center" id="100" onclick="acceptFight(this.id)"><div class="row"><img class="icon" src="assets/content/pokedex.webp" alt=""><h1 class="icon-text-game">Fight!</h1></div></button></li>
+            <li><button class="button button-center" onclick="unclick()"><div class="row"><img class="icon" src="assets/content/pikachu.webp" alt=""><h1 class="icon-text-game">Back</h1></div></button></li>
+        </ul>    </div>
+</body>
+</html>

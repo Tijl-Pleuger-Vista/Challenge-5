@@ -24,12 +24,12 @@ function checkUser() {
 
     if (myCookie == null) {
         // do cookie doesn't exist stuff;
-        window.location = "http://localhost:5500/app/index.html";
+        window.location = "http://pokedexauth.ddns.net:5500/app/index.html";
     }
     else {
         // do cookie exists stuff
         console.log(myCookie)
-        fetch("http://localhost:5000/check/?key=" + myCookie, {
+        fetch("http://pokedexauth.ddns.net:5000/check/?key=" + myCookie, {
         method: "POST"
         })
         .then((response) => response.json())
@@ -46,12 +46,12 @@ function checkLogedin() {
     }
     else {
         // do cookie exists stuff
-        window.location = "http://localhost:5500/app/main.html";
+        window.location = "http://pokedexauth.ddns.net:5500/app/main.html";
     }
 }
 
 function userLogout() {
     var myCookie = getCookie("user");
-    document.cookie = "user=" + myCookie + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    window.location = "http://localhost:5500/app/index.html";
+    document.cookie = "user=" + myCookie + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.pokedexauth.ddns.net;";
+    window.location = "http://pokedexauth.ddns.net:5500/app/index.html";
 }

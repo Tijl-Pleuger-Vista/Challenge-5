@@ -1,0 +1,1075 @@
+212.127.233.88 - - [30/Nov/2023 23:19:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:12] "POST /auth HTTP/1.1" 308 -
+212.127.233.88 - - [30/Nov/2023 23:19:12] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:17] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:17] "GET /favicon.ico HTTP/1.1" 404 -
+212.127.233.88 - - [30/Nov/2023 23:19:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:18] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:19:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:20:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:20:41] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:20:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:21:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:22:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:22:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:22:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:22:08] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:23:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:24:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:24:27] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:24:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:24:47] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:24:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:25:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:25:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:25:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:25:48] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:25] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:31] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:45] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:26:46] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:27:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:27:41] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:33:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:33:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:33:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:27] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:35:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:36:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:47] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:37:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:24] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:25] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:38:34] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:55] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:39:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:40:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:41:25] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:42:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:43:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:44:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:44:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:13] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:41] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:45:49] "GET /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=bulbasaur&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 405 -
+212.127.233.88 - - [30/Nov/2023 23:45:51] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:50] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:47:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:35] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:42] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=bulbasaur&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:45] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:54] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=bulbasaur&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:48:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:44] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:48] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:56] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:49:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:25] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:27] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:50:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:09] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:15] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:18] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:51:22] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:52:23] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:52:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:52:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:02] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:38] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [30/Nov/2023 23:53:41] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:00:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:00:43] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:00:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:01:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:24] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:27] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:44] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:02:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:03:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:03:43] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:03:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:26] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:48] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:04:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:05:47] "GET /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 405 -
+212.127.233.88 - - [01/Dec/2023 00:06:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:40] "POST /auth HTTP/1.1" 308 -
+212.127.233.88 - - [01/Dec/2023 00:06:40] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:44] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:44] "GET /favicon.ico HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 00:06:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:51] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:06:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:21] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:47] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:07:50] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:11:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:11:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:11:34] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:11:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:24] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:34] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:12:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:13:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:15:55] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:15:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:15:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:15:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:16:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:16:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:16:21] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:16:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+(venv) PS C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api> ^C
+(venv) PS C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api> ^C
+(venv) PS C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api> ^C
+(venv) PS C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api> flask run --host=0.0.0.0
+ * Serving Flask app 'app.py'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.18:5000
+Press CTRL+C to quit
+212.127.233.88 - - [01/Dec/2023 00:19:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:36] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:19:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:53] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:20:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:21:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:21:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:21:08] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:21:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:53] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:22:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:23:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:23:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:23:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:23:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:17] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:24:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:18] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:26:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:18] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=wartortle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:25] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:27:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:29:42] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:29:42] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:30:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:31:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:31:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:31:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:32:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:32:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:32:54] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+205.210.31.241 - - [01/Dec/2023 00:33:40] "GET / HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:33:42] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:34:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:35:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:35:05] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:36:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:36:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:36:35] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:38:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:39:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:40:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:40:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:41:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:41:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:41:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:48:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:48:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:48:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:48:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:49:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:50:55] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:51:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:51:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:51:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:51:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:51:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:53:30] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:53:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:54:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:54:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:54:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:55:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:01] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:17] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:20] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=flareon&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:21] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:24] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=cloyster&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:24] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:56:25] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:58:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:59:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:59:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 00:59:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:01:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:04:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:06:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:06:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:06:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:06:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:07:52] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:08:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:08:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:08:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:08:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:08:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:09:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:10:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:10:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:12:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:47] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:13:55] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:14:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:14:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:15:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:16:59] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:17:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:17:06] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:18:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:18:24] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:18:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:18:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:18:55] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:20:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:20:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:21:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:23] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:25] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:23:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:24:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:24:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:24:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:25:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:25:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:25:18] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:25:30] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:25:36] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:38] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:40] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 01:26:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 03:36:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 03:36:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 03:37:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:37:04] "POST /auth HTTP/1.1" 308 -
+83.84.215.95 - - [01/Dec/2023 03:37:04] "POST /auth/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:11] "POST /create/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:11] "GET /favicon.ico HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 03:40:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:12] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:19] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:21] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:22] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:30] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:40:38] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 03:41:33] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:48] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:51] "POST /auth HTTP/1.1" 308 -
+83.84.215.95 - - [01/Dec/2023 04:22:51] "POST /auth/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:53] "POST /auth HTTP/1.1" 308 -
+83.84.215.95 - - [01/Dec/2023 04:22:53] "POST /auth/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:55] "POST /auth HTTP/1.1" 308 -
+83.84.215.95 - - [01/Dec/2023 04:22:55] "POST /auth/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:58] "POST /auth/ HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:22:58] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:02] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:03] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:04] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:05] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:05] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:05] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:05] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:07] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:08] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:17] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:19] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:23] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+83.84.215.95 - - [01/Dec/2023 04:23:28] "POST /check/?key=06a5041a-cf9a-4525-b21a-a2be45667eb0 HTTP/1.1" 200 -
+143.110.162.189 - - [01/Dec/2023 04:42:19] code 400, message Bad request version ('ãîE\x18M\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+143.110.162.189 - - [01/Dec/2023 04:42:19] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03\x0dÇ\x80\x1b«^\x92Äº**1ä-wn}l\x1bõï·Á!\x85´\x0cãîE\x18M\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" 400 -
+212.127.233.88 - - [01/Dec/2023 04:46:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:19] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:50] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:47:59] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:52:31] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:56:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:56:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:57:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:50] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:58:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:59:03] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:59:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 04:59:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:10] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:12] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:33] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:00:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:01:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:01:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:01:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:04] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:13] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:27] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:02:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:08] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:03:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:05:58] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+[2023-12-01 05:11:11,472] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+212.127.233.88 - - [01/Dec/2023 05:11:11] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&updatecoins=1 HTTP/1.1" 500 -
+[2023-12-01 05:12:24,714] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [01/Dec/2023 05:12:24] "POST /addpokemon/ HTTP/1.1" 500 -
+127.0.0.1 - - [01/Dec/2023 05:13:39] "POST /updatecoins/?key=test&curcoins=10&newcoins=20 HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 05:14:20] "POST /updatecoins/?key=test&curcoins=10&newcoins=20 HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 05:14:31] "POST /updatecoins/?key=test&curcoins=10&newcoins=20 HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 05:15:30] "POST /updatecoins/?key=83867536-baba-4b65-b67e-0953d1c5d160&curcoins=10&newcoins=20 HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 05:16:51] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:17:00] "POST /addpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=squirtle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:17:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:17:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:17:44] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+[2023-12-01 05:17:57,519] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+212.127.233.88 - - [01/Dec/2023 05:17:57] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&updatecoins=14 HTTP/1.1" 500 -
+212.127.233.88 - - [01/Dec/2023 05:18:00] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:04] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:09] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=krabby&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:09] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:13] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:17] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=ivysaur&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:17] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:18:20] "POST /getpokemon/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:34] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:39] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:48] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:50] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:54] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=krabby&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:54] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:22:57] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:24:14] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:24:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:24:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:24:56] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:05] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:20] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:22] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:35] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:41] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:42] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:25:46] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:26:29] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:26:45] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:26:49] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:26:57] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:26:58] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:27:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:28:07] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:28:11] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:28:53] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:26] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:29] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:32] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=diglett&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:32] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:34] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:37] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=growlithe&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:37] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:30:39] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:16] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:18] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:21] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=hitmonlee&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:21] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:22] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:31:24] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:32:02] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:32:15] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:50:02] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+[2023-12-01 05:50:13,983] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+212.127.233.88 - - [01/Dec/2023 05:50:13] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&updatecoins=9 HTTP/1.1" 500 -
+212.127.233.88 - - [01/Dec/2023 05:50:28] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:50:37] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:50:43] "POST /addpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160&dispname=burnttoast&pokename=alakazam&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:50:43] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:50:46] "POST /getpokemon/?key=user=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:15] "POST /auth HTTP/1.1" 308 -
+212.127.233.88 - - [01/Dec/2023 05:58:15] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:33] "POST /auth/ HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:33] "GET /favicon.ico HTTP/1.1" 404 -
+212.127.233.88 - - [01/Dec/2023 05:58:33] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+[2023-12-01 05:58:39,320] ERROR in app: Exception on /getpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\app.py", line 184, in get
+    if result is None:
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+212.127.233.88 - - [01/Dec/2023 05:58:39] "POST /getpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 500 -
+212.127.233.88 - - [01/Dec/2023 05:58:46] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&dispname=burnttoast&pokename=weedle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:47] "POST /check/?key=83867536-baba-4b65-b67e-0953d1c5d160 HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:47] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+212.127.233.88 - - [01/Dec/2023 05:58:51] "POST /getpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+178.32.170.23 - - [01/Dec/2023 06:15:33] "GET / HTTP/1.1" 200 -
+178.32.197.89 - - [01/Dec/2023 06:15:38] "GET / HTTP/1.1" 200 -
+178.32.170.21 - - [01/Dec/2023 06:15:56] "GET / HTTP/1.1" 200 -
+178.32.170.30 - - [01/Dec/2023 06:15:58] "GET / HTTP/1.1" 200 -
+178.32.197.94 - - [01/Dec/2023 06:16:09] "GET / HTTP/1.1" 200 -
+71.6.134.231 - - [01/Dec/2023 06:44:10] "GET / HTTP/1.1" 200 -
+71.6.134.231 - - [01/Dec/2023 06:59:39] code 400, message Bad request version ('í\xad|×U½\x02QÜÖ')
+71.6.134.231 - - [01/Dec/2023 06:59:39] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03î*?`0\x90è6Oë\x93Åz©çÓÜ\x06ðí\x85\x16³ujÒ\x10D¯«èè y\x125$¥üZ\x92éþÚ\x0bT\x08²Ç;\x09í­|×U½\x02QÜÖ" 400 -
+205.210.31.238 - - [01/Dec/2023 07:13:03] "GET / HTTP/1.0" 200 -
+205.210.31.137 - - [01/Dec/2023 09:11:25] "GET / HTTP/1.1" 200 -
+84.241.201.232 - - [01/Dec/2023 09:21:07] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:21:07] "POST /auth/ HTTP/1.1" 200 -
+84.241.201.232 - - [01/Dec/2023 09:21:18] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:21:19] "POST /auth/ HTTP/1.1" 200 -
+[2023-12-01 09:21:26,995] ERROR in app: Exception on /auth/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\app.py", line 101, in auth
+    resp.set_cookie('user', result, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
+                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+84.241.201.232 - - [01/Dec/2023 09:21:27] "POST /auth/ HTTP/1.1" 500 -
+84.241.201.232 - - [01/Dec/2023 09:21:34] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:21:34] "POST /auth/ HTTP/1.1" 200 -
+[2023-12-01 09:21:41,788] ERROR in app: Exception on /auth/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\app.py", line 101, in auth
+    resp.set_cookie('user', result, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
+                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+84.241.201.232 - - [01/Dec/2023 09:21:41] "POST /auth/ HTTP/1.1" 500 -
+84.241.201.232 - - [01/Dec/2023 09:21:45] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:21:45] "POST /auth/ HTTP/1.1" 200 -
+[2023-12-01 09:21:49,433] ERROR in app: Exception on /auth/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\app.py", line 101, in auth
+    resp.set_cookie('user', result, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
+                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+84.241.201.232 - - [01/Dec/2023 09:21:49] "POST /auth/ HTTP/1.1" 500 -
+194.171.66.64 - - [01/Dec/2023 09:23:32] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:23:32] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:23:47] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:23:49] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 09:23:49] "POST /auth/ HTTP/1.1" 200 -
+84.241.201.232 - - [01/Dec/2023 09:25:17] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:25:17] "POST /auth/ HTTP/1.1" 200 -
+[2023-12-01 09:25:21,481] ERROR in app: Exception on /auth/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\app.py", line 101, in auth
+    resp.set_cookie('user', result, domain="pokedexauth.ddns.net", samesite=None, max_age=3600*24)
+                    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+84.241.201.232 - - [01/Dec/2023 09:25:21] "POST /auth/ HTTP/1.1" 500 -
+84.241.201.232 - - [01/Dec/2023 09:25:36] "POST /auth HTTP/1.1" 308 -
+84.241.201.232 - - [01/Dec/2023 09:25:36] "POST /auth/ HTTP/1.1" 200 -
+84.241.201.232 - - [01/Dec/2023 09:25:54] "POST /create/ HTTP/1.1" 200 -
+84.241.201.232 - - [01/Dec/2023 09:25:54] "POST /check/?key=b769e106-919f-4d29-adb7-8c95b3222030 HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:25:54] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 09:25:54] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:14] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:14] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 09:27:14] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:22] "POST /getpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:30] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&dispname=burnttoast&pokename=weedle&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:30] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:32] "POST /getpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:37] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&dispname=burnttoast&pokename=diglett&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:38] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:27:40] "POST /getpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+[2023-12-01 09:28:08,585] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 09:28:08] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&updatecoins=8 HTTP/1.1" 500 -
+[2023-12-01 09:28:15,828] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 09:28:15] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&updatecoins=12 HTTP/1.1" 500 -
+[2023-12-01 09:28:25,557] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 09:28:25] "POST /addpokemon/?key=user=06edf5fb-f37e-461a-b3cf-74b2fa74d3de&updatecoins=29 HTTP/1.1" 500 -
+194.171.66.64 - - [01/Dec/2023 09:28:57] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+207.90.244.2 - - [01/Dec/2023 09:29:27] "GET / HTTP/1.1" 200 -
+207.90.244.2 - - [01/Dec/2023 09:29:28] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 09:29:39] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 09:29:39] "POST /auth/ HTTP/1.1" 200 -
+207.90.244.2 - - [01/Dec/2023 09:29:43] "GET / HTTP/1.1" 200 -
+207.90.244.2 - - [01/Dec/2023 09:29:44] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 09:29:45] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:29:46] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 09:29:46] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 09:30:14] "POST /check/?key=06edf5fb-f37e-461a-b3cf-74b2fa74d3de HTTP/1.1" 200 -
+5.196.102.79 - - [01/Dec/2023 09:39:40] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 10:55:13] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 10:55:14] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:55:24] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:55:24] "POST /check/?key=bf58668d-9ac8-43ed-a3e1-ef11f91245ae HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:55:49] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 10:55:49] "POST /auth/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:57:02] "POST /create/ HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:57:02] "GET /favicon.ico HTTP/1.1" 404 -
+194.171.66.64 - - [01/Dec/2023 10:57:02] "POST /check/?key=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2 HTTP/1.1" 200 -
+[2023-12-01 10:57:38,649] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:57:38] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=6 HTTP/1.1" 500 -
+[2023-12-01 10:57:47,180] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:57:47] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=5 HTTP/1.1" 500 -
+[2023-12-01 10:57:53,842] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:57:53] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=23 HTTP/1.1" 500 -
+[2023-12-01 10:58:01,464] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:58:01] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=2 HTTP/1.1" 500 -
+[2023-12-01 10:58:08,995] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:58:09] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=83 HTTP/1.1" 500 -
+[2023-12-01 10:58:16,083] ERROR in app: Exception on /addpokemon/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HeadB\OneDrive\Documents\GitHub\project-5\api\venv\Lib\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'add' did not return a valid response. The function either returned None or ended without a return statement.
+194.171.66.64 - - [01/Dec/2023 10:58:16] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&updatecoins=13 HTTP/1.1" 500 -
+194.171.66.64 - - [01/Dec/2023 10:58:25] "POST /check/?key=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2 HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:58:46] "POST /addpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2&dispname=burnttoast&pokename=dragonair&hp=100&att=10&deff=20&speed=10&specatt=30&specdef=40&amove=fist&bmove=kick&cmove=punch&dmove=throw HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:58:46] "POST /check/?key=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2 HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:58:49] "POST /getpokemon/?key=user=d3f492cc-ffaa-4b9d-b8d9-852f9f2f76e2 HTTP/1.1" 200 -
+194.171.66.64 - - [01/Dec/2023 10:58:59] "POST /auth HTTP/1.1" 308 -
+194.171.66.64 - - [01/Dec/2023 10:58:59] "POST /auth/ HTTP/1.1" 200 -
+84.193.226.158 - - [01/Dec/2023 14:06:38] "POST /auth HTTP/1.1" 308 -
+84.193.226.158 - - [01/Dec/2023 14:06:38] "POST /auth/ HTTP/1.1" 200 -
+167.94.138.33 - - [01/Dec/2023 15:19:16] code 400, message Bad request version ('À\x14À')
+167.94.138.33 - - [01/Dec/2023 15:19:16] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03OÊ\x91©\x8eç\x83(uµA KHZ\x8dÃ\x10«Ñ\x9a\x93iCÑò\x14`ÓË\x94\x00 ±¼\x06|5k\x1bB:\x11Ù\x9fm\x1a\x17\x9e\x97xmY%ü\x86\x1b8\x06\x90s\x9c®9\x97\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+167.94.138.33 - - [01/Dec/2023 15:19:19] "GET / HTTP/1.1" 200 -
+167.94.138.33 - - [01/Dec/2023 15:19:22] "GET / HTTP/1.1" 200 -
+167.94.138.33 - - [01/Dec/2023 15:19:22] code 505, message Invalid HTTP version (2.0)
+167.94.138.33 - - [01/Dec/2023 15:19:22] "PRI * HTTP/2.0" 505 -
+167.94.138.33 - - [01/Dec/2023 15:19:23] "GET /favicon.ico HTTP/1.1" 404 -
+143.198.196.51 - - [01/Dec/2023 16:00:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¤RRÎ×½ia;\x98æ\x19¨c·{p=b¤\x1aâ¼më¤©<\x94c-Ã\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+143.198.196.51 - - [01/Dec/2023 16:00:12] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¤RRÎ×½ia;\x98æ\x19¨c·{p=b¤\x1aâ¼më¤©<\x94c-Ã\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+143.198.196.51 - - [01/Dec/2023 16:00:12] code 400, message Bad request version ('À\x14À')
+143.198.196.51 - - [01/Dec/2023 16:00:12] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03S\x0c\x8bð\x11ÁÂ\x0d\x99\x94K!\x83\x82)ÓÇ.ÿx\x82ãÊ9\x1a\x02\x17\x9aÄÎ\x89a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+143.198.196.51 - - [01/Dec/2023 16:00:12] "GET / HTTP/1.1" 200 -
+35.203.210.77 - - [01/Dec/2023 19:55:07] code 400, message Bad request version ('\x97\x15\x05+öq£Ö\x9d\x0f£Póï¹')
+35.203.210.77 - - [01/Dec/2023 19:55:07] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03(\x07i\x83Á'yiaÅ7l\x11\x925ö7eù\x02\x05¹a_6«S¡\x96?Å( ò[bü¾qÐ¬ê'ÃöW&\x1c\x97\x15\x05+öq£Ö\x9d\x0f£Póï¹" 400 -
+35.203.210.77 - - [01/Dec/2023 19:55:07] code 400, message Bad request version ('À(À$À\x14À')
+35.203.210.77 - - [01/Dec/2023 19:55:07] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x89^\x8aà.r8\x90V\x15\x91X.»r£Ø\x8eýF\x9aÚ\x1dæf\x8f\x9eò\x80\x11K(\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" 400 -
+185.134.22.149 - - [01/Dec/2023 20:12:03] "GET / HTTP/1.1" 200 -

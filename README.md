@@ -1,39 +1,33 @@
-SD | Challenge Pokedex voor UrbanEats & Spirits
+# Create a portfolio website
+*Challenge 4*<br>
 
-Challenge: https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
+Create a portfolio website that contains your work made at Vista
+![ICON](icon.png)<br>
+[Website](https://tijl-pleuger-vista.github.io/website.github.io/public/test/)<br>
+[Padlet](https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we)<br>
 
-What is the goal: Create a PokeDex
+---
+### Functions
+- Password protected users (encrypted)
+- Database so can access their own pokémon online (Local DB)
+- See other users and their pokemon near your location (Location API)
+- Challenge users with your own pokémon
+- A way to earn Pokémon by playing a game
+- Scan a card with an NFC to gain loot boxes (After a purchase at the store you earn loot boxes that contain a random item or pokemon. This may include a small chance for shiny Pokémon)
+- Read, write and edit on the database using an API + key
 
-What is a pokedex?
-an electronic device designed to catalogue and provide information regarding the various species of Pokémon featured in the Pokémon video game, anime and manga series
+### Notes
+- The game will be a turn-based RPG game played inside the browser
+- Users recieve a lootbox at a purchase at the store
+- Loot boxes contain a random pokemon after opening
+- Loot boxes look like pokeballs
+- Use crud to interact with mysql
+- Use the pokeApi to gain info so we don't have to update our database
+[Poké API](https://pokeapi.co/api/v2/pokemon/dipplin)<br>
 
-
-> Functions:
-- Database protected by password so the user can access their own pokemon online
-- See other users + their pokemon near your location
-- Challenge users with your own pokemon
-- A simple game where you can earn pokemon and fight other users
-- Scan a card with an NFC to gain loot boxes (After a purchase you get loot boxes that contain a random item or pokemon) => small chance for shiny
-- Read, edit and write on the database using an API + key
-
-> Components
-- Login/out
-- Database
-- NFC
-- API
-
-> Notes
-The game -> old school pokemon turn based fighting
-Customer gets card linked to an account
-When a customer has ordered something they can give their card to gain loot boxes sent to their account
-Loot boxes give a random pokemon after opening
-Loot boxes look like pokeballs
-Use crud to interact with mysql (create new pokemons. Give lootboxes to accounts)
-Can use the pokeApi to gain info so we don't have to update our database : https://pokeapi.co/api/v2/pokemon/dipplin / https://pokeapi.co/
-
-User-database name + password + UUID + Key
-Key is used to edit database information (For example your Display name, pokemon nicknames or such)
-UUID is used to read Personal-Pokemon-database (List of all pokemon the user has)
+- DB_User $name + $password + $UUID + $Key
+- The key is used to edit user information inside the database
+- UUID is used to read Personal-Pokemon-database (List of all pokemon the user has)
 
 When a user clicks on a pokemon they get taken to an "extra info" screen where information will be displayed about the clicked on pokemon using the PokeAPI
 

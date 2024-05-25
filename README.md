@@ -1,9 +1,8 @@
-# Create a portfolio website
-*Challenge 4*<br>
+# Create a pokédex
+*Challenge 5*
 
-Create a portfolio website that contains your work made at Vista
 ![ICON](icon.png)<br>
-[Website](https://tijl-pleuger-vista.github.io/website.github.io/public/test/)<br>
+[Website](https://tijl-pleuger-vista.github.io/website.github.io/public/pokedex/)<br>
 [Padlet](https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we)<br>
 
 ---
@@ -31,32 +30,7 @@ Create a portfolio website that contains your work made at Vista
 
 When a user clicks on a pokemon they get taken to an "extra info" screen where information will be displayed about the clicked on pokemon using the PokeAPI
 
-A user can set up a team they can use to battle other users or story mode
-A user can use items to level up pokemon or give them buffs during battle
-
-> Users
-- Jerom
-- Tijl
-- Jerom
-- Jaleel
-
-
-
 Link tree:
 drawsql = https://drawsql.app/teams/vista-14/diagrams/pokedex
 Challenge = https://padlet.com/ictlyceum/sd-challenge-pokedex-voor-urbaneats-spirits-fzq9c288y3lfb4we
 Pokemon API = https://pokeapi.co/api/v2/pokemon/dipplin / https://pokeapi.co/
-
-TEMP
-index = first page the user will see where they can see what the app is about, a signup-login button and pictures about the pokedex+desc
-
-home = when the user is loged in [session] + key
-
-sign-in = the log-in + sign-up page
-
-in the store -> buy a random pokemon
-
-search box
-- all types
-- search by name/id
-- by gen    
